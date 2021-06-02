@@ -1,0 +1,36 @@
+/*
+ * Amaranth v0.1.0
+ * Copyright 2021 - ChangeWindows (https://changewindows.org)
+ * Licensed under MIT (https://github.com/changewindows/amaranth/blob/main/LICENSE)
+ */
+
+.ai {
+    height: 1em;
+    width: 1em;
+    line-height: 1;
+    box-sizing: content-box;
+    display: inline-block;
+    position: relative;
+    top: -0.125em;
+    overflow: visible;
+    vertical-align: 0;
+}
+
+.ai-spin {
+    svg {
+        animation-name: animate-spin;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+}
+
+@keyframes animate-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
