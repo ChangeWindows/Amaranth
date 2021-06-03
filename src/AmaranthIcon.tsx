@@ -10,7 +10,8 @@ interface AmaranthProps {
 export default function AmaranthIcon({
   icon,
   className,
-  spin = false
+  spin = false,
+  ...props
 }: AmaranthProps) {
   return (
     <div
@@ -23,6 +24,7 @@ export default function AmaranthIcon({
           }
         )
       }
+      {...props}
       dangerouslySetInnerHTML={{ __html: icon.data }}
     />
   );
