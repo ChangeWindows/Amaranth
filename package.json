@@ -15,8 +15,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prod": "npm run icons && npm run scss && npm run build",
     "scss": "npm run scss:compile && npm run scss:prefix && npm run scss:copy",
-    "scss:compile": "node-sass src -o dist --output-style compressed",
-    "scss:copy": "bundle-scss --mask \"src/amaranth.scss\" --dest \"dist/amaranth.scss\"",
+    "scss:compile": "node-sass scss -o dist --output-style compressed",
+    "scss:copy": "bundle-scss --mask \"scss/amaranth.scss\" --dest \"dist/amaranth.scss\"",
     "scss:prefix": "postcss -u autoprefixer -r dist/*.css --map"
   },
   "repository": {
