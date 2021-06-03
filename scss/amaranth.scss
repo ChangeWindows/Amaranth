@@ -4,6 +4,8 @@
  * Licensed under MIT (https://github.com/changewindows/amaranth/blob/main/LICENSE)
  */
 
+@import '_animation';
+
 .ai {
     height: 1em;
     width: 1em;
@@ -14,23 +16,9 @@
     top: -0.125em;
     overflow: visible;
     vertical-align: 0;
-}
-
-.ai-spin {
-    svg {
-        animation-name: animate-spin;
-        animation-duration: 2s;
-        animation-iteration-count: infinite;
-        animation-timing-function: linear;
-    }
-}
-
-@keyframes animate-spin {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
 }
