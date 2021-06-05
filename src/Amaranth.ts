@@ -81,7 +81,7 @@ export const aiLaptop: {
   data: string;
 } = {
   name: 'laptop',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path fill-rule="evenodd" d="M2 11V3a2 2 0 012-2h12a2 2 0 012 2v8h1a1 1 0 011 1v.5a2.5 2.5 0 01-2.5 2.5h-15A2.5 2.5 0 010 12.5V12a1 1 0 011-1h1zm1.5 0h13V3.5a1 1 0 00-1-1h-11a1 1 0 00-1 1V11zm14 2.5h-15a1 1 0 01-1-1h17a1 1 0 01-1 1z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M1.5 11.5V3a2 2 0 012-2h13a2 2 0 012 2v8.5H17v-8a1 1 0 00-1-1H4a1 1 0 00-1 1v8H1.5zM18.214 15H1.786C.799 15 0 14.2 0 13.214c0-.394.32-.714.714-.714h18.572c.394 0 .714.32.714.714C20 14.2 19.2 15 18.214 15z"/></svg>`
 };
 export const aiPhone: {
   name: 'phone';
