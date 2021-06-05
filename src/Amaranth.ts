@@ -67,7 +67,7 @@ export const aiPhone: {
   data: string;
 } = {
   name: 'phone',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M10 13.5a.5.5 0 100-1 .5.5 0 000 1zM8.5 13a.5.5 0 11-1 0 .5.5 0 011 0zm3.5.5a.5.5 0 100-1 .5.5 0 000 1z"/><path fill-rule="evenodd" d="M5 2a2 2 0 012-2h6a2 2 0 012 2v12a2 2 0 01-2 2H7a2 2 0 01-2-2V2zm2-.5h6a.5.5 0 01.5.5v12a.5.5 0 01-.5.5H7a.5.5 0 01-.5-.5V2a.5.5 0 01.5-.5z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M10 13.5a.75.75 0 100-1.5.75.75 0 000 1.5zm3-.75a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm-5.25.75a.75.75 0 100-1.5.75.75 0 000 1.5z"/><path fill-rule="evenodd" d="M4.5 2a2 2 0 012-2h7a2 2 0 012 2v12a2 2 0 01-2 2h-7a2 2 0 01-2-2V2zm2-.5h7a.5.5 0 01.5.5v12a.5.5 0 01-.5.5h-7A.5.5 0 016 14V2a.5.5 0 01.5-.5z"/></svg>`
 };
 export const aiServer: {
   name: 'server';
