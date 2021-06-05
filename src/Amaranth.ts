@@ -13,6 +13,13 @@ export const aiChip: {
   name: 'chip',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path fill-rule="evenodd" d="M8 5a1 1 0 00-1 1v4a1 1 0 001 1h4a1 1 0 001-1V6a1 1 0 00-1-1H8zm.5 1.5v3h3v-3h-3z"/><path fill-rule="evenodd" d="M6 .75V2a2 2 0 00-2 2H2.75a.75.75 0 000 1.5H4v1.75H2.75a.75.75 0 000 1.5H4v1.75H2.75a.75.75 0 000 1.5H4a2 2 0 002 2v1.25a.75.75 0 001.5 0V14h1.75v1.25a.75.75 0 001.5 0V14h1.75v1.25a.75.75 0 001.5 0V14a2 2 0 002-2h1.25a.75.75 0 000-1.5H16V8.75h1.25a.75.75 0 000-1.5H16V5.5h1.25a.75.75 0 000-1.5H16a2 2 0 00-2-2V.75a.75.75 0 00-1.5 0V2h-1.75V.75a.75.75 0 00-1.5 0V2H7.5V.75a.75.75 0 00-1.5 0zM6 3.5h8a.5.5 0 01.5.5v8a.5.5 0 01-.5.5H6a.5.5 0 01-.5-.5V4a.5.5 0 01.5-.5z"/></svg>`
 };
+export const aiCmd: {
+  name: 'cmd';
+  data: string;
+} = {
+  name: 'cmd',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M2 2a.75.75 0 000 1.06L6.94 8 2 12.94A.75.75 0 103.06 14l5.294-5.293a1 1 0 000-1.414L3.06 2A.75.75 0 002 2zm7.75 12a.75.75 0 010-1.5h8.5a.75.75 0 010 1.5h-8.5z"/></svg>`
+};
 export const aiCode: {
   name: 'code';
   data: string;
@@ -79,6 +86,7 @@ export const aiTeam: {
 export type Amaranth =
   | 'azure'
   | 'chip'
+  | 'cmd'
   | 'code'
   | 'disc'
   | 'foldable'
