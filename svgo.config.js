@@ -38,6 +38,12 @@ module.exports = {
       name: 'sortAttrs'
     },
     {
+      name: 'removeElementsByAttr',
+      params: [{
+          id: 'a'
+        }]
+    },
+    {
       name: 'addAttributesToSVGElement',
       params: {
         attributes: [{
