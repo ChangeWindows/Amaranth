@@ -104,6 +104,13 @@ export const aiChannels: {
   name: 'channels',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path fill-rule="evenodd" d="M6.25 4.886a2.501 2.501 0 10-1.5 0v6.228a2.501 2.501 0 101.5 0V9.25a.5.5 0 01.5-.5h6.5a2 2 0 002-2V4.886a2.501 2.501 0 10-1.5 0V6.25a1 1 0 01-1 1h-6a.5.5 0 01-.5-.5V4.886zM6.5 2.5a1 1 0 11-2 0 1 1 0 012 0zm-1 12a1 1 0 100-2 1 1 0 000 2zm9-11a1 1 0 100-2 1 1 0 000 2z"/></svg>`
 };
+export const aiCheck: {
+  name: 'check';
+  data: string;
+} = {
+  name: 'check',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path fill-rule="evenodd" d="M16.5 3.5a.75.75 0 010 1.06l-7.793 7.794a1 1 0 01-1.414 0L3.5 8.56A.75.75 0 014.56 7.5L8 10.938 15.44 3.5a.75.75 0 011.06 0z"/></svg>`
+};
 export const aiChip: {
   name: 'chip';
   data: string;
@@ -145,6 +152,13 @@ export const aiEllipsis: {
 } = {
   name: 'ellipsis',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M6.5 8a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zm10 0a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM10 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"/></svg>`
+};
+export const aiFloppyDisc: {
+  name: 'floppy_disc';
+  data: string;
+} = {
+  name: 'floppy_disc',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path fill-rule="evenodd" d="M3.5 2v12a.5.5 0 00.5.5h1v-5a1 1 0 011-1h8a1 1 0 011 1v5h1a.5.5 0 00.5-.5V5.828a.5.5 0 00-.146-.353l1.06-1.06A2 2 0 0118 5.827V14a2 2 0 01-2 2H4a2 2 0 01-2-2V2a2 2 0 012-2h8.172a2 2 0 011.414.586l3.828 3.828-1.06 1.06-3.829-3.828a.5.5 0 00-.353-.146H12v3a1 1 0 01-1 1H6a1 1 0 01-1-1v-3H4a.5.5 0 00-.5.5zm10 12.5v-4a.5.5 0 00-.5-.5H7a.5.5 0 00-.5.5v4h7zm-7-13h4v2a.5.5 0 01-.5.5H7a.5.5 0 01-.5-.5v-2z"/></svg>`
 };
 export const aiFoldable: {
   name: 'foldable';
@@ -216,6 +230,13 @@ export const aiPlane: {
   name: 'plane',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path fill-rule="evenodd" d="M4.484 9h4.98l-1.5 5.5h1.213l3.5-5.5h2.32a2 2 0 001.06-.304l.774-.484a.25.25 0 000-.424l-.775-.484A2 2 0 0014.996 7h-2.32l-3.5-5.5H7.965l1.5 5.5h-4.98l-1-2.5H2.5v7h.984l1-2.5zM5.5 5.5l-.749-1.871A1 1 0 003.823 3H2a1 1 0 00-1 1v8a1 1 0 001 1h1.823a1 1 0 00.928-.629L5.5 10.5h2l-1.156 4.237A1 1 0 007.31 16h2.142a1 1 0 00.844-.463L13.5 10.5h2.213a1 1 0 00.53-.152l2.4-1.5a1 1 0 000-1.696l-2.4-1.5a1 1 0 00-.53-.152H13.5L10.295.463A1 1 0 009.45 0H7.31a1 1 0 00-.965 1.263L7.5 5.5h-2z"/></svg>`
 };
+export const aiPlus: {
+  name: 'plus';
+  data: string;
+} = {
+  name: 'plus',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path fill-rule="evenodd" d="M9.25 8.75v4.5a.75.75 0 001.5 0v-4.5h4.5a.75.75 0 000-1.5h-4.5v-4.5a.75.75 0 00-1.5 0v4.5h-4.5a.75.75 0 000 1.5h4.5z"/></svg>`
+};
 export const aiRocket: {
   name: 'rocket';
   data: string;
@@ -250,6 +271,13 @@ export const aiTimeline: {
 } = {
   name: 'timeline',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M2 2.75A.75.75 0 012.75 2h12.5a.75.75 0 010 1.5H2.75A.75.75 0 012 2.75zM4 8a.75.75 0 01.75-.75h12.5a.75.75 0 010 1.5H4.75A.75.75 0 014 8zm12 5.25a.75.75 0 00-.75-.75H2.75a.75.75 0 000 1.5h12.5a.75.75 0 00.75-.75z"/></svg>`
+};
+export const aiTrash: {
+  name: 'trash';
+  data: string;
+} = {
+  name: 'trash',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M7.5 12.5v-6A.5.5 0 018 6h.5a.5.5 0 01.5.5v6a.5.5 0 01-.5.5H8a.5.5 0 01-.5-.5zm3.5-6v6a.5.5 0 00.5.5h.5a.5.5 0 00.5-.5v-6A.5.5 0 0012 6h-.5a.5.5 0 00-.5.5z"/><path fill-rule="evenodd" d="M6.5 3l.221-1.329A2 2 0 018.694 0h2.612a2 2 0 011.973 1.671L13.5 3h2.75a.75.75 0 010 1.5H16l-.841 9.673A2 2 0 0113.166 16H6.834a2 2 0 01-1.993-1.827L4 4.5h-.25a.75.75 0 010-1.5H6.5zM8 3h4l-.386-1.158a.5.5 0 00-.474-.342H8.86a.5.5 0 00-.474.342L8 3zm5.665 11.043l.83-9.543h-8.99l.83 9.543a.5.5 0 00.499.457h6.332a.5.5 0 00.498-.457z"/></svg>`
 };
 export const aiTwitter: {
   name: 'twitter';
@@ -288,12 +316,14 @@ export type Amaranth =
   | 'changewindows'
   | 'channels_up'
   | 'channels'
+  | 'check'
   | 'chip'
   | 'cmd'
   | 'code'
   | 'devices'
   | 'disc'
   | 'ellipsis'
+  | 'floppy_disc'
   | 'foldable'
   | 'gamepad'
   | 'gear'
@@ -304,11 +334,13 @@ export type Amaranth =
   | 'patreon'
   | 'phone'
   | 'plane'
+  | 'plus'
   | 'rocket'
   | 'server'
   | 'software_box'
   | 'team'
   | 'timeline'
+  | 'trash'
   | 'twitter'
   | 'user_lock'
   | 'user';
