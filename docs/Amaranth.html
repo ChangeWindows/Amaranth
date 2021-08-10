@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amaranth</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <style>
+        body {
+            font-family: system-ui, -apple-system, "Segoe UI Variable Text", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            margin: 0;
+        }
+        .display-4 {
+            font-family: system-ui, -apple-system, "Segoe UI Variable Display", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+            font-weight: 700;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .icons {
+            padding: 20px;
+        }
+        .preview {
+            width: 100px;
+            display: inline-block;
+            margin: 10px;
+        }
+        .preview .inner {
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            background: #f5f5f5;
+            border-radius: .25rem .25rem 0 0;
+        }
+        .preview .inner  {
+            line-height: 85px;
+            font-size: 40px;
+            color: #333;
+        }
+        .label {
+            display: inline-block;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 5px;
+            font-size: 10px;
+            font-family: Monaco, monospace;
+            color: #666;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            background: #ddd;
+            border-radius: 0 0 .25rem .25rem;
+            color: #666;
+        }
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="../dist/fonts/Amaranth.css" />
+</head>
+<body>
+
+    <div class="bg-danger text-white pb-4 pt-3 text-center">
+        <h1 class="display-4 m-0"><i class="ai ai-change-windows"></i> Amaranth</h1>
+    </div>
+
+    <div class="icons text-center">
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-angle-down"></i>
+                </span>
+                <br>
+                <span class='label'>angle-down</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-angle-left"></i>
+                </span>
+                <br>
+                <span class='label'>angle-left</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-angle-right"></i>
+                </span>
+                <br>
+                <span class='label'>angle-right</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-angle-up"></i>
+                </span>
+                <br>
+                <span class='label'>angle-up</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-arrow-down"></i>
+                </span>
+                <br>
+                <span class='label'>arrow-down</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-arrow-from-bracket"></i>
+                </span>
+                <br>
+                <span class='label'>arrow-from-bracket</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-arrow-left"></i>
+                </span>
+                <br>
+                <span class='label'>arrow-left</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-arrow-right"></i>
+                </span>
+                <br>
+                <span class='label'>arrow-right</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-arrow-to-bracket"></i>
+                </span>
+                <br>
+                <span class='label'>arrow-to-bracket</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-arrow-up"></i>
+                </span>
+                <br>
+                <span class='label'>arrow-up</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-azure"></i>
+                </span>
+                <br>
+                <span class='label'>azure</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-bars-staggered"></i>
+                </span>
+                <br>
+                <span class='label'>bars-staggered</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-box"></i>
+                </span>
+                <br>
+                <span class='label'>box</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-branch-up"></i>
+                </span>
+                <br>
+                <span class='label'>branch-up</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-branch"></i>
+                </span>
+                <br>
+                <span class='label'>branch</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-change-windows-can"></i>
+                </span>
+                <br>
+                <span class='label'>change-windows-can</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-change-windows-dev"></i>
+                </span>
+                <br>
+                <span class='label'>change-windows-dev</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-change-windows"></i>
+                </span>
+                <br>
+                <span class='label'>change-windows</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-check"></i>
+                </span>
+                <br>
+                <span class='label'>check</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-chip"></i>
+                </span>
+                <br>
+                <span class='label'>chip</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-cmd"></i>
+                </span>
+                <br>
+                <span class='label'>cmd</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-code"></i>
+                </span>
+                <br>
+                <span class='label'>code</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-dashboard"></i>
+                </span>
+                <br>
+                <span class='label'>dashboard</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-devices"></i>
+                </span>
+                <br>
+                <span class='label'>devices</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-disc"></i>
+                </span>
+                <br>
+                <span class='label'>disc</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-ellipsis"></i>
+                </span>
+                <br>
+                <span class='label'>ellipsis</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-eye"></i>
+                </span>
+                <br>
+                <span class='label'>eye</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-floppy-disc"></i>
+                </span>
+                <br>
+                <span class='label'>floppy-disc</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-foldable"></i>
+                </span>
+                <br>
+                <span class='label'>foldable</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-gamepad"></i>
+                </span>
+                <br>
+                <span class='label'>gamepad</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-gear"></i>
+                </span>
+                <br>
+                <span class='label'>gear</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-git-hub"></i>
+                </span>
+                <br>
+                <span class='label'>git-hub</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-holographic"></i>
+                </span>
+                <br>
+                <span class='label'>holographic</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-info-circle"></i>
+                </span>
+                <br>
+                <span class='label'>info-circle</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-laptop"></i>
+                </span>
+                <br>
+                <span class='label'>laptop</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-lock"></i>
+                </span>
+                <br>
+                <span class='label'>lock</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-message-pen"></i>
+                </span>
+                <br>
+                <span class='label'>message-pen</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-notes"></i>
+                </span>
+                <br>
+                <span class='label'>notes</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-paper-plane"></i>
+                </span>
+                <br>
+                <span class='label'>paper-plane</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-patreon"></i>
+                </span>
+                <br>
+                <span class='label'>patreon</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-pen"></i>
+                </span>
+                <br>
+                <span class='label'>pen</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-plane"></i>
+                </span>
+                <br>
+                <span class='label'>plane</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-plus"></i>
+                </span>
+                <br>
+                <span class='label'>plus</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-rocket"></i>
+                </span>
+                <br>
+                <span class='label'>rocket</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-screen-webcam"></i>
+                </span>
+                <br>
+                <span class='label'>screen-webcam</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-server"></i>
+                </span>
+                <br>
+                <span class='label'>server</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-shield-key"></i>
+                </span>
+                <br>
+                <span class='label'>shield-key</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-smartphone"></i>
+                </span>
+                <br>
+                <span class='label'>smartphone</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-software-box"></i>
+                </span>
+                <br>
+                <span class='label'>software-box</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-trash-can"></i>
+                </span>
+                <br>
+                <span class='label'>trash-can</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-twitter"></i>
+                </span>
+                <br>
+                <span class='label'>twitter</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-user-lock"></i>
+                </span>
+                <br>
+                <span class='label'>user-lock</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-user-plus"></i>
+                </span>
+                <br>
+                <span class='label'>user-plus</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="ai ai-user"></i>
+                </span>
+                <br>
+                <span class='label'>user</span>
+            </div>
+
+    </div>
+
+</body>
+</html>

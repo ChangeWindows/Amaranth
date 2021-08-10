@@ -25,6 +25,12 @@ module.exports = {
       }
     },
     {
+      name: 'convertPathData',
+      params: {
+        floatPrecision: 2
+      }
+    },
+    {
       name: 'removeUnknownsAndDefaults',
       params: {
         keepRoleAttr: true
@@ -36,12 +42,6 @@ module.exports = {
     },
     {
       name: 'sortAttrs'
-    },
-    {
-      name: 'removeElementsByAttr',
-      params: [{
-          id: 'a'
-        }]
     },
     {
       name: 'addAttributesToSVGElement',

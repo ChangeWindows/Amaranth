@@ -9,14 +9,16 @@
     "build": "npm run build:esm && npm run build:cjs",
     "build:esm": "tsc",
     "build:cjs": "tsc --module commonjs --outDir dist/cjs",
+    "clean": "rimraf dist",
     "icons": "npm run icons:clean && npm run icons:ts",
     "icons:clean": "svgo -f ./svg -o ./svg",
     "icons:ts": "svg-to-ts",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prod": "npm run icons && npm run scss && npm run build",
+    "prepare": "npm run prod",
+    "prod": "npm run clean && mkdirp dist/fonts && npm run icons && fantasticon && npm run build && npm run scss",
     "scss": "npm run scss:compile && npm run scss:prefix && npm run scss:copy",
     "scss:compile": "node-sass scss -o dist --output-style compressed",
-    "scss:copy": "bundle-scss --mask \"scss/amaranth.scss\" --dest \"dist/amaranth.scss\"",
+    "scss:copy": "bundle-scss --mask \"src/amaranth.scss\" --dest \"dist/amaranth.scss\"",
     "scss:prefix": "postcss -u autoprefixer -r dist/*.css --map"
   },
   "repository": {
@@ -43,21 +45,23 @@
     "clsx": ">=1.x"
   },
   "devDependencies": {
-    "@types/react": "^17.0.9",
-    "autoprefixer": "^10.2.6",
+    "@types/react": "^17.0.16",
+    "autoprefixer": "^10.3.1",
     "bundle-scss": "^1.5.0",
     "clsx": "^1.1.1",
-    "node-sass": "^6.0.0",
-    "nodemon": "^2.0.6",
+    "fantasticon": "^1.2.2",
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12",
     "npm-run-all": "^4.1.5",
-    "postcss": "^8.3.0",
+    "postcss": "^8.3.6",
     "postcss-cli": "^8.3.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "sass": "^1.34.1",
+    "rimraf": "^3.0.2",
+    "sass": "^1.37.5",
     "svg-to-ts": "^6.0.1",
-    "svgo": "^2.3.0",
-    "typescript": "^4.3.2"
+    "svgo": "^2.3.1",
+    "typescript": "^4.3.5"
   },
   "browserslist": {
     "production": [
@@ -65,5 +69,6 @@
       "not dead",
       "not ie <= 11"
     ]
-  }
+  },
+  "sideEffects": false
 }
