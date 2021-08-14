@@ -1,6 +1,6 @@
 {
   "name": "@changewindows/amaranth",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "The iconography of ChangeWindows.",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -18,7 +18,7 @@
     "prod": "npm run clean && mkdirp dist/fonts && npm run icons && fantasticon && npm run build && npm run scss",
     "scss": "npm run scss:compile && npm run scss:prefix && npm run scss:copy",
     "scss:compile": "node-sass scss -o dist --output-style compressed",
-    "scss:copy": "bundle-scss --mask \"src/amaranth.scss\" --dest \"dist/amaranth.scss\"",
+    "scss:copy": "bundle-scss --mask scss/amaranth.scss --dest dist/amaranth.scss",
     "scss:prefix": "postcss -u autoprefixer -r dist/*.css --map"
   },
   "repository": {
