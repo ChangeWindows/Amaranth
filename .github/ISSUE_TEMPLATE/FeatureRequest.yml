@@ -1,6 +1,6 @@
 name: Feature Request
 description: Suggest a new idea for Amaranth
-title: ""
+title: "[Feature] "
 labels: [feature]
 assignees:
   - studio384
