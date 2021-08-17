@@ -1,0 +1,64 @@
+name: Bug Report
+description: When something has gone wrong
+title: ""
+labels: [bug, needs confirmation]
+assignees:
+  - studio384
+body:
+  - type: textarea
+    id: current
+    attributes:
+      label: Current behavior
+      description: Describe the current faulty beharior of Amaranth.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: Describe the expected beharior of Amaranth.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      description: Describe the steps you took to recreate the bug.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Add screenshots to showcase the bug.
+      description: If the bug is visual, showcase it with a screenshot or more.
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add any extra information you'd like to add.
+
+  - type: checkboxes
+    id: implementations
+    attributes:
+      label: Which parts of Amaranth are affected?
+      options:
+        - label: Web fonts and CSS
+          required: false
+        - label: TypeScript definitions
+          required: false
+        - label: SVG icons
+          required: false
+        - label: React component
+          required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Check all that apply.
+      options:
+        - label: This bug occures in the latest version of Amaranth.
+          required: true
+        - label: The reproduction is included and is the minimum test case to recreate the faulty behavior.
+          required: true
+        - label: There are no priorly made issues with the same bug report.
+          required: true

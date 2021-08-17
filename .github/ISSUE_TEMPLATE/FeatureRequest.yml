@@ -1,0 +1,36 @@
+name: Feature Request
+description: Suggest a new idea for Amaranth
+title: ""
+labels: [feature]
+assignees:
+  - studio384
+body:
+  - type: textarea
+    id: why
+    attributes:
+      label: What problem or need will this feature solve?
+      description: Describe why you need this feature.
+    validations:
+      required: true
+  - type: textarea
+    id: how
+    attributes:
+      label: How would this feature work?
+      description: Describe how this feature reqeust fixes the problem you have.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add any extra information you'd like to add.
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Check all that apply.
+      options:
+        - label: This is a single feature.
+          required: true
+        - label: There are no priorly made issues with the same request.
+          required: true
