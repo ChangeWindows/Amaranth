@@ -17,8 +17,6 @@ body:
     attributes:
       label: How would it be used?
       description: Describe under what situations this icon would be useful.
-      value:
-      render: markdown
     validations:
       required: true
   - type: textarea
@@ -26,8 +24,6 @@ body:
     attributes:
       label: Example icon
       description: Add an image below as an example for a similar icon if you have any.
-      value:
-      render: markdown
 
   - type: checkboxes
     id: checklist
@@ -38,5 +34,5 @@ body:
           required: true
         - label: There are no priorly made issues with the same request.
           required: true
-        - label: An example image is included if available. (optional)
+        - label: An example image is included if available.
           required: false
