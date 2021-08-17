@@ -10,16 +10,24 @@ body:
     attributes:
       label: Description
       description: Describe the icon you want to see added.
+    validations:
+      required: true
   - type: textarea
     id: reason
     attributes:
       label: How would it be used?
       description: Describe under what situations this icon would be useful.
-  - type: markdown
+    value:
+    render: markdown
+    validations:
+      required: true
+  - type: textarea
     id: example
     attributes:
       label: Example icon
       description: Add an image below as an example for a similar icon if you have any.
+    value:
+    render: markdown
 
   - type: checkboxes
     id: checklist
