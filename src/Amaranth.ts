@@ -438,7 +438,7 @@ export const aiPen: {
   data: string;
 } = {
   name: 'pen',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path fill-rule="evenodd" d="M7.43 14.57l9.66-9.66a2 2 0 000-2.82L15.9.9a2 2 0 00-2.82 0l-9.66 9.66a2 2 0 00-.55 1.02l-.73 3.67a.5.5 0 00.59.6l3.67-.74a2 2 0 001.02-.55zm5.63-11.5L4.5 11.62a.5.5 0 00-.14.26l-.44 2.2 2.2-.44a.5.5 0 00.26-.14l8.57-8.57-1.88-1.88z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path fill-rule="evenodd" d="M7.43 14.57l9.66-9.66a2 2 0 000-2.82L15.9.9a2 2 0 00-2.82 0l-9.66 9.66a2 2 0 00-.55 1.02l-.73 3.67a.5.5 0 00.59.6l3.67-.74a2 2 0 001.02-.55zm5.63-11.5l1.88 1.87-8.57 8.57a.5.5 0 01-.26.14l-2.2.44.44-2.2a.5.5 0 01.14-.26l8.57-8.57z"/></svg>`
 };
 export const aiPhone: {
   name: 'phone';
