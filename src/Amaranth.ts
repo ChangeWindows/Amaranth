@@ -382,7 +382,7 @@ export const aiNotes: {
   data: string;
 } = {
   name: 'notes',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M13 1.5H5a.5.5 0 00-.5.5v8c0 .28.22.5.5.5h.5V12H5a2 2 0 01-2-2V2c0-1.1.9-2 2-2h8a2 2 0 012 2v.5h-1.5V2a.5.5 0 00-.5-.5z"/><path fill-rule="evenodd" d="M7 14V6c0-1.1.9-2 2-2h8a2 2 0 012 2v6.17a2 2 0 01-.59 1.42L16.6 15.4a2 2 0 01-1.42.59H9a2 2 0 01-2-2zm2-8.5a.5.5 0 00-.5.5v8c0 .28.22.5.5.5h6V13a1 1 0 011-1h1.5V6a.5.5 0 00-.5-.5H9z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M12 1.5H4a.5.5 0 00-.5.5v8c0 .28.22.5.5.5h.5V12H4a2 2 0 01-2-2V2c0-1.1.9-2 2-2h8a2 2 0 012 2v.5h-1.5V2a.5.5 0 00-.5-.5z"/><path fill-rule="evenodd" d="M6 14V6c0-1.1.9-2 2-2h8a2 2 0 012 2v6.17a2 2 0 01-.59 1.42L15.6 15.4a2 2 0 01-1.42.59H8a2 2 0 01-2-2zm2-8.5a.5.5 0 00-.5.5v8c0 .28.22.5.5.5h6V13a1 1 0 011-1h1.5V6a.5.5 0 00-.5-.5H8z"/></svg>`
 };
 export const aiPaperPlane: {
   name: 'paper_plane';
