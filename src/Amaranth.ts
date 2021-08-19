@@ -139,6 +139,13 @@ export const aiBarsStaggered: {
   name: 'bars_staggered',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M2 2.75c0-.41.34-.75.75-.75h12.5a.75.75 0 010 1.5H2.75A.75.75 0 012 2.75zM4 8c0-.41.34-.75.75-.75h12.5a.75.75 0 010 1.5H4.75A.75.75 0 014 8zm12 5.25a.75.75 0 00-.75-.75H2.75a.75.75 0 000 1.5h12.5c.41 0 .75-.34.75-.75z"/></svg>`
 };
+export const aiBel: {
+  name: 'bel';
+  data: string;
+} = {
+  name: 'bel',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path fill-rule="evenodd" d="M3.72 13.5a1 1 0 01-.87-1.5l.5-.85A5 5 0 004 8.67V6a6 6 0 1112 0v2.67a5 5 0 00.66 2.48l.49.85a1 1 0 01-.87 1.5H12.5a2.5 2.5 0 01-5 0H3.72zm5.28 0a1 1 0 102 0H9zm6.36-1.6a6.5 6.5 0 01-.86-3.23V6a4.5 4.5 0 10-9 0v2.67a6.5 6.5 0 01-.86 3.23l-.06.1h10.84l-.06-.1z"/></svg>`
+};
 export const aiBox: {
   name: 'box';
   data: string;
@@ -334,6 +341,34 @@ export const aiHolographic: {
 } = {
   name: 'holographic',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path fill-rule="evenodd" d="M8.04 6.75h.01l.96 1.14-.01.02c-.18.14-.35.3-.53.48C7.9 8.94 7.3 9.5 6.5 9.5 4.01 9.5 2 7.36 2 4.72 2 1 3 1 6.5 1h7C17 1 18 2.06 18 4.72c0 2.64-2.01 4.78-4.5 4.78-.86 0-1.13-.25-1.6-.7l-.4-.36-.54-.48A1.5 1.5 0 009 7.89l-.96-1.15a3 3 0 013.92.11l.5.45c.19.15.34.3.45.4v.01a5.43 5.43 0 00.31.27c.03 0 .1.02.27.02 1.57 0 3-1.38 3-3.28 0-1.2-.24-1.57-.42-1.72-.25-.22-.9-.5-2.58-.5h-7c-.9 0-1.54 0-2.03.05-.5.05-.66.13-.7.16l-.02.03a.9.9 0 00-.1.24c-.09.32-.15.85-.15 1.74C3.5 6.62 4.93 8 6.5 8c.03 0 .1 0 .25-.1.19-.13.38-.3.69-.6l.01-.01c.17-.16.37-.36.59-.54zm5.18 1.22h.01z"/><path d="M5.42 11.8c-.45.16-.65.7-.34 1.06A6.41 6.41 0 0010 15c2.01 0 3.8-.82 4.88-2.1.32-.36.12-.9-.34-1.07-.33-.12-.7 0-.96.27A4.88 4.88 0 0110 13.5c-1.59 0-2.84-.6-3.61-1.43a.92.92 0 00-.97-.28zm6.08-7.3a.5.5 0 000-1h-3a.5.5 0 000 1h3z"/></svg>`
+};
+export const aiHourglassEmpty: {
+  name: 'hourglass_empty';
+  data: string;
+} = {
+  name: 'hourglass_empty',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path fill-rule="evenodd" d="M14 1.5H6a.5.5 0 00-.5.5v.17a3.5 3.5 0 001.7 3l.79.47a2.75 2.75 0 010 4.72l-.8.47a3.5 3.5 0 00-1.69 3V14c0 .28.22.5.5.5h8a.5.5 0 00.5-.5v-.17a3.5 3.5 0 00-1.7-3l-.79-.47a2.75 2.75 0 010-4.72l.8-.47a3.5 3.5 0 001.69-3V2a.5.5 0 00-.5-.5zM6 0h8a2 2 0 012 2v.17a5 5 0 01-2.43 4.29l-.78.47a1.25 1.25 0 000 2.14l.78.47a5 5 0 012.43 4.3V14a2 2 0 01-2 2H6a2 2 0 01-2-2v-.17a5 5 0 012.43-4.29l.78-.47c.81-.48.81-1.66 0-2.14l-.78-.47A5 5 0 014 2.16V2c0-1.1.9-2 2-2z"/></svg>`
+};
+export const aiHourglassEnd: {
+  name: 'hourglass_end';
+  data: string;
+} = {
+  name: 'hourglass_end',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path fill-rule="evenodd" d="M6 16h8a2 2 0 002-2v-.17a5 5 0 00-2.43-4.29l-.78-.47a1.25 1.25 0 010-2.14l.78-.47A5 5 0 0016 2.16V2a2 2 0 00-2-2H6a2 2 0 00-2 2v.17a5 5 0 002.43 4.29l.78.47c.81.48.81 1.66 0 2.14l-.78.47A5 5 0 004 13.84V14c0 1.1.9 2 2 2zm3.32-8c0-.91-.44-1.82-1.33-2.36l-.8-.47a3.5 3.5 0 01-1.69-3V2c0-.28.22-.5.5-.5h8c.28 0 .5.22.5.5v.17a3.5 3.5 0 01-1.7 3l-.79.47A2.73 2.73 0 0010.68 8H9.32z"/></svg>`
+};
+export const aiHourglassStart: {
+  name: 'hourglass_start';
+  data: string;
+} = {
+  name: 'hourglass_start',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path fill-rule="evenodd" d="M14 0H6a2 2 0 00-2 2v.17a5 5 0 002.43 4.29l.78.47c.81.48.81 1.66 0 2.14l-.78.47A5 5 0 004 13.84V14c0 1.1.9 2 2 2h8a2 2 0 002-2v-.17a5 5 0 00-2.43-4.29l-.78-.47a1.25 1.25 0 010-2.14l.78-.47A5 5 0 0016 2.16V2a2 2 0 00-2-2zM9.32 8h1.36c0 .91.44 1.82 1.33 2.36l.8.47a3.5 3.5 0 011.69 3V14a.5.5 0 01-.5.5H6a.5.5 0 01-.5-.5v-.17a3.5 3.5 0 011.7-3l.79-.47A2.73 2.73 0 009.32 8z"/></svg>`
+};
+export const aiHourglass: {
+  name: 'hourglass';
+  data: string;
+} = {
+  name: 'hourglass',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path fill-rule="evenodd" d="M14 0H6a2 2 0 00-2 2v.17a5 5 0 002.43 4.29l.78.47c.81.48.81 1.66 0 2.14l-.78.47A5 5 0 004 13.84V14c0 1.1.9 2 2 2h8a2 2 0 002-2v-.17a5 5 0 00-2.43-4.29l-.78-.47a1.25 1.25 0 010-2.14l.78-.47A5 5 0 0016 2.16V2a2 2 0 00-2-2zM6 1.5h8c.28 0 .5.22.5.5v.17A3.5 3.5 0 0113.98 4H6.02a3.5 3.5 0 01-.52-1.83V2c0-.28.22-.5.5-.5zM9.32 8h1.36c0 .91.44 1.82 1.33 2.36l.8.47c.48.3.88.7 1.17 1.17H6.02c.29-.47.69-.88 1.18-1.17l.79-.47A2.73 2.73 0 009.32 8z"/></svg>`
 };
 export const aiInfoCircle: {
   name: 'info_circle';
@@ -545,6 +580,7 @@ export type Amaranth =
   | 'arrow_up'
   | 'azure'
   | 'bars_staggered'
+  | 'bel'
   | 'box'
   | 'branch_up'
   | 'branch'
@@ -573,6 +609,10 @@ export type Amaranth =
   | 'gear'
   | 'git_hub'
   | 'holographic'
+  | 'hourglass_empty'
+  | 'hourglass_end'
+  | 'hourglass_start'
+  | 'hourglass'
   | 'info_circle'
   | 'laptop'
   | 'lock'
