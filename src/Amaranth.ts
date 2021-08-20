@@ -319,7 +319,7 @@ export const aiDevices: {
   data: string;
 } = {
   name: 'devices',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M16 2v.5h1.5V2a2 2 0 00-2-2h-12a2 2 0 00-2 2v8H.4a.4.4 0 00-.4.4c0 .88.72 1.6 1.6 1.6h8.9v-2H3V2c0-.28.22-.5.5-.5h12c.28 0 .5.22.5.5z"/><path fill-rule="evenodd" d="M19 4a1 1 0 011 1v10a1 1 0 01-1 1h-6a1 1 0 01-1-1V5a1 1 0 011-1h6zm-.5 10.5v-9h-5v9h5z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M16 2v.5h1.5V2a2 2 0 00-2-2h-12a2 2 0 00-2 2v7H3V2c0-.28.22-.5.5-.5h12c.28 0 .5.22.5.5zM.4 10H11v2H1.6A1.6 1.6 0 010 10.4c0-.22.18-.4.4-.4z"/><path fill-rule="evenodd" d="M20 5v10a1 1 0 01-1 1h-5.5a1 1 0 01-1-1V5a1 1 0 011-1H19a1 1 0 011 1zm-6 9.5h4.5v-9H14v9z"/></svg>`
 };
 export const aiDisc: {
   name: 'disc';
