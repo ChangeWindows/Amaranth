@@ -125,6 +125,13 @@ export const aiAzure: {
   name: 'azure',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path fill-rule="evenodd" d="M6.77.67A1 1 0 017.7 0h4.58a1 1 0 01.94.67l4.81 14A1 1 0 0117.1 16h-5.21a1 1 0 01-.68-.26L8.46 13.2l-.73 2.12a1 1 0 01-.94.67H2.9a1 1 0 01-.94-1.33l4.8-14zM9.2 6.42L7.89 2.58a.1.1 0 00-.2 0L3.73 14.17c-.06.16.06.33.23.33h2.3c.1 0 .2-.07.24-.17l.76-2.22-.8-.74a.5.5 0 01.34-.87h3.82L10 8.73l-.6 1.77H7.8l1.4-4.08zm4.3 7.91c.04.1.13.17.24.17h2.3c.17 0 .29-.17.23-.33l-4.3-12.5a.25.25 0 00-.23-.17h-2.3a.25.25 0 00-.23.33l4.3 12.5zM9.36 12l2.29 2.1c.08.07.2 0 .16-.1l-.69-2H9.37z"/></svg>`
 };
+export const aiBackward: {
+  name: 'backward';
+  data: string;
+} = {
+  name: 'backward',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path fill-rule="evenodd" d="M8.63 14.28a1 1 0 001.62-.78V2.54a1 1 0 00-1.62-.78L2.02 7.04c-.63.5-.63 1.45 0 1.95l6.6 5.29zM3.2 8.02l5.55-4.44v8.88L3.2 8.02z"/><path d="M15.63 14.28l-3.88-3.1V9.26l4 3.2V3.58l-4 3.2V4.86l3.88-3.1a1 1 0 011.62.78V13.5a1 1 0 01-1.62.78z"/></svg>`
+};
 export const aiBarsStaggered: {
   name: 'bars_staggered';
   data: string;
@@ -356,6 +363,20 @@ export const aiEye: {
   name: 'eye',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M11 8a1 1 0 11-2 0 1 1 0 012 0z"/><path fill-rule="evenodd" d="M10 12a4 4 0 100-8 4 4 0 000 8zm0-1.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"/><path fill-rule="evenodd" d="M10 1a10 10 0 019.44 6.7c.07.2.07.4 0 .6a10 10 0 01-18.88 0 .9.9 0 010-.6A10 10 0 0110 1zm0 12.5a8.5 8.5 0 007.81-5.15c.1-.22.1-.48 0-.7a8.5 8.5 0 00-15.62 0c-.1.22-.1.48 0 .7A8.5 8.5 0 0010 13.5z"/></svg>`
 };
+export const aiFastBackward: {
+  name: 'fast_backward';
+  data: string;
+} = {
+  name: 'fast_backward',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M1.75 14.5c.41 0 .75-.34.75-.75V2.25a.75.75 0 00-1.5 0v11.5c0 .41.34.75.75.75z"/><path fill-rule="evenodd" d="M12.5 13.48a1 1 0 01-1.62.78L4.27 8.98a1.25 1.25 0 010-1.96l6.6-5.28a1 1 0 011.63.78v10.96zM11 3.56L5.45 8 11 12.44V3.56z"/><path d="M14 11.16l3.88 3.1a1 1 0 001.62-.78V2.52a1 1 0 00-1.62-.78L14 4.84v1.92l4-3.2v8.88l-4-3.2v1.92z"/></svg>`
+};
+export const aiFastForward: {
+  name: 'fast_forward';
+  data: string;
+} = {
+  name: 'fast_forward',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M18.25 1.5a.75.75 0 00-.75.75v11.5a.75.75 0 001.5 0V2.25a.75.75 0 00-.75-.75z"/><path fill-rule="evenodd" d="M7.5 2.52a1 1 0 011.62-.78l6.61 5.28c.63.5.63 1.46 0 1.96l-6.6 5.28a1 1 0 01-1.63-.78V2.52zM9 12.44L14.55 8 9 3.56v8.88z"/><path d="M6 4.84l-3.88-3.1a1 1 0 00-1.62.78v10.96a1 1 0 001.62.78L6 11.16V9.24l-4 3.2V3.56l4 3.2V4.84z"/></svg>`
+};
 export const aiFloppyDisc: {
   name: 'floppy_disc';
   data: string;
@@ -369,6 +390,13 @@ export const aiFoldable: {
 } = {
   name: 'foldable',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path fill-rule="evenodd" d="M9.25 15.99l-5.48-1.3A1 1 0 013 13.7V1.21A1 1 0 014.19.23L10 1.35 15.81.23a1 1 0 011.19.98v12.5a1 1 0 01-.77.97L10.75 16h-1.5zm0-1.54V2.74L4.5 1.82v11.5l4.75 1.13zm1.5 0l4.75-1.13V1.82l-4.75.92v11.7z"/></svg>`
+};
+export const aiForward: {
+  name: 'forward';
+  data: string;
+} = {
+  name: 'forward',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path fill-rule="evenodd" d="M11.37 1.72a1 1 0 00-1.62.78v10.96a1 1 0 001.62.78l6.61-5.28c.63-.5.63-1.45 0-1.95l-6.6-5.29zm5.43 6.26l-5.55 4.44V3.54l5.55 4.44z"/><path d="M4.37 1.72l3.88 3.1v1.92l-4-3.2v8.88l4-3.2v1.92l-3.88 3.1a1 1 0 01-1.62-.78V2.5a1 1 0 011.62-.78z"/></svg>`
 };
 export const aiGamepad: {
   name: 'gamepad';
@@ -496,6 +524,13 @@ export const aiPatreon: {
   name: 'patreon',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M18 6.09a5.75 5.75 0 11-11.5-.02A5.75 5.75 0 0118 6.1zM2 15.67h2.81V.33H2v15.34z"/></svg>`
 };
+export const aiPause: {
+  name: 'pause';
+  data: string;
+} = {
+  name: 'pause',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M7 2.25v11.5a.75.75 0 01-1.5 0V2.25a.75.75 0 011.5 0zm6 0v11.5a.75.75 0 001.5 0V2.25a.75.75 0 00-1.5 0z"/></svg>`
+};
 export const aiPen: {
   name: 'pen';
   data: string;
@@ -516,6 +551,20 @@ export const aiPlane: {
 } = {
   name: 'plane',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path fill-rule="evenodd" d="M4.48 9l-1 2.5H2.5v-7h.98l1 2.5h4.98l-1.5-5.5h1.22l3.5 5.5H15a2 2 0 011.06.3l.77.49c.16.1.16.32 0 .42l-.77.49A2 2 0 0115 9h-2.32l-3.5 5.5H7.96L9.46 9H4.48zM5.5 5.5l-.75-1.87A1 1 0 003.82 3H2a1 1 0 00-1 1v8a1 1 0 001 1h1.82a1 1 0 00.93-.63l.75-1.87h2l-1.16 4.24A1 1 0 007.31 16h2.14a1 1 0 00.84-.46l3.21-5.04h2.21a1 1 0 00.53-.15l2.4-1.5a1 1 0 000-1.7l-2.4-1.5a1 1 0 00-.53-.15H13.5L10.3.46A1 1 0 009.44 0H7.31a1 1 0 00-.97 1.26L7.5 5.5h-2z"/></svg>`
+};
+export const aiPlayPause: {
+  name: 'play_pause';
+  data: string;
+} = {
+  name: 'play_pause',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M12 2.25a.75.75 0 011.5 0v11.5a.75.75 0 01-1.5 0V2.25z"/><path fill-rule="evenodd" d="M1.75 2.52a1 1 0 011.62-.78l6.61 5.28c.63.5.63 1.46 0 1.96l-6.6 5.28a1 1 0 01-1.63-.78V2.52zM8.8 8L3.25 3.56v8.88L8.8 8z"/><path d="M17.25 1.5a.75.75 0 00-.75.75v11.5a.75.75 0 001.5 0V2.25a.75.75 0 00-.75-.75z"/></svg>`
+};
+export const aiPlay: {
+  name: 'play';
+  data: string;
+} = {
+  name: 'play',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path fill-rule="evenodd" d="M7.75 2.37v11.26L16.6 8 7.75 2.37zm-1.5-.46C6.25.92 7.34.33 8.17.86l9.57 6.09c.77.49.77 1.61 0 2.1l-9.57 6.1a1.25 1.25 0 01-1.92-1.06V1.9z"/></svg>`
 };
 export const aiPlus: {
   name: 'plus';
@@ -601,6 +650,13 @@ export const aiSpinnerThird: {
   name: 'spinner_third',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M10 .75a.7.7 0 01.75-.72 8 8 0 016.52 11.3.7.7 0 01-1 .3.83.83 0 01-.3-1.05 6.5 6.5 0 00-5.22-9.04c-.41-.05-.75-.38-.75-.8z"/></svg>`
 };
+export const aiStop: {
+  name: 'stop';
+  data: string;
+} = {
+  name: 'stop',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path fill-rule="evenodd" d="M5 3h10v10H5V3zm-.5-1.5a1 1 0 00-1 1v11a1 1 0 001 1h11a1 1 0 001-1v-11a1 1 0 00-1-1h-11z"/></svg>`
+};
 export const aiStopwatch: {
   name: 'stopwatch';
   data: string;
@@ -683,7 +739,7 @@ export const aiVolumeNone: {
   data: string;
 } = {
   name: 'volume_none',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M13.69.65a.5.5 0 01.59-.03c-.15.1-.28.2-.4.32L9.32 5.49l-.17.01H7v2.32l-1.5 1.5V5a1 1 0 011-1h2.65a1 1 0 00.62-.22L13.7.65zM9.18 12l1.19-1.18c.12.06.23.14.34.23L13 12.88v-4.7l1.5-1.5v8.28a.5.5 0 01-.81.39l-3.92-3.13a1 1 0 00-.59-.22zM16 3.06A.75.75 0 1014.94 2L4 12.94A.75.75 0 005.06 14L16 3.06z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M13.69.65a.5.5 0 01.59-.03c-.15.1-.28.2-.4.32L9.32 5.49l-.17.01H7v2.32l-1.5 1.5V5a1 1 0 011-1h2.65a1 1 0 00.62-.22L13.7.65zM9.18 12l1.19-1.18c.12.06.23.14.34.23L13 12.88v-4.7l1.5-1.5v8.28a.5.5 0 01-.81.39l-3.92-3.13a1 1 0 00-.59-.22zM16 3.06A.75.75 0 0014.94 2L4 12.94A.75.75 0 005.06 14L16 3.06z"/></svg>`
 };
 export type Amaranth =
   | 'alarm'
@@ -704,6 +760,7 @@ export type Amaranth =
   | 'arrow_up_to_line'
   | 'arrow_up'
   | 'azure'
+  | 'backward'
   | 'bars_staggered'
   | 'bars'
   | 'bel'
@@ -737,8 +794,11 @@ export type Amaranth =
   | 'ellipsis'
   | 'eye_slash'
   | 'eye'
+  | 'fast_backward'
+  | 'fast_forward'
   | 'floppy_disc'
   | 'foldable'
+  | 'forward'
   | 'gamepad'
   | 'gear'
   | 'git_hub'
@@ -757,9 +817,12 @@ export type Amaranth =
   | 'notes'
   | 'paper_plane'
   | 'patreon'
+  | 'pause'
   | 'pen'
   | 'phone'
   | 'plane'
+  | 'play_pause'
+  | 'play'
   | 'plus'
   | 'refresh'
   | 'rocket'
@@ -772,6 +835,7 @@ export type Amaranth =
   | 'smartphone'
   | 'software_box'
   | 'spinner_third'
+  | 'stop'
   | 'stopwatch'
   | 'trash_can'
   | 'twitter'
