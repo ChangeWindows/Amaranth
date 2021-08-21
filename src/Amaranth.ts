@@ -41,13 +41,6 @@ export const aiArrowDown: {
   name: 'arrow_down',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path fill-rule="evenodd" d="M9.25 12.19V1.75a.75.75 0 111.5 0v10.44l3.69-3.69a.75.75 0 011.06 1.06l-4.8 4.8a1 1 0 01-1.4 0l-4.8-4.8A.75.75 0 115.56 8.5l3.69 3.69z"/></svg>`
 };
-export const aiArrowFromBracket: {
-  name: 'arrow_from_bracket';
-  data: string;
-} = {
-  name: 'arrow_from_bracket',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M6.25 13.5H3.5a1 1 0 01-1-1v-9a1 1 0 011-1h2.75a.75.75 0 000-1.5H3a2 2 0 00-2 2v10c0 1.1.9 2 2 2h3.25a.75.75 0 000-1.5zm7.78-10.53a.75.75 0 10-1.06 1.06l3.22 3.22H8a.75.75 0 000 1.5h8.19l-3.22 3.22a.75.75 0 101.06 1.06l4.32-4.32a1 1 0 000-1.42l-4.32-4.32z"/></svg>`
-};
 export const aiArrowLeftFromBracket: {
   name: 'arrow_left_from_bracket';
   data: string;
@@ -104,13 +97,6 @@ export const aiArrowRight: {
   name: 'arrow_right',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path fill-rule="evenodd" d="M14.16 8.78H3.72a.75.75 0 110-1.5h10.44l-3.69-3.69a.75.75 0 011.06-1.06l4.8 4.8a1 1 0 010 1.4l-4.8 4.8a.75.75 0 11-1.06-1.06l3.69-3.69z"/></svg>`
 };
-export const aiArrowToBracket: {
-  name: 'arrow_to_bracket';
-  data: string;
-} = {
-  name: 'arrow_to_bracket',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M13.75 2.5h2.75a1 1 0 011 1v9a1 1 0 01-1 1h-2.75a.75.75 0 000 1.5H17a2 2 0 002-2V3a2 2 0 00-2-2h-3.25a.75.75 0 000 1.5zm-5.72.47a.75.75 0 00-1.06 1.06l3.22 3.22H2a.75.75 0 000 1.5h8.19l-3.22 3.22a.75.75 0 101.06 1.06l4.32-4.32a1 1 0 000-1.42L8.03 2.97z"/></svg>`
-};
 export const aiArrowUpToLine: {
   name: 'arrow_up_to_line';
   data: string;
@@ -138,6 +124,13 @@ export const aiBarsStaggered: {
 } = {
   name: 'bars_staggered',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M2 2.75c0-.41.34-.75.75-.75h12.5a.75.75 0 010 1.5H2.75A.75.75 0 012 2.75zM4 8c0-.41.34-.75.75-.75h12.5a.75.75 0 010 1.5H4.75A.75.75 0 014 8zm12 5.25a.75.75 0 00-.75-.75H2.75a.75.75 0 000 1.5h12.5c.41 0 .75-.34.75-.75z"/></svg>`
+};
+export const aiBars: {
+  name: 'bars';
+  data: string;
+} = {
+  name: 'bars',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M3 2.75c0-.41.34-.75.75-.75h12.5a.75.75 0 010 1.5H3.75A.75.75 0 013 2.75zM3 8c0-.41.34-.75.75-.75h12.5a.75.75 0 010 1.5H3.75A.75.75 0 013 8zm.75 4.5a.75.75 0 000 1.5h12.5a.75.75 0 000-1.5H3.75z"/></svg>`
 };
 export const aiBel: {
   name: 'bel';
@@ -328,6 +321,13 @@ export const aiDisc: {
   name: 'disc',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path fill-rule="evenodd" d="M7.25 8a2.75 2.75 0 115.5 0 2.75 2.75 0 01-5.5 0zM10 6.75a1.25 1.25 0 100 2.5 1.25 1.25 0 000-2.5z"/><path d="M10 3.25c0-.41.34-.76.75-.7a5.5 5.5 0 014.7 4.7c.06.41-.29.75-.7.75s-.74-.34-.82-.75a4 4 0 00-3.18-3.18c-.41-.08-.75-.4-.75-.82z"/><path fill-rule="evenodd" d="M10 16a8 8 0 100-16 8 8 0 000 16zm0-1.5a6.5 6.5 0 110-13 6.5 6.5 0 010 13z"/></svg>`
 };
+export const aiEllipsisV: {
+  name: 'ellipsis_v';
+  data: string;
+} = {
+  name: 'ellipsis_v',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M10 11.5a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm0-10a1.5 1.5 0 110 3 1.5 1.5 0 010-3zM11.5 8a1.5 1.5 0 10-3 0 1.5 1.5 0 003 0z"/></svg>`
+};
 export const aiEllipsis: {
   name: 'ellipsis';
   data: string;
@@ -425,13 +425,6 @@ export const aiHourglass: {
 } = {
   name: 'hourglass',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path fill-rule="evenodd" d="M14 0H6a2 2 0 00-2 2v.17a5 5 0 002.43 4.29l.78.47c.81.48.81 1.66 0 2.14l-.78.47A5 5 0 004 13.84V14c0 1.1.9 2 2 2h8a2 2 0 002-2v-.17a5 5 0 00-2.43-4.29l-.78-.47a1.25 1.25 0 010-2.14l.78-.47A5 5 0 0016 2.16V2a2 2 0 00-2-2zM6 1.5h8c.28 0 .5.22.5.5v.17A3.5 3.5 0 0113.98 4H6.02a3.5 3.5 0 01-.52-1.83V2c0-.28.22-.5.5-.5zM9.32 8h1.36c0 .91.44 1.82 1.33 2.36l.8.47c.48.3.88.7 1.17 1.17H6.02c.29-.47.69-.88 1.18-1.17l.79-.47A2.73 2.73 0 009.32 8z"/></svg>`
-};
-export const aiInfoCircle: {
-  name: 'info_circle';
-  data: string;
-} = {
-  name: 'info_circle',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M11 4.5a1 1 0 11-2 0 1 1 0 012 0zM11 8v3h.75a.75.75 0 010 1.5h-3a.75.75 0 010-1.5h.75V8.5h-.25a.75.75 0 010-1.5H10a1 1 0 011 1z"/><path fill-rule="evenodd" d="M10 16a8 8 0 100-16 8 8 0 000 16zm0-1.5a6.5 6.5 0 110-13 6.5 6.5 0 010 13z"/></svg>`
 };
 export const aiLaptop: {
   name: 'laptop';
@@ -594,6 +587,13 @@ export const aiTwitter: {
   name: 'twitter',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M16.36 4.74v.43c0 4.33-3.3 9.33-9.32 9.33A9.27 9.27 0 012 13.03a6.8 6.8 0 004.86-1.37A3.28 3.28 0 013.8 9.4a3.47 3.47 0 001.48-.06 3.28 3.28 0 01-2.63-3.22v-.04c.44.24.94.4 1.48.42a3.28 3.28 0 01-1.01-4.4 9.32 9.32 0 006.76 3.43 3.28 3.28 0 015.6-3 6.46 6.46 0 002.07-.78c-.24.76-.76 1.4-1.44 1.8.66-.07 1.3-.25 1.89-.5-.45.65-1 1.22-1.64 1.7z"/></svg>`
 };
+export const aiUnlock: {
+  name: 'unlock';
+  data: string;
+} = {
+  name: 'unlock',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M10.75 10.92a1 1 0 10-1.5 0V12a.75.75 0 001.5 0v-1.08z"/><path fill-rule="evenodd" d="M12.5 4v2H5a2 2 0 00-2 2v6c0 1.1.9 2 2 2h10a2 2 0 002-2V8a2 2 0 00-2-2h-1V4a4 4 0 00-8 0v.5h1.5V4a2.5 2.5 0 015 0zm3 4v6a.5.5 0 01-.5.5H5a.5.5 0 01-.5-.5V8c0-.28.22-.5.5-.5h10c.28 0 .5.22.5.5z"/></svg>`
+};
 export const aiUserLock: {
   name: 'user_lock';
   data: string;
@@ -657,7 +657,6 @@ export type Amaranth =
   | 'angle_up'
   | 'arrow_down_to_line'
   | 'arrow_down'
-  | 'arrow_from_bracket'
   | 'arrow_left_from_bracket'
   | 'arrow_left_to_bracket'
   | 'arrow_left_to_line'
@@ -666,11 +665,11 @@ export type Amaranth =
   | 'arrow_right_to_bracket'
   | 'arrow_right_to_line'
   | 'arrow_right'
-  | 'arrow_to_bracket'
   | 'arrow_up_to_line'
   | 'arrow_up'
   | 'azure'
   | 'bars_staggered'
+  | 'bars'
   | 'bel'
   | 'box'
   | 'branch_up'
@@ -698,6 +697,7 @@ export type Amaranth =
   | 'desktop'
   | 'devices'
   | 'disc'
+  | 'ellipsis_v'
   | 'ellipsis'
   | 'eye_slash'
   | 'eye'
@@ -712,7 +712,6 @@ export type Amaranth =
   | 'hourglass_end'
   | 'hourglass_start'
   | 'hourglass'
-  | 'info_circle'
   | 'laptop'
   | 'lock'
   | 'message_pen'
@@ -736,6 +735,7 @@ export type Amaranth =
   | 'software_box'
   | 'trash_can'
   | 'twitter'
+  | 'unlock'
   | 'user_lock'
   | 'user_plus'
   | 'user'
