@@ -279,6 +279,13 @@ export const aiCirclePlus: {
   name: 'circle_plus',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M9.25 11.25v-2.5h-2.5a.75.75 0 010-1.5h2.5v-2.5a.75.75 0 011.5 0v2.5h2.5a.75.75 0 010 1.5h-2.5v2.5a.75.75 0 01-1.5 0z"/><path fill-rule="evenodd" d="M18 8A8 8 0 112 8a8 8 0 0116 0zm-1.5 0a6.5 6.5 0 10-13 0 6.5 6.5 0 0013 0z"/></svg>`
 };
+export const aiCircleUser: {
+  name: 'circle_user';
+  data: string;
+} = {
+  name: 'circle_user',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path fill-rule="evenodd" d="M10 9.25a3 3 0 100-6 3 3 0 000 6zm0-1.5a1.5 1.5 0 110-3 1.5 1.5 0 010 3z"/><path fill-rule="evenodd" d="M16.04 13.25a8 8 0 10-1.09 1.04c.4-.31.76-.66 1.09-1.04zm-1.1-1.04a7.97 7.97 0 00-9.89 0 6.5 6.5 0 119.9 0zm-1.1 1.04a6.47 6.47 0 01-7.67 0 6.47 6.47 0 017.66 0z"/></svg>`
+};
 export const aiCircleWarning: {
   name: 'circle_warning';
   data: string;
@@ -608,6 +615,13 @@ export const aiPlus: {
   name: 'plus',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path fill-rule="evenodd" d="M9.25 8.75v4.5a.75.75 0 001.5 0v-4.5h4.5a.75.75 0 000-1.5h-4.5v-4.5a.75.75 0 00-1.5 0v4.5h-4.5a.75.75 0 000 1.5h4.5z"/></svg>`
 };
+export const aiPuzzle: {
+  name: 'puzzle';
+  data: string;
+} = {
+  name: 'puzzle',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path fill-rule="evenodd" d="M13.33 4.27l.32-.96a1.21 1.21 0 10-2.3 0l.32.96a1.5 1.5 0 01-1.42 1.98h-2v1.72a1.52 1.52 0 01-2 1.44l-.94-.3a1.21 1.21 0 100 2.29l.94-.31c.98-.33 2 .4 2 1.44v1.97H16a.5.5 0 00.5-.5V6.25h-1.75a1.5 1.5 0 01-1.42-1.98zm-6.6 8.24l-.94.31a2.7 2.7 0 110-5.14l.93.31c.02 0 .03 0 .03-.02V5.25c0-.28.22-.5.5-.5h3l-.32-.96a2.72 2.72 0 115.14 0l-.32.96h2.75c.28 0 .5.22.5.5V14a2 2 0 01-2 2H7.25a.5.5 0 01-.5-.5v-2.97a.02.02 0 00-.03-.02z"/></svg>`
+};
 export const aiRefresh: {
   name: 'refresh';
   data: string;
@@ -684,6 +698,13 @@ export const aiShuffle: {
 } = {
   name: 'shuffle',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M14.81.5a.75.75 0 10-1.06 1.06l1.69 1.69H12.5c-.55 0-1.07.26-1.4.7L9.94 5.5l.94 1.25 1.42-1.9c.05-.06.12-.1.2-.1h2.94l-1.69 1.69a.75.75 0 001.06 1.06l3.15-3.15a.5.5 0 000-.7L14.8.5z"/><path d="M14.81 8.5a.75.75 0 10-1.06 1.06l1.69 1.69H12.5a.25.25 0 01-.2-.1l-5.4-7.2c-.33-.44-.85-.7-1.4-.7H2.75a.75.75 0 000 1.5H5.5c.08 0 .15.04.2.1l5.4 7.2c.33.44.85.7 1.4.7h2.94l-1.69 1.69a.75.75 0 001.06 1.06l3.15-3.15a.5.5 0 000-.7L14.8 8.5zM5.7 11.15l1.42-1.9.94 1.25-1.16 1.55c-.33.44-.85.7-1.4.7H2.75a.75.75 0 010-1.5H5.5c.08 0 .15-.04.2-.1z"/></svg>`
+};
+export const aiSimCard: {
+  name: 'sim_card';
+  data: string;
+} = {
+  name: 'sim_card',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M10 10h3V9a1 1 0 00-1-1h-2v2zm-3 2v-1h3v2H8a1 1 0 01-1-1zm6 0v-1h-2v2h1a1 1 0 001-1zM7 9v1h2V8H8a1 1 0 00-1 1z"/><path fill-rule="evenodd" d="M10.67 0a2 2 0 011.42.59L15.4 3.9a2 2 0 01.6 1.43V14a2 2 0 01-2 2H6a2 2 0 01-2-2V2c0-1.1.9-2 2-2h4.67zM5.5 14c0 .28.22.5.5.5h8a.5.5 0 00.5-.5V5.33a.5.5 0 00-.15-.36l-3.32-3.32a.5.5 0 00-.36-.15H6a.5.5 0 00-.5.5v12z"/></svg>`
 };
 export const aiSmartphone: {
   name: 'smartphone';
@@ -852,6 +873,7 @@ export type Amaranth =
   | 'circle_check'
   | 'circle_info'
   | 'circle_plus'
+  | 'circle_user'
   | 'circle_warning'
   | 'circle_x'
   | 'city'
@@ -899,6 +921,7 @@ export type Amaranth =
   | 'play_pause'
   | 'play'
   | 'plus'
+  | 'puzzle'
   | 'refresh'
   | 'repeat_one'
   | 'repeat'
@@ -910,6 +933,7 @@ export type Amaranth =
   | 'shield_x'
   | 'shield'
   | 'shuffle'
+  | 'sim_card'
   | 'smartphone'
   | 'software_box'
   | 'spinner_third'
