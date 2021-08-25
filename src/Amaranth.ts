@@ -174,6 +174,13 @@ export const aiBranch: {
   name: 'branch',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path fill-rule="evenodd" d="M6.25 4.89a2.5 2.5 0 10-1.5 0v6.22a2.5 2.5 0 101.5 0V9.25c0-.28.22-.5.5-.5h6.5a2 2 0 002-2V4.89a2.5 2.5 0 10-1.5 0v1.36a1 1 0 01-1 1h-6a.5.5 0 01-.5-.5V4.89zM6.5 2.5a1 1 0 11-2 0 1 1 0 012 0zm-1 12a1 1 0 110-2 1 1 0 010 2zm9-11a1 1 0 110-2 1 1 0 010 2z"/></svg>`
 };
+export const aiBuilding: {
+  name: 'building';
+  data: string;
+} = {
+  name: 'building',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M5.5 2.75c0-.69.56-1.25 1.25-1.25h6.5c.69 0 1.25.56 1.25 1.25V16H16V2.75A2.75 2.75 0 0013.25 0h-6.5A2.75 2.75 0 004 2.75V16h1.5V2.75z"/><path d="M7 4.5v-1c0-.28.22-.5.5-.5h1c.28 0 .5.22.5.5v1a.5.5 0 01-.5.5h-1a.5.5 0 01-.5-.5zm4-1v1c0 .28.22.5.5.5h1a.5.5 0 00.5-.5v-1a.5.5 0 00-.5-.5h-1a.5.5 0 00-.5.5zm-4 5v-1c0-.28.22-.5.5-.5h1c.28 0 .5.22.5.5v1a.5.5 0 01-.5.5h-1a.5.5 0 01-.5-.5zm4-1v1c0 .28.22.5.5.5h1a.5.5 0 00.5-.5v-1a.5.5 0 00-.5-.5h-1a.5.5 0 00-.5.5zM8.5 16v-3.5a1 1 0 011-1h1a1 1 0 011 1V16h-3z"/></svg>`
+};
 export const aiCalendarAgenda: {
   name: 'calendar_agenda';
   data: string;
@@ -285,6 +292,13 @@ export const aiCircleX: {
 } = {
   name: 'circle_x',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M11.77 10.83L10 9.06l-1.77 1.77a.75.75 0 11-1.06-1.06L8.94 8 7.17 6.23a.75.75 0 011.06-1.06L10 6.94l1.77-1.77a.75.75 0 111.06 1.06L11.06 8l1.77 1.77a.75.75 0 11-1.06 1.06z"/><path fill-rule="evenodd" d="M18 8A8 8 0 112 8a8 8 0 0116 0zm-1.5 0a6.5 6.5 0 10-13 0 6.5 6.5 0 0013 0z"/></svg>`
+};
+export const aiCity: {
+  name: 'city';
+  data: string;
+} = {
+  name: 'city',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M3.5 2.75A2.75 2.75 0 016.25 0h6.5a2.75 2.75 0 012.75 2.75v.75h1.75A2.75 2.75 0 0120 6.25V16h-1.5V6.25c0-.69-.56-1.25-1.25-1.25h-2C14.56 5 14 4.44 14 3.75v-1c0-.69-.56-1.25-1.25-1.25h-6.5C5.56 1.5 5 2.06 5 2.75v5C5 8.44 4.44 9 3.75 9h-1c-.69 0-1.25.56-1.25 1.25V16H0v-5.75A2.75 2.75 0 012.75 7.5h.75V2.75z"/><path d="M6.5 3.5v1c0 .28.22.5.5.5h1a.5.5 0 00.5-.5v-1A.5.5 0 008 3H7a.5.5 0 00-.5.5zm4 1v-1c0-.28.22-.5.5-.5h1c.28 0 .5.22.5.5v1a.5.5 0 01-.5.5h-1a.5.5 0 01-.5-.5zm-4 3v1c0 .28.22.5.5.5h1a.5.5 0 00.5-.5v-1A.5.5 0 008 7H7a.5.5 0 00-.5.5zm4 1v-1c0-.28.22-.5.5-.5h1c.28 0 .5.22.5.5v1a.5.5 0 01-.5.5h-1a.5.5 0 01-.5-.5zm4.5-1v1c0 .28.22.5.5.5h1a.5.5 0 00.5-.5v-1a.5.5 0 00-.5-.5h-1a.5.5 0 00-.5.5zm0 4c0-.28.22-.5.5-.5h1c.28 0 .5.22.5.5v1a.5.5 0 01-.5.5h-1a.5.5 0 01-.5-.5v-1zM3 11v1c0 .28.22.5.5.5h1A.5.5 0 005 12v-1a.5.5 0 00-.5-.5h-1a.5.5 0 00-.5.5zm5.5 5v-3.5a1 1 0 011-1h1a1 1 0 011 1V16h-3z"/></svg>`
 };
 export const aiClock: {
   name: 'clock';
@@ -446,6 +460,13 @@ export const aiHolographic: {
 } = {
   name: 'holographic',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path fill-rule="evenodd" d="M8.04 6.75h.01l.96 1.14-.01.02c-.18.14-.35.3-.53.48C7.9 8.94 7.3 9.5 6.5 9.5 4.01 9.5 2 7.36 2 4.72 2 1 3 1 6.5 1h7C17 1 18 2.06 18 4.72c0 2.64-2.01 4.78-4.5 4.78-.86 0-1.13-.25-1.6-.7l-.4-.36-.54-.48A1.5 1.5 0 009 7.89l-.96-1.15a3 3 0 013.92.11l.5.45c.19.15.34.3.45.4v.01a5.43 5.43 0 00.31.27c.03 0 .1.02.27.02 1.57 0 3-1.38 3-3.28 0-1.2-.24-1.57-.42-1.72-.25-.22-.9-.5-2.58-.5h-7c-.9 0-1.54 0-2.03.05-.5.05-.66.13-.7.16l-.02.03a.9.9 0 00-.1.24c-.09.32-.15.85-.15 1.74C3.5 6.62 4.93 8 6.5 8c.03 0 .1 0 .25-.1.19-.13.38-.3.69-.6l.01-.01c.17-.16.37-.36.59-.54zm5.18 1.22h.01z"/><path d="M5.42 11.8c-.45.16-.65.7-.34 1.06A6.41 6.41 0 0010 15c2.01 0 3.8-.82 4.88-2.1.32-.36.12-.9-.34-1.07-.33-.12-.7 0-.96.27A4.88 4.88 0 0110 13.5c-1.59 0-2.84-.6-3.61-1.43a.92.92 0 00-.97-.28zm6.08-7.3a.5.5 0 000-1h-3a.5.5 0 000 1h3z"/></svg>`
+};
+export const aiHome: {
+  name: 'home';
+  data: string;
+} = {
+  name: 'home',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path fill-rule="evenodd" d="M4.5 7.33V14c0 .28.22.5.5.5h10a.5.5 0 00.5-.5V7.33a.5.5 0 00-.15-.36l-5-5a.5.5 0 00-.7 0l-5 5a.5.5 0 00-.15.36zM3 14V7.33a2 2 0 01.59-1.42l5-5a2 2 0 012.82 0l5 5A2 2 0 0117 7.33V14a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg>`
 };
 export const aiHourglassEmpty: {
   name: 'hourglass_empty';
@@ -699,6 +720,13 @@ export const aiStopwatch: {
   name: 'stopwatch',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M9.25 9.5V6.75a.75.75 0 011.5 0v2.44l.91.91a.75.75 0 01-1.06 1.06L9.53 10.1a.78.78 0 01-.03-.03.75.75 0 01-.25-.56z"/><path fill-rule="evenodd" d="M14.24 4.57a6.47 6.47 0 00-3.49-1.53V1.5h1.75a.75.75 0 000-1.5h-5a.75.75 0 000 1.5h1.75v1.54a6.5 6.5 0 106 2.63l1.2-1.11a.75.75 0 00-1.01-1.1l-1.2 1.1zM10 14.5a5 5 0 110-10 5 5 0 010 10z"/></svg>`
 };
+export const aiStore: {
+  name: 'store';
+  data: string;
+} = {
+  name: 'store',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M4.35 3.64c.42-.16.88-.16 1.3 0l1.66.67a.5.5 0 00.38 0l1.66-.67.56 1.4-1.67.66a2 2 0 01-1.48 0l-1.67-.66a.25.25 0 00-.18 0l-1.67.66a2 2 0 01-.24.08V16H1.5V5.6l-.65-.26a1 1 0 01-.59-1.22L1.5 0h17l1.24 4.12a1 1 0 01-.59 1.22l-.65.26V16H17V8.5h-3.75a.25.25 0 00-.25.25V16h-1.5V8.75c0-.97.78-1.75 1.75-1.75H17V5.78a2 2 0 01-.24-.08l-1.67-.66.56-1.4 1.66.67a.5.5 0 00.38 0l.48-.2-.79-2.61H2.62l-.79 2.62.48.19a.5.5 0 00.38 0l1.66-.67z"/><path d="M14.9 5.04l-.55-1.4c.42-.16.88-.16 1.3 0l-.56 1.4a.25.25 0 00-.18 0z"/><path d="M10.1 5.04l.55-1.4 1.66.67a.5.5 0 00.38 0l1.66-.67.56 1.4-1.67.66a2 2 0 01-1.48 0l-1.67-.66z"/><path d="M10.1 5.04l.55-1.4a1.75 1.75 0 00-1.3 0l.56 1.4a.25.25 0 01.18 0z"/><path fill-rule="evenodd" d="M4.5 9c0-1.1.9-2 2-2H8a2 2 0 012 2v2a2 2 0 01-2 2H6.5a2 2 0 01-2-2V9zm2-.5A.5.5 0 006 9v2c0 .28.22.5.5.5H8a.5.5 0 00.5-.5V9a.5.5 0 00-.5-.5H6.5z"/></svg>`
+};
 export const aiTrashCan: {
   name: 'trash_can';
   data: string;
@@ -776,6 +804,13 @@ export const aiVolumeNone: {
   name: 'volume_none',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M13.69.65a.5.5 0 01.59-.03c-.15.1-.28.2-.4.32L9.32 5.49l-.17.01H7v2.32l-1.5 1.5V5a1 1 0 011-1h2.65a1 1 0 00.62-.22L13.7.65zM9.18 12l1.19-1.18c.12.06.23.14.34.23L13 12.88v-4.7l1.5-1.5v8.28a.5.5 0 01-.81.39l-3.92-3.13a1 1 0 00-.59-.22zM16 3.06A.75.75 0 0014.94 2L4 12.94A.75.75 0 005.06 14L16 3.06z"/></svg>`
 };
+export const aiWindow: {
+  name: 'window';
+  data: string;
+} = {
+  name: 'window',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path fill-rule="evenodd" d="M3 0a2 2 0 00-2 2v12c0 1.1.9 2 2 2h14a2 2 0 002-2V2a2 2 0 00-2-2H3zm-.5 14V3.5h15V14a.5.5 0 01-.5.5H3a.5.5 0 01-.5-.5zm10-12.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm1.75.75a.75.75 0 110-1.5.75.75 0 010 1.5zm2.5 0a.75.75 0 110-1.5.75.75 0 010 1.5z"/></svg>`
+};
 export type Amaranth =
   | 'alarm'
   | 'angle_down'
@@ -802,6 +837,7 @@ export type Amaranth =
   | 'box'
   | 'branch_up'
   | 'branch'
+  | 'building'
   | 'calendar_agenda'
   | 'calendar_day'
   | 'calendar_holidays'
@@ -818,6 +854,7 @@ export type Amaranth =
   | 'circle_plus'
   | 'circle_warning'
   | 'circle_x'
+  | 'city'
   | 'clock'
   | 'cmd'
   | 'code'
@@ -841,6 +878,7 @@ export type Amaranth =
   | 'git_hub'
   | 'history'
   | 'holographic'
+  | 'home'
   | 'hourglass_empty'
   | 'hourglass_end'
   | 'hourglass_start'
@@ -877,6 +915,7 @@ export type Amaranth =
   | 'spinner_third'
   | 'stop'
   | 'stopwatch'
+  | 'store'
   | 'trash_can'
   | 'twitter'
   | 'unlock'
@@ -887,7 +926,8 @@ export type Amaranth =
   | 'volume_1'
   | 'volume_2'
   | 'volume_3'
-  | 'volume_none';
+  | 'volume_none'
+  | 'window';
 export interface IconDefinition {
   name: Amaranth;
   data: string;
