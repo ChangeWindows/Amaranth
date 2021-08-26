@@ -552,6 +552,13 @@ export const aiMessagePen: {
   name: 'message_pen',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M8.66 8.23l.11-.41a.25.25 0 00-.24-.32H4.25a.25.25 0 00-.25.25v1c0 .14.11.25.25.25h4.07c.16 0 .27-.14.27-.3 0-.15.02-.31.07-.47zM9.55 6c.07 0 .13-.03.18-.07l1-1a.25.25 0 00-.18-.43h-6.3a.25.25 0 00-.25.25v1c0 .14.11.25.25.25h5.3z"/><path d="M17.5 10V5.23l1.5-1.5V10a2 2 0 01-2 2h-6.88l-3.2 3.2a2 2 0 01-3.42-1.4V12H3a2 2 0 01-2-2V2c0-1.1.9-2 2-2h12.66l-1.5 1.5H3a.5.5 0 00-.5.5v8c0 .28.22.5.5.5h2v3.3c0 .44.54.66.85.35L9.5 10.5H17a.5.5 0 00.5-.5z"/><path d="M11.94 8.67L18.4 2.2c.1-.1.1-.25 0-.35L17.34.79a.25.25 0 00-.35 0l-6.48 6.47a.25.25 0 00-.06.11l-.35 1.26c-.05.17.1.34.28.31l1.42-.2c.05-.01.1-.04.14-.07z"/></svg>`
 };
+export const aiMessageSmile: {
+  name: 'message_smile';
+  data: string;
+} = {
+  name: 'message_smile',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M7.02 8.04A4.65 4.65 0 0010 9.25c1.06 0 2.05-.44 2.98-1.21A.7.7 0 0013 7c-.3-.3-.76-.29-1.09-.03a3.1 3.1 0 01-1.91.78 3.1 3.1 0 01-1.91-.78c-.33-.26-.8-.26-1.09.03-.3.3-.3.77.02 1.04zM7.25 4a1 1 0 112 0 1 1 0 01-2 0zm4.5-1a1 1 0 100 2 1 1 0 000-2z"/><path fill-rule="evenodd" d="M17 12h-6.88l-3.2 3.2a2 2 0 01-3.42-1.4V12H3a2 2 0 01-2-2V2c0-1.1.9-2 2-2h14a2 2 0 012 2v8a2 2 0 01-2 2zm.5-10a.5.5 0 00-.5-.5H3a.5.5 0 00-.5.5v8c0 .28.22.5.5.5h2v3.3c0 .44.54.66.85.35L9.5 10.5H17a.5.5 0 00.5-.5V2z"/></svg>`
+};
 export const aiMessageText: {
   name: 'message_text';
   data: string;
@@ -968,6 +975,7 @@ export type Amaranth =
   | 'laptop'
   | 'lock'
   | 'message_pen'
+  | 'message_smile'
   | 'message_text'
   | 'message'
   | 'min'
