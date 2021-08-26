@@ -426,6 +426,20 @@ export const aiFoldable: {
   name: 'foldable',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path fill-rule="evenodd" d="M9.25 15.99l-5.48-1.3A1 1 0 013 13.7V1.21A1 1 0 014.19.23L10 1.35 15.81.23a1 1 0 011.19.98v12.5a1 1 0 01-.77.97L10.75 16h-1.5zm0-1.54V2.74L4.5 1.82v11.5l4.75 1.13zm1.5 0l4.75-1.13V1.82l-4.75.92v11.7z"/></svg>`
 };
+export const aiFolderImage: {
+  name: 'folder_image';
+  data: string;
+} = {
+  name: 'folder_image',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M13.25 8.5a1.25 1.25 0 100-2.5 1.25 1.25 0 000 2.5z"/><path fill-rule="evenodd" d="M2 12.5c0 1.1.9 2 2 2h12a2 2 0 002-2v-7a2 2 0 00-2-2H9.3a.5.5 0 01-.44-.28l-.3-.61a2 2 0 00-1.8-1.11H4a2 2 0 00-2 2v9zm12.28.5L8.94 7.83a2.75 2.75 0 00-3.86.03L3.5 9.44V3.5c0-.28.22-.5.5-.5h2.76c.2 0 .37.1.45.28l.31.61A2 2 0 009.31 5H16c.28 0 .5.22.5.5v7a.5.5 0 01-.5.5h-1.72zM6.14 8.92a1.25 1.25 0 011.75-.01L12.12 13H4a.5.5 0 01-.5-.5v-.94l2.64-2.64z"/></svg>`
+};
+export const aiFolder: {
+  name: 'folder';
+  data: string;
+} = {
+  name: 'folder',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path fill-rule="evenodd" d="M16.5 12.5a.5.5 0 01-.5.5H4a.5.5 0 01-.5-.5v-9c0-.28.22-.5.5-.5h2.76c.2 0 .37.1.45.28l.31.61A2 2 0 009.31 5H16c.28 0 .5.22.5.5v7zM4 1.5a2 2 0 00-2 2v9c0 1.1.9 2 2 2h12a2 2 0 002-2v-7a2 2 0 00-2-2H9.3a.5.5 0 01-.44-.28l-.3-.61a2 2 0 00-1.8-1.11H4z"/></svg>`
+};
 export const aiForward: {
   name: 'forward';
   data: string;
@@ -509,6 +523,13 @@ export const aiHourglass: {
 } = {
   name: 'hourglass',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path fill-rule="evenodd" d="M14 0H6a2 2 0 00-2 2v.17a5 5 0 002.43 4.29l.78.47c.81.48.81 1.66 0 2.14l-.78.47A5 5 0 004 13.84V14c0 1.1.9 2 2 2h8a2 2 0 002-2v-.17a5 5 0 00-2.43-4.29l-.78-.47a1.25 1.25 0 010-2.14l.78-.47A5 5 0 0016 2.16V2a2 2 0 00-2-2zM6 1.5h8c.28 0 .5.22.5.5v.17A3.5 3.5 0 0113.98 4H6.02a3.5 3.5 0 01-.52-1.83V2c0-.28.22-.5.5-.5zM9.32 8h1.36c0 .91.44 1.82 1.33 2.36l.8.47c.48.3.88.7 1.17 1.17H6.02c.29-.47.69-.88 1.18-1.17l.79-.47A2.73 2.73 0 009.32 8z"/></svg>`
+};
+export const aiImage: {
+  name: 'image';
+  data: string;
+} = {
+  name: 'image',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M11.25 5.5a1.25 1.25 0 100-2.5 1.25 1.25 0 000 2.5z"/><path fill-rule="evenodd" d="M2 14c0 1.1.9 2 2 2h13a1 1 0 001-1V2a2 2 0 00-2-2H4a2 2 0 00-2 2v12zm14.5.44l-3.94-3.94 1.26-1.26c.1-.1.26-.1.36 0l2.32 2.32v2.88zm-3.74-6.26L11.5 9.44 8.24 6.18a1.75 1.75 0 00-2.48 0L3.5 8.44V2c0-.28.22-.5.5-.5h12c.28 0 .5.22.5.5v7.44l-1.26-1.26a1.75 1.75 0 00-2.48 0zm-5.94-.94c.1-.1.26-.1.36 0l7.26 7.26H4a.5.5 0 01-.5-.5v-3.44l3.32-3.32z"/></svg>`
 };
 export const aiLaptop: {
   name: 'laptop';
@@ -929,6 +950,8 @@ export type Amaranth =
   | 'fast_forward'
   | 'floppy_disc'
   | 'foldable'
+  | 'folder_image'
+  | 'folder'
   | 'forward'
   | 'gamepad'
   | 'gauge'
@@ -941,6 +964,7 @@ export type Amaranth =
   | 'hourglass_end'
   | 'hourglass_start'
   | 'hourglass'
+  | 'image'
   | 'laptop'
   | 'lock'
   | 'message_pen'
