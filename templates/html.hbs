@@ -20,6 +20,13 @@
         .icons {
             padding: 20px;
         }
+        footer {
+            padding: 20px;
+        }
+        .studio {
+            font-family: "Century Gothic", system-ui, -apple-system, "Segoe UI Variable Display", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+            font-weight: 600;
+        }
         .preview {
             width: 100px;
             display: inline-block;
@@ -52,6 +59,12 @@
             border-radius: 0 0 .25rem .25rem;
             color: #666;
         }
+        .bg-danger {
+            background-image: linear-gradient(-38.4deg, #c05aff, #e52b50);
+        }
+        .bg-success {
+            background-image: linear-gradient(-38.4deg, #00c67e, #78b500);
+        }
     </style>
 
     <link rel="stylesheet" type="text/css" href="../dist/fonts/{{ name }}.css" />
@@ -59,7 +72,7 @@
 <body>
 
     <div class="bg-danger text-white pb-4 pt-3 text-center">
-        <h1 class="display-4 m-0"><i class="ai ai-change-windows"></i> {{ name }}</h1>
+        <h1 class="display-4 m-0"><i class="ai ai-amaranth"></i> {{ name }}</h1>
     </div>
 
     <div class="icons text-center">
@@ -76,5 +89,11 @@
         {{/ each }}
     </div>
 
+    <div class="bg-success text-white pb-4 pt-3">
+        <footer>
+            <p class="mb-0">Designed and developed by</p>
+            <h1 class="m-0"><i class="ai ai-amaranth"></i> <span class="studio">Studio 384</span></h1>
+        </footer>
+    </div>
 </body>
 </html>

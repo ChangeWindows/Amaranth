@@ -1,5 +1,5 @@
 module.exports = {
-  inputDir: './svg',
+  inputDir: './icons',
   outputDir: './dist',
   fontTypes: ['ttf', 'woff', 'woff2', 'eot'],
   assetTypes: ['css', 'scss', 'html'],
