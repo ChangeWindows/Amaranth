@@ -4,6 +4,7 @@ import { IconDefinition } from './Amaranth';
 interface AmaranthProps {
   icon: IconDefinition
   className?: string
+  flip?: true | 'x' | 'y' | false
   rotate?: 0 | 90 | 180 | 270 | false
   spin?: boolean
 }
@@ -11,6 +12,7 @@ interface AmaranthProps {
 export default function AmaranthIcon({
   icon,
   className,
+  flip,
   rotate = false,
   spin = false,
   ...props
@@ -23,7 +25,9 @@ export default function AmaranthIcon({
           className,
           {
             'ai-spin': spin,
-            [`ai-rotate-${rotate}`]: rotate
+            [`ai-rotate-${rotate}`]: rotate,
+            'ai-flip': flip === true,
+            [`ai-flip-${flip}`]: flip === 'x' || flip === 'y'
           }
         )
       }
