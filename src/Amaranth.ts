@@ -594,13 +594,6 @@ export const aiEllipsis: {
   name: 'ellipsis',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M5.5 8a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm6 0a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0ZM16 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/></svg>`
 };
-export const aiEnvelope1: {
-  name: 'envelope_1';
-  data: string;
-} = {
-  name: 'envelope_1',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M1.5 4c0-1.1.9-2 2-2h13a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2V4Zm13.94-.5H4.56l4.56 4.56c.48.48 1.28.48 1.76 0l4.56-4.56ZM3 4.06V12c0 .28.22.5.5.5h13a.5.5 0 0 0 .5-.5V4.06l-5.06 5.06a2.75 2.75 0 0 1-3.88 0L3 4.06Z"/></svg>`
-};
 export const aiEnvelope: {
   name: 'envelope';
   data: string;
@@ -1702,7 +1695,6 @@ export type Amaranth =
   | 'edge'
   | 'ellipsis_v'
   | 'ellipsis'
-  | 'envelope_1'
   | 'envelope'
   | 'ethernet'
   | 'euro'
