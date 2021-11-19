@@ -1,17 +1,24 @@
 'use strict'
 
-const { extendDefaultPlugins } = require('svgo')
-
 module.exports = {
   multipass: true,
-  js2svg: {
-    pretty: true,
-    indent: 2
-  },
-  plugins: extendDefaultPlugins([
+  plugins: [
     {
-      name: 'cleanupListOfValues'
+      name: 'preset-default',
+      params: {
+        overrides: {
+          convertPathData: {
+            floatPrecision: 2,
+          },
+          removeUnknownsAndDefaults: {
+            keepRoleAttr: true
+          },
+          removeViewBox: false,
+        },
+      },
     },
+    'cleanupListOfValues',
+    'sortAttrs',
     {
       name: 'removeAttrs',
       params: {
@@ -25,25 +32,6 @@ module.exports = {
       }
     },
     {
-      name: 'convertPathData',
-      params: {
-        floatPrecision: 2
-      }
-    },
-    {
-      name: 'removeUnknownsAndDefaults',
-      params: {
-        keepRoleAttr: true
-      }
-    },
-    {
-      name: 'removeViewBox',
-      active: false
-    },
-    {
-      name: 'sortAttrs'
-    },
-    {
       name: 'addAttributesToSVGElement',
       params: {
         attributes: [{
@@ -51,5 +39,5 @@ module.exports = {
         }]
       }
     }
-  ])
+  ]
 }
