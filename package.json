@@ -1,6 +1,6 @@
 {
   "name": "@changewindows/amaranth",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "The iconography of ChangeWindows.",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
