@@ -573,6 +573,13 @@ export const aiLock: {
   name: 'lock',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M10.75 10.92a1 1 0 1 0-1.5 0V12a.75.75 0 0 0 1.5 0v-1.08Z"/><path fill-rule="evenodd" d="M6 6H5a2 2 0 0 0-2 2v6c0 1.1.9 2 2 2h10a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-1V4a4 4 0 0 0-8 0v2Zm6.5-2v2h-5V4a2.5 2.5 0 0 1 5 0Zm3 4v6a.5.5 0 0 1-.5.5H5a.5.5 0 0 1-.5-.5V8c0-.28.22-.5.5-.5h10c.28 0 .5.22.5.5Z"/></svg>`
 };
+export const aiMagnifyingGlass: {
+  name: 'magnifying_glass';
+  data: string;
+} = {
+  name: 'magnifying_glass',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M17 6.5a5.5 5.5 0 0 1-8.82 4.38L4.06 15A.75.75 0 1 1 3 13.94l4.12-4.12A5.5 5.5 0 1 1 17 6.5Zm-1.5 0a4 4 0 1 0-8 0 4 4 0 0 0 8 0Z"/></svg>`
+};
 export const aiMessagePen: {
   name: 'message_pen';
   data: string;
@@ -1020,6 +1027,7 @@ export type Amaranth =
   | 'image'
   | 'laptop'
   | 'lock'
+  | 'magnifying_glass'
   | 'message_pen'
   | 'message_smile'
   | 'message_text'
