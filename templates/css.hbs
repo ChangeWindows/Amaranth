@@ -3,11 +3,9 @@
     src: {{{ fontSrc }}};
 }
 
-{{# if selector }}
-{{ selector }} {
-{{ else }}
-{{ tag }}[class^="{{prefix}}-"], {{ tag }}[class*=" {{prefix}}-"] {
-{{/ if }}
+.{{prefix}}::before,
+[class^="{{prefix}}-"]::before,
+[class*=" {{prefix}}-"]::before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     display: inline-block;
@@ -20,11 +18,7 @@
 }
 
 {{# each codepoints }}
-{{# if ../selector }}
-{{ ../selector }}.{{ ../prefix }}-{{ @key }}:before {
-{{ else }}
-{{ tag }}.{{ ../prefix }}-{{ @key }}:before {
-{{/ if }}
+.{{ ../prefix }}-{{ @key }}::before {
     content: "\\{{ codepoint this }}";
 }
 {{/ each }}

@@ -1,15 +1,14 @@
-${{ name }}-font: "{{ name }}";
+${{ name }}-font: "{{ name }}" !default;
+${{ name }}-font-src: "{{ fontSrc }}" !default;
 
 @font-face {
     font-family: ${{ name }}-font;
-    src: {{{ fontSrc }}};
+    src: ${{ name }}-font-src;
 }
 
-{{# if selector }}
-{{ selector }} {
-{{ else }}
-{{ tag }}[class^="{{prefix}}-"], {{ tag }}[class*=" {{prefix}}-"] {
-{{/ if }}
+.{{prefix}}::before,
+[class^="{{prefix}}-"]::before,
+[class*=" {{prefix}}-"]::before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     display: inline-block;
@@ -27,12 +26,7 @@ ${{ name }}-map: (
 {{/ each }}
 );
 
-{{# each codepoints }}
-{{# if ../selector }}
-{{ ../selector }}.{{ ../prefix }}-{{ @key }}:before {
-{{ else }}
-{{ tag }}.{{ ../prefix }}-{{ @key }}:before {
-{{/ if }}
+.{{ ../prefix }}-{{ @key }}::before {
     content: map-get(${{ ../name }}-map, "{{ @key }}");
 }
 {{/ each }}
