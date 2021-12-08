@@ -14,6 +14,9 @@
     "fonts": "npm run fonts:generate && npm run fonts:docs",
     "fonts:generate": "mkdirp dist/fonts && fantasticon",
     "fonts:docs": "copyfiles -a \"dist/fonts/*.*\" \"docs/fonts\" -f",
+    "hugo:build": "hugo -d build -s hugo",
+    "hugo:serve": "hugo server -s hugo",
+    "hugo:clean": "rm -rf build resources public",
     "icons": "npm run icons:clean && npm run icons:ts",
     "icons:clean": "svgo -f ./icons -o ./icons",
     "icons:ts": "svg-to-ts",
@@ -45,8 +48,8 @@
   },
   "homepage": "https://github.com/changewindows/amaranth#readme",
   "peerDependencies": {
-    "react": ">=16.x",
-    "clsx": ">=1.x"
+    "clsx": ">=1.x",
+    "react": ">=16.x"
   },
   "devDependencies": {
     "@types/react": "17.0.35",
@@ -55,6 +58,7 @@
     "clsx": "1.1.1",
     "copyfiles": "2.4.1",
     "fantasticon": "1.2.3",
+    "hugo-bin": "^0.78.0",
     "node-sass": "6.0.1",
     "nodemon": "2.0.15",
     "npm-run-all": "4.1.5",
@@ -74,6 +78,9 @@
       "not dead",
       "not ie <= 11"
     ]
+  },
+  "hugo-bin": {
+    "buildTags": "extended"
   },
   "sideEffects": false
 }
