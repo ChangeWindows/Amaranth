@@ -14,7 +14,7 @@
     "fonts": "npm run fonts:generate && npm run fonts:docs",
     "fonts:generate": "mkdirp dist/fonts && fantasticon",
     "fonts:docs": "copyfiles -a \"dist/fonts/*.*\" \"docs/fonts\" -f",
-    "hugo:build": "hugo -d build -s hugo",
+    "hugo:build": "hugo -d build -s hugo -d \"../build\"",
     "hugo:serve": "hugo server -s hugo",
     "hugo:clean": "rm -rf build resources public",
     "icons": "npm run icons:clean && npm run icons:ts",
