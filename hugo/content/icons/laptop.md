@@ -1,0 +1,5 @@
+---
+title: Laptop
+tags:
+categories:
+---

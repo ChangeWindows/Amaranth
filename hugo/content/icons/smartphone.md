@@ -1,0 +1,5 @@
+---
+title: Smartphone
+tags:
+categories:
+---

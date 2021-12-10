@@ -1,0 +1,5 @@
+---
+title: Gamepad
+tags:
+categories:
+---
