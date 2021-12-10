@@ -312,7 +312,7 @@ export const aiCloud: {
   data: string;
 } = {
   name: 'cloud',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M17.5 20h-10A5.5 5.5 0 0 1 4 10.25a6.5 6.5 0 0 1 12-3.23 5 5 0 0 1 4.5 5.12 4.49 4.49 0 0 1-3 7.86Zm1.09-6.75c-.1-.05-.2-.1-.3-.13A2.97 2.97 0 0 0 18.5 12a3 3 0 0 0-3.73-2.91 4.5 4.5 0 0 0-8.7 2.21A3.5 3.5 0 0 0 7.5 18h10a2.5 2.5 0 0 0 1.09-4.75Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M17 20H8A6 6 0 0 1 5.43 8.58a7 7 0 0 1 13.55 1.83A5 5 0 0 1 17 20Zm1.27-7.72A2.99 2.99 0 0 0 16.9 12 5.02 5.02 0 0 0 12 6a5 5 0 0 0-4.92 4.1A4 4 0 0 0 8 18h9a3 3 0 0 0 1.27-5.72Z"/></svg>`
 };
 export const aiCmd: {
   name: 'cmd';
