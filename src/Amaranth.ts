@@ -125,13 +125,6 @@ export const aiArrowUp: {
   name: 'arrow_up',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M10.75 3.87v10.44a.75.75 0 0 1-1.5 0V3.87l-3.69 3.7a.77.77 0 0 1-1.06 0 .75.75 0 0 1 0-1.07l4.8-4.8a1 1 0 0 1 1.4 0l4.8 4.8c.3.3.3.77 0 1.06-.3.3-.77.3-1.06 0l-3.69-3.69Z"/></svg>`
 };
-export const aiAzure: {
-  name: 'azure';
-  data: string;
-} = {
-  name: 'azure',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M6.77.67A1 1 0 0 1 7.7 0h4.58a1 1 0 0 1 .94.67l4.81 14A1 1 0 0 1 17.1 16h-5.21a1 1 0 0 1-.68-.26L8.46 13.2l-.73 2.12a1 1 0 0 1-.94.67H2.9a1 1 0 0 1-.94-1.33l4.8-14ZM9.2 6.42 7.89 2.58a.1.1 0 0 0-.2 0L3.73 14.17c-.06.16.06.33.23.33h2.3c.1 0 .2-.07.24-.17l.76-2.22-.8-.74a.5.5 0 0 1 .34-.87h3.82L10 8.73l-.6 1.77H7.8l1.4-4.08Zm4.3 7.91c.04.1.13.17.24.17h2.3c.17 0 .29-.17.23-.33l-4.3-12.5a.25.25 0 0 0-.23-.17h-2.3a.25.25 0 0 0-.23.33l4.3 12.5ZM9.36 12l2.29 2.1c.08.07.2 0 .16-.1l-.69-2H9.37Z"/></svg>`
-};
 export const aiBackward: {
   name: 'backward';
   data: string;
@@ -258,13 +251,6 @@ export const aiCheck: {
   name: 'check',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M16.5 3.5c.3.3.3.77 0 1.06l-7.8 7.8a1 1 0 0 1-1.4 0l-3.8-3.8A.75.75 0 0 1 4.56 7.5L8 10.94l7.44-7.44c.3-.3.77-.3 1.06 0Z"/></svg>`
 };
-export const aiChip: {
-  name: 'chip';
-  data: string;
-} = {
-  name: 'chip',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M8 5a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H8Zm.5 1.5h3v3h-3v-3Z"/><path fill-rule="evenodd" d="M6 .75V2a2 2 0 0 0-2 2H2.75a.75.75 0 0 0 0 1.5H4v1.75H2.75a.75.75 0 0 0 0 1.5H4v1.75H2.75a.75.75 0 0 0 0 1.5H4c0 1.1.9 2 2 2v1.25a.75.75 0 0 0 1.5 0V14h1.75v1.25a.75.75 0 0 0 1.5 0V14h1.75v1.25a.75.75 0 0 0 1.5 0V14a2 2 0 0 0 2-2h1.25a.75.75 0 0 0 0-1.5H16V8.75h1.25a.75.75 0 0 0 0-1.5H16V5.5h1.25a.75.75 0 0 0 0-1.5H16a2 2 0 0 0-2-2V.75a.75.75 0 0 0-1.5 0V2h-1.75V.75a.75.75 0 0 0-1.5 0V2H7.5V.75a.75.75 0 0 0-1.5 0ZM6 3.5h8c.28 0 .5.22.5.5v8a.5.5 0 0 1-.5.5H6a.5.5 0 0 1-.5-.5V4c0-.28.22-.5.5-.5Z"/></svg>`
-};
 export const aiCircleCheck: {
   name: 'circle_check';
   data: string;
@@ -321,6 +307,13 @@ export const aiClock: {
   name: 'clock',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M9.25 8V3.75a.75.75 0 0 1 1.5 0v3.94l1.43 1.43a.75.75 0 1 1-1.06 1.06L9.53 8.6a.76.76 0 0 1-.03-.03.75.75 0 0 1-.25-.56Z"/><path fill-rule="evenodd" d="M10 16a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm0-1.5a6.5 6.5 0 1 1 0-13 6.5 6.5 0 0 1 0 13Z"/></svg>`
 };
+export const aiCloud: {
+  name: 'cloud';
+  data: string;
+} = {
+  name: 'cloud',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M17.5 20h-10A5.5 5.5 0 0 1 4 10.25a6.5 6.5 0 0 1 12-3.23 5 5 0 0 1 4.5 5.12 4.49 4.49 0 0 1-3 7.86Zm1.09-6.75c-.1-.05-.2-.1-.3-.13A2.97 2.97 0 0 0 18.5 12a3 3 0 0 0-3.73-2.91 4.5 4.5 0 0 0-8.7 2.21A3.5 3.5 0 0 0 7.5 18h10a2.5 2.5 0 0 0 1.09-4.75Z"/></svg>`
+};
 export const aiCmd: {
   name: 'cmd';
   data: string;
@@ -333,7 +326,7 @@ export const aiCode: {
   data: string;
 } = {
   name: 'code',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M8 15a.75.75 0 0 1-.52-.93l3.6-12.55c.1-.4.52-.63.92-.52.4.11.63.53.52.93l-3.6 12.55A.75.75 0 0 1 8 15Zm9.44-7L13.5 4.06A.75.75 0 0 1 14.56 3l4.3 4.3a1 1 0 0 1 0 1.4l-4.3 4.3c-.3.3-.77.3-1.06 0a.75.75 0 0 1 0-1.06L17.44 8ZM6.5 3c.3.3.3.77 0 1.06L2.56 8l3.94 3.94c.3.3.3.77 0 1.06-.3.3-.77.3-1.06 0l-4.3-4.3a1 1 0 0 1 0-1.4L5.45 3c.3-.3.77-.3 1.06 0Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M9.34 17.25a1 1 0 1 0 1.91.59l3.41-11.09a1 1 0 1 0-1.91-.59L9.34 17.25ZM6.09 6 1.5 10.59a2 2 0 0 0 0 2.82L6.09 18a1 1 0 0 0 1.41-1.41L2.91 12 7.5 7.41A1 1 0 1 0 6.09 6ZM16.5 7.41 21.09 12l-4.59 4.59A1 1 0 0 0 17.91 18l4.59-4.59a2 2 0 0 0 0-2.82L17.91 6a1 1 0 1 0-1.41 1.41Z"/></svg>`
 };
 export const aiCompress: {
   name: 'compress';
@@ -354,7 +347,7 @@ export const aiDesktop: {
   data: string;
 } = {
   name: 'desktop',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M1 2c0-1.1.9-2 2-2h14a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-4.57l.25 1.5h.07a.75.75 0 0 1 0 1.5h-5.5a.75.75 0 0 1 0-1.5h.07l.25-1.5H3a2 2 0 0 1-2-2V2Zm2-.5a.5.5 0 0 0-.5.5v9c0 .28.22.5.5.5h14a.5.5 0 0 0 .5-.5V2a.5.5 0 0 0-.5-.5H3Zm8.16 13L10.9 13H9.09l-.25 1.5h2.32Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M6 3a3 3 0 0 0-3 3v7a3 3 0 0 0 3 3h2.78l-.52 2.6a2 2 0 0 0 1.96 2.4h3.56a2 2 0 0 0 1.96-2.4l-.52-2.6H18a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3H6ZM5 6a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6Zm8.18 10 .6 3h-3.56l.6-3h2.36Z"/></svg>`
 };
 export const aiDevices: {
   name: 'devices';
@@ -368,7 +361,7 @@ export const aiDisc: {
   data: string;
 } = {
   name: 'disc',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M7.25 8a2.75 2.75 0 1 1 5.5 0 2.75 2.75 0 0 1-5.5 0ZM10 6.75a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5Z"/><path d="M10 3.25c0-.41.34-.76.75-.7a5.5 5.5 0 0 1 4.7 4.7c.06.41-.29.75-.7.75s-.74-.34-.82-.75a4 4 0 0 0-3.18-3.18c-.41-.08-.75-.4-.75-.82Z"/><path fill-rule="evenodd" d="M10 16a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm0-1.5a6.5 6.5 0 1 1 0-13 6.5 6.5 0 0 1 0 13Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm-3-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2Z"/><path d="M17.98 12.47c-.04.55-.6.87-1.14.74-.52-.13-.84-.67-.84-1.21a4 4 0 0 0-2.39-3.66c-.5-.22-.88-.73-.79-1.27.1-.55.61-.92 1.13-.74a6 6 0 0 1 4.03 6.14Z"/><path fill-rule="evenodd" d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20Zm0-2a8 8 0 1 1 0-16 8 8 0 0 1 0 16Z"/></svg>`
 };
 export const aiEllipsisV: {
   name: 'ellipsis_v';
@@ -452,7 +445,7 @@ export const aiFoldable: {
   data: string;
 } = {
   name: 'foldable',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="m9.25 15.99-5.48-1.3A1 1 0 0 1 3 13.7V1.21A1 1 0 0 1 4.19.23L10 1.35 15.81.23a1 1 0 0 1 1.19.98v12.5a1 1 0 0 1-.77.97L10.75 16h-1.5Zm0-1.54V2.74L4.5 1.82v11.5l4.75 1.13Zm1.5 0 4.75-1.13V1.82l-4.75.92v11.7Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11 16.25a1 1 0 1 0 2 0v-6.5a1 1 0 1 0-2 0v6.5Z"/><path fill-rule="evenodd" d="M2 7.13a4 4 0 0 1 5.15-3.84l3.99 1.2a3 3 0 0 0 1.72 0l4-1.2A4 4 0 0 1 22 7.13v8.14a4 4 0 0 1-2.85 3.84l-6.29 1.88a3 3 0 0 1-1.72 0l-6.29-1.88A4 4 0 0 1 2 15.27V7.13Zm18 0a2 2 0 0 0-2.57-1.92l-4 1.2a5 5 0 0 1-2.87 0L6.57 5.2A2 2 0 0 0 4 7.13v8.14a2 2 0 0 0 1.43 1.92l6.28 1.89a1 1 0 0 0 .58 0l6.28-1.89A2 2 0 0 0 20 15.27V7.13Z"/></svg>`
 };
 export const aiFolderImage: {
   name: 'folder_image';
@@ -480,7 +473,7 @@ export const aiGamepad: {
   data: string;
 } = {
   name: 'gamepad',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M4.75 6h.75v-.75a.75.75 0 0 1 1.5 0V6h.75a.75.75 0 0 1 0 1.5H7v.75a.75.75 0 0 1-1.5 0V7.5h-.75a.75.75 0 0 1 0-1.5ZM13 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm3 1a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"/><path fill-rule="evenodd" d="m19.04 5.54.72 4.08a4 4 0 0 1-7.37 3.1c-.2-.4-.58-.72-1.04-.72h-2.7c-.46 0-.84.32-1.04.73a4 4 0 0 1-7.37-3.1l.72-4.09A4.87 4.87 0 0 1 4.48 1.7 19.5 19.5 0 0 1 9.61 1h.78c1.73 0 3.46.23 5.13.69 1.82.5 3.19 2 3.52 3.85Zm-.74 4.48-.74-4.22a3.37 3.37 0 0 0-2.44-2.67 18 18 0 0 0-4.73-.63H9.6a18 18 0 0 0-4.73.63A3.37 3.37 0 0 0 2.44 5.8l-.74 4.22-.05.12A2.5 2.5 0 0 0 4 13.5a2.5 2.5 0 0 0 2.42-1.87 1.5 1.5 0 0 1 1.45-1.13h4.26c.68 0 1.28.46 1.45 1.13a2.5 2.5 0 1 0 4.77-1.49l-.05-.12Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M15 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm3 1a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM9.5 8.5V9h.5a1 1 0 1 1 0 2h-.5v.5a1 1 0 1 1-2 0V11H7a1 1 0 1 1 0-2h.5v-.5a1 1 0 1 1 2 0Z"/><path fill-rule="evenodd" d="M13.3 16a1 1 0 0 1 .94.65l.27.7a4.08 4.08 0 0 0 7.85-1.98l-.76-5.5a6 6 0 0 0-4.95-5.1l-1.36-.22a20 20 0 0 0-6.58 0l-1.36.22a6 6 0 0 0-4.95 5.1l-.76 5.5a4.08 4.08 0 0 0 7.85 1.99l.27-.71a1 1 0 0 1 .93-.65h2.62ZM7.69 6.75l1.36-.23a18 18 0 0 1 5.92 0l1.36.23a4 4 0 0 1 3.3 3.4l.76 5.5a2.08 2.08 0 0 1-4 1l-.26-.7A3 3 0 0 0 13.3 14h-2.62a3 3 0 0 0-2.8 1.95l-.27.7a2.08 2.08 0 0 1-4-1l.76-5.5a4 4 0 0 1 3.3-3.4Z"/></svg>`
 };
 export const aiGauge: {
   name: 'gauge';
@@ -509,13 +502,6 @@ export const aiHistory: {
 } = {
   name: 'history',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M6.32 12.74a.84.84 0 0 0-1.1.03.7.7 0 0 0 .03 1.04A7.5 7.5 0 1 0 4 3.5V1.74a.75.75 0 0 0-1.5 0V6a1 1 0 0 0 1 1h3.25a.75.75 0 0 0 0-1.5h-2.2a6 6 0 1 1 1.77 7.24Z"/><path d="M9.25 8V3.75a.75.75 0 0 1 1.5 0v3.94l1.43 1.43a.75.75 0 1 1-1.06 1.06L9.53 8.6a.76.76 0 0 1-.03-.03.75.75 0 0 1-.25-.56Z"/></svg>`
-};
-export const aiHolographic: {
-  name: 'holographic';
-  data: string;
-} = {
-  name: 'holographic',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M8.04 6.75h.01l.96 1.14-.01.02c-.18.14-.35.3-.53.48C7.9 8.94 7.3 9.5 6.5 9.5 4.01 9.5 2 7.36 2 4.72 2 1 3 1 6.5 1h7C17 1 18 2.06 18 4.72c0 2.64-2.01 4.78-4.5 4.78-.86 0-1.13-.25-1.6-.7l-.4-.36-.54-.48A1.5 1.5 0 0 0 9 7.89l-.96-1.15a3 3 0 0 1 3.92.11l.5.45c.19.15.34.3.45.4v.01a5.43 5.43 0 0 0 .31.27c.03 0 .1.02.27.02 1.57 0 3-1.38 3-3.28 0-1.2-.24-1.57-.42-1.72-.25-.22-.9-.5-2.58-.5h-7c-.9 0-1.54 0-2.03.05-.5.05-.66.13-.7.16l-.02.03a.9.9 0 0 0-.1.24c-.09.32-.15.85-.15 1.74C3.5 6.62 4.93 8 6.5 8c.03 0 .1 0 .25-.1.19-.13.38-.3.69-.6l.01-.01c.17-.16.37-.36.59-.54Zm5.18 1.22h.01Z"/><path d="M5.42 11.8c-.45.16-.65.7-.34 1.06A6.41 6.41 0 0 0 10 15c2.01 0 3.8-.82 4.88-2.1.32-.36.12-.9-.34-1.07-.33-.12-.7 0-.96.27A4.88 4.88 0 0 1 10 13.5c-1.59 0-2.84-.6-3.61-1.43a.92.92 0 0 0-.97-.28Zm6.08-7.3a.5.5 0 0 0 0-1h-3a.5.5 0 0 0 0 1h3Z"/></svg>`
 };
 export const aiHome: {
   name: 'home';
@@ -564,7 +550,7 @@ export const aiLaptop: {
   data: string;
 } = {
   name: 'laptop',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M1.5 11.5V3c0-1.1.9-2 2-2h13a2 2 0 0 1 2 2v8.5H17v-8a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v8H1.5ZM18.21 15H1.8C.79 15 0 14.2 0 13.21c0-.39.32-.71.71-.71H19.3c.39 0 .71.32.71.71 0 .99-.8 1.79-1.79 1.79Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M6 6a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6a1 1 0 1 0 2 0V6a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v6a1 1 0 1 0 2 0V6Z"/><path fill-rule="evenodd" d="M2 16a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v1a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4v-1Zm2 1c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2H4Z"/></svg>`
 };
 export const aiLock: {
   name: 'lock';
@@ -608,12 +594,26 @@ export const aiMessage: {
   name: 'message',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M10.12 12H17a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H3a2 2 0 0 0-2 2v8c0 1.1.9 2 2 2h.5v1.8a2 2 0 0 0 3.41 1.4l3.21-3.2ZM17 1.5c.28 0 .5.22.5.5v8a.5.5 0 0 1-.5.5H9.5l-3.65 3.65a.5.5 0 0 1-.85-.36V10.5H3a.5.5 0 0 1-.5-.5V2c0-.28.22-.5.5-.5h14Z"/></svg>`
 };
+export const aiMicrochip: {
+  name: 'microchip';
+  data: string;
+} = {
+  name: 'microchip',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11 10a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-2Z"/><path fill-rule="evenodd" d="M15 2a1 1 0 0 1 1 1v1a4 4 0 0 1 4 4h1a1 1 0 1 1 0 2h-1v4h1a1 1 0 1 1 0 2h-1a4 4 0 0 1-4 4v1a1 1 0 1 1-2 0v-1h-4v1a1 1 0 1 1-2 0v-1a4 4 0 0 1-4-4H3a1 1 0 1 1 0-2h1v-4H3a1 1 0 1 1 0-2h1a4 4 0 0 1 4-4V3a1 1 0 1 1 2 0v1h4V3a1 1 0 0 1 1-1Zm3 6a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v8c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V8Z"/></svg>`
+};
 export const aiMin: {
   name: 'min';
   data: string;
 } = {
   name: 'min',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M4.75 8.75a.75.75 0 0 1 0-1.5h10.5a.75.75 0 0 1 0 1.5H4.75Z"/></svg>`
+};
+export const aiMobile: {
+  name: 'mobile';
+  data: string;
+} = {
+  name: 'mobile',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M13 19a1 1 0 1 0 0-2h-2a1 1 0 1 0 0 2h2Z"/><path fill-rule="evenodd" d="M8 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H8ZM7 5a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1V5Z"/></svg>`
 };
 export const aiMusic: {
   name: 'music';
@@ -734,19 +734,12 @@ export const aiRocket: {
   name: 'rocket',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M14.5 5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z"/><path fill-rule="evenodd" d="M8.5 3.5H5.13a2 2 0 0 0-1.96 1.6l-.44 2.2a1 1 0 0 0 .98 1.2h2.46a.82.82 0 0 1 .23.4l2.68 2.7c.12.1.26.18.41.22v2.84a1 1 0 0 0 1.29.95l2.28-.68A2 2 0 0 0 14.5 13V9.5a8.1 8.1 0 0 0 3.2-7.65l-.14-.93a.58.58 0 0 0-.5-.5L16.14.3A8.1 8.1 0 0 0 8.5 3.5Zm3.95 5.49L9.82 10.2 7.8 8.18l1.21-2.63a6.6 6.6 0 0 1 6.92-3.76l.24.04.04.24A6.6 6.6 0 0 1 12.45 9ZM6.69 7H4.33l.32-1.6a.5.5 0 0 1 .49-.4h2.48l-.93 2ZM13 10.38v2.63a.5.5 0 0 1-.36.48L11 14v-2.7l2-.93Z"/><path fill-rule="evenodd" d="M7.27 10.73a2.5 2.5 0 0 1 0 3.54c-.98.97-3.8 2.2-4.77 1.23-.98-.98.26-3.8 1.23-4.77a2.5 2.5 0 0 1 3.54 0ZM6.2 11.8a1 1 0 0 0-1.42 0 5.15 5.15 0 0 0-1.14 2.56A5.15 5.15 0 0 0 6.2 13.2a1 1 0 0 0 0-1.4Z"/></svg>`
 };
-export const aiScreenWebcam: {
-  name: 'screen_webcam';
-  data: string;
-} = {
-  name: 'screen_webcam',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M10.75.75a.75.75 0 0 0-1.5 0v.75H3a2 2 0 0 0-2 2v8c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2h-6.25V.75ZM17.5 3.5v8a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5v-8c0-.28.22-.5.5-.5h14c.28 0 .5.22.5.5Z"/><path d="M16 15.25c0 .41-.34.75-.75.75H4.75a.75.75 0 0 1 0-1.5h10.5c.41 0 .75.34.75.75Z"/></svg>`
-};
 export const aiServer: {
   name: 'server';
   data: string;
 } = {
   name: 'server',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M15 3.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm-3.25.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm2.5 6a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-1.75-.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"/><path fill-rule="evenodd" d="M2 2c0-1.1.9-2 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2Zm2-.5a.5.5 0 0 0-.5.5v4h13V2a.5.5 0 0 0-.5-.5H4Zm-.5 6V14c0 .28.22.5.5.5h12a.5.5 0 0 0 .5-.5V7.5h-13Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M18 7a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm-4 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm4 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm-4 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"/><path fill-rule="evenodd" d="M3 6a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V6Zm3-1a1 1 0 0 0-1 1v3h14V6a1 1 0 0 0-1-1H6Zm13 6H5v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7Z"/></svg>`
 };
 export const aiShieldKey: {
   name: 'shield_key';
@@ -790,13 +783,6 @@ export const aiSimCard: {
   name: 'sim_card',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M10 10h3V9a1 1 0 0 0-1-1h-2v2Zm-3 2v-1h3v2H8a1 1 0 0 1-1-1Zm6 0v-1h-2v2h1a1 1 0 0 0 1-1ZM7 9v1h2V8H8a1 1 0 0 0-1 1Z"/><path fill-rule="evenodd" d="M10.67 0a2 2 0 0 1 1.42.59L15.4 3.9a2 2 0 0 1 .6 1.43V14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V2c0-1.1.9-2 2-2h4.67ZM5.5 14c0 .28.22.5.5.5h8a.5.5 0 0 0 .5-.5V5.33a.5.5 0 0 0-.15-.36l-3.32-3.32a.5.5 0 0 0-.36-.15H6a.5.5 0 0 0-.5.5v12Z"/></svg>`
 };
-export const aiSmartphone: {
-  name: 'smartphone';
-  data: string;
-} = {
-  name: 'smartphone',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M10 13.5a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm3-.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm-5.25.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z"/><path fill-rule="evenodd" d="M4.5 2c0-1.1.9-2 2-2h7a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-7a2 2 0 0 1-2-2V2Zm2-.5A.5.5 0 0 0 6 2v12c0 .28.22.5.5.5h7a.5.5 0 0 0 .5-.5V2a.5.5 0 0 0-.5-.5h-7Z"/></svg>`
-};
 export const aiSoftwareBox: {
   name: 'software_box';
   data: string;
@@ -838,6 +824,13 @@ export const aiSwatchbook: {
 } = {
   name: 'swatchbook',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M6.5 12.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"/><path fill-rule="evenodd" d="M9 4V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v10.5A3.5 3.5 0 0 0 5.5 16H16a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2h-2.09l-1.49 1.5H16c.28 0 .5.22.5.5v3a.5.5 0 0 1-.5.5H8.44l-.32.32 7.28-7.31c.78-.79.78-2.06 0-2.84l-2.12-2.13a2 2 0 0 0-2.83 0L9 3.99ZM3.5 5.5h4V8h-4V5.5Zm0-1.5V2c0-.28.22-.5.5-.5h3c.28 0 .5.22.5.5v2h-4ZM9 11.81v-5.7l2.51-2.52c.2-.2.51-.2.7 0l2.13 2.13c.2.2.2.53 0 .73L9 11.81ZM3.5 9.5h4v3a2 2 0 1 1-4 0v-3Z"/></svg>`
+};
+export const aiTelevision: {
+  name: 'television';
+  data: string;
+} = {
+  name: 'television',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M5 3a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3H5ZM4 6a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6Z"/><path d="M15 21a1 1 0 1 0 0-2H9a1 1 0 1 0 0 2h6Z"/></svg>`
 };
 export const aiTrashCan: {
   name: 'trash_can';
@@ -902,6 +895,13 @@ export const aiUsers: {
   name: 'users',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M10 7.5A3.75 3.75 0 1 0 10 0a3.75 3.75 0 0 0 0 7.5Zm0-6A2.25 2.25 0 1 1 10 6a2.25 2.25 0 0 1 0-4.5Zm-6.16 8.83c-.76.92-.5 2.27.32 3.14a7.98 7.98 0 0 0 11.68 0c.81-.87 1.08-2.22.32-3.14a3.64 3.64 0 0 0-2.3-1.28 27.35 27.35 0 0 0-7.73 0c-.92.13-1.73.6-2.29 1.28Zm1.06 1.4c-.03-.22.02-.35.1-.44.33-.4.8-.67 1.34-.75 2.43-.35 4.9-.35 7.32 0 .54.08 1.01.35 1.34.75.08.1.13.22.1.43-.03.23-.15.5-.36.72a6.48 6.48 0 0 1-9.48 0 1.33 1.33 0 0 1-.36-.72ZM5 4.25a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-1.5 0a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"/><path d="M4.7 7.25c.17 0 .3.13.3.3 0 .13-.08.24-.2.29-.58.21-1.1.52-1.56.91h-.49c-.69 0-1.25.56-1.25 1.25v1.25a.75.75 0 0 1-1.5 0V10a2.75 2.75 0 0 1 2.75-2.75H4.7Zm12.55 1.5h-.62c-.41-.36-.9-.65-1.41-.86a.34.34 0 0 1-.22-.31c0-.18.15-.33.33-.33h1.92A2.75 2.75 0 0 1 20 10v1.25a.75.75 0 0 1-1.5 0V10c0-.69-.56-1.25-1.25-1.25Z"/><path fill-rule="evenodd" d="M17.25 6.5a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5Zm0-1.5a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z"/></svg>`
 };
+export const aiVirtualReality: {
+  name: 'virtual_reality';
+  data: string;
+} = {
+  name: 'virtual_reality',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M14 8a1 1 0 1 0 0-2h-4a1 1 0 0 0 0 2h4Z"/><path fill-rule="evenodd" d="M3.83 4.76A6 6 0 0 1 8.07 3h7.86a6 6 0 0 1 4.24 1.76l.4.4A4.88 4.88 0 0 1 22 8.6v2.31a4.67 4.67 0 0 1-8.73 2.32l-.51-.9a.87.87 0 0 0-1.52 0l-.51.9A4.67 4.67 0 0 1 2 10.92V8.61c0-1.3.51-2.54 1.43-3.45l.4-.4ZM8.07 5a4 4 0 0 0-2.83 1.17l-.4.4A2.88 2.88 0 0 0 4 8.61v2.31a2.67 2.67 0 0 0 5 1.33l.5-.9a2.87 2.87 0 0 1 5 0l.5.9a2.67 2.67 0 0 0 5-1.33V8.61c0-.77-.3-1.5-.84-2.04l-.4-.4A4 4 0 0 0 15.93 5H8.07Z"/><path d="M8.53 17.3c-.37-.38-.97-.52-1.43-.23-.48.3-.63.93-.26 1.36a7.48 7.48 0 0 0 10.89.45c.43-.42.3-1.11-.2-1.43-.44-.27-1-.17-1.39.17a5.48 5.48 0 0 1-7.6-.31Z"/></svg>`
+};
 export const aiVolume0: {
   name: 'volume_0';
   data: string;
@@ -963,7 +963,6 @@ export type Amaranth =
   | 'arrow_right'
   | 'arrow_up_to_line'
   | 'arrow_up'
-  | 'azure'
   | 'backward'
   | 'bars_staggered'
   | 'bars'
@@ -982,7 +981,6 @@ export type Amaranth =
   | 'change_windows_dev'
   | 'change_windows'
   | 'check'
-  | 'chip'
   | 'circle_check'
   | 'circle_info'
   | 'circle_plus'
@@ -991,6 +989,7 @@ export type Amaranth =
   | 'circle_x'
   | 'city'
   | 'clock'
+  | 'cloud'
   | 'cmd'
   | 'code'
   | 'compress'
@@ -1018,7 +1017,6 @@ export type Amaranth =
   | 'gear'
   | 'git_hub'
   | 'history'
-  | 'holographic'
   | 'home'
   | 'hourglass_empty'
   | 'hourglass_end'
@@ -1032,7 +1030,9 @@ export type Amaranth =
   | 'message_smile'
   | 'message_text'
   | 'message'
+  | 'microchip'
   | 'min'
+  | 'mobile'
   | 'music'
   | 'notes'
   | 'paper_plane'
@@ -1050,7 +1050,6 @@ export type Amaranth =
   | 'repeat_one'
   | 'repeat'
   | 'rocket'
-  | 'screen_webcam'
   | 'server'
   | 'shield_key'
   | 'shield_plus'
@@ -1058,13 +1057,13 @@ export type Amaranth =
   | 'shield'
   | 'shuffle'
   | 'sim_card'
-  | 'smartphone'
   | 'software_box'
   | 'spinner_third'
   | 'stop'
   | 'stopwatch'
   | 'store'
   | 'swatchbook'
+  | 'television'
   | 'trash_can'
   | 'twitter'
   | 'unlock'
@@ -1074,6 +1073,7 @@ export type Amaranth =
   | 'user'
   | 'users_list'
   | 'users'
+  | 'virtual_reality'
   | 'volume_0'
   | 'volume_1'
   | 'volume_2'
