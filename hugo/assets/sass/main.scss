@@ -1,0 +1,55 @@
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+// Grid
+@media (min-width: 1200px) {
+  .row-cols-xl-8 {
+    > * {
+      flex: 0 0 12.5%;
+      max-width: 12.5%;
+    }
+  }
+}
+
+@media (min-width: 1400px) {
+  .row-cols-xxl-10 {
+    > * {
+      flex: 0 0 10%;
+      max-width: 10%;
+    }
+  }
+}
+
+// Icon grid
+.icon-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  color: $dark;
+  border-radius: $border-radius;
+  text-decoration: none;
+  border: 1.5px solid $border-color;
+  overflow: hidden;
+
+  .icon-glyph {
+    padding: .5rem;
+    background: $light;
+    text-align: center;
+    font-size: $font-size-base * 2.5;
+  }
+
+  .icon-name {
+    font-family: $font-family-monospace;
+    text-decoration: none;
+    text-align: center;
+    font-size: .75rem;
+    padding: .5rem;
+    flex-grow: 1;
+  }
+}
+
+// Footer
+footer {
+  a {
+    text-decoration: none;
+  }
+}

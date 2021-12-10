@@ -1,0 +1,5 @@
+---
+title: Sliders
+tags:
+categories:
+---

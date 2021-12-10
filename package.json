@@ -7,23 +7,26 @@
   "types": "./dist/esm/index.d.ts",
   "scripts": {
     "build": "npm run build:esm && npm run build:cjs",
-    "build:esm": "tsc",
     "build:cjs": "tsc --module commonjs --outDir dist/cjs",
+    "build:esm": "tsc",
     "clean": "rimraf dist",
     "docs:fonts": "copyfiles -a \"dist/fonts/*.*\" \"docs/fonts\" -f",
     "fonts": "npm run fonts:generate && npm run fonts:docs",
-    "fonts:generate": "mkdirp dist/fonts && fantasticon",
     "fonts:docs": "copyfiles -a \"dist/fonts/*.*\" \"docs/fonts\" -f",
+    "fonts:generate": "mkdirp dist/fonts && fantasticon",
+    "hugo:build": "hugo -d build -s hugo -d \"../build\"",
+    "hugo:clean": "rm -rf build resources public",
+    "hugo:pages": "node scripts/pages.mjs",
+    "hugo:serve": "hugo server -s hugo",
     "icons": "npm run icons:clean && npm run icons:ts",
     "icons:clean": "svgo -f ./icons -o ./icons",
     "icons:ts": "svg-to-ts",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "npm run prod",
     "prod": "npm run clean && npm run icons && npm run fonts && npm run build && npm run scss",
     "scss": "npm run scss:compile && npm run scss:prefix && npm run scss:copy",
     "scss:compile": "node-sass scss -o dist --output-style compressed",
     "scss:copy": "bundle-scss --mask scss/amaranth.scss --dest dist/amaranth.scss",
-    "scss:prefix": "postcss -u autoprefixer -r dist/*.css --map"
+    "scss:prefix": "postcss -u autoprefixer -r dist/*.css --map",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -45,16 +48,19 @@
   },
   "homepage": "https://github.com/changewindows/amaranth#readme",
   "peerDependencies": {
-    "react": ">=16.x",
-    "clsx": ">=1.x"
+    "clsx": ">=1.x",
+    "react": ">=16.x"
   },
   "devDependencies": {
     "@types/react": "17.0.35",
     "autoprefixer": "10.4.0",
+    "bootstrap": "^5.1.3",
     "bundle-scss": "1.5.0",
+    "chalk": "^5.0.0",
     "clsx": "1.1.1",
     "copyfiles": "2.4.1",
     "fantasticon": "1.2.3",
+    "hugo-bin-extended": "^0.90.0",
     "node-sass": "6.0.1",
     "nodemon": "2.0.15",
     "npm-run-all": "4.1.5",
@@ -63,7 +69,7 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "rimraf": "3.0.2",
-    "sass": "1.43.4",
+    "sass": "^1.43.4",
     "svg-to-ts": "7.1.0",
     "svgo": "2.8.0",
     "typescript": "4.5.2"
@@ -74,6 +80,9 @@
       "not dead",
       "not ie <= 11"
     ]
+  },
+  "hugo-bin": {
+    "buildTags": "extended"
   },
   "sideEffects": false
 }

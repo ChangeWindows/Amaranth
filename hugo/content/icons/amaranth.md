@@ -1,0 +1,5 @@
+---
+title: Amaranth
+tags:
+categories:
+---

@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {{ partialCached "head" . }}
+    <title>{{ .Title }} &middot; Amaranth</title>
+  </head>
+  <body>
+    {{ partialCached "navbar" . }}
+
+    <main class="container">
+      <h2>{{ .Title }}</h2>
+    </main>
+  </body>
+</html>

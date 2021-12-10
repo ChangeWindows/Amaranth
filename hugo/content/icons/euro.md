@@ -1,0 +1,5 @@
+---
+title: Euro
+tags:
+categories:
+---

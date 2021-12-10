@@ -1,0 +1,5 @@
+---
+title: Devices
+tags:
+categories:
+---

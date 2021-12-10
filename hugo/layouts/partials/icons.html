@@ -1,0 +1,16 @@
+<h2 class="mb-4">Icons</h2>
+<div class="row g-3 row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 row-cols-xl-8 mb-4">
+  {{ range (where .Site.RegularPages "Type" "icons") -}}
+    {{- $filename := .File.TranslationBaseName -}}
+    {{- with .Site.GetPage .File.Path }}
+    <div class="col"{{ with .Params.tags }} data-tags="{{ delimit . " " }}"{{ end }}{{ with .Params.categories }} data-categories="{{ delimit . " " | lower }}"{{ end }}>
+      <a class="icon-card" href="{{ .RelPermalink }}">
+        <div class="icon-glyph">
+          <i class="ai ai-{{ $filename }}"></i>
+        </div>
+        <div class="icon-name">{{ $filename }}</div>
+      </a>
+    </div>
+    {{- end }}
+  {{- end }}
+</div>
