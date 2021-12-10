@@ -137,14 +137,14 @@ export const aiBarsStaggered: {
   data: string;
 } = {
   name: 'bars_staggered',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M2 2.75c0-.41.34-.75.75-.75h12.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 2.75ZM4 8c0-.41.34-.75.75-.75h12.5a.75.75 0 0 1 0 1.5H4.75A.75.75 0 0 1 4 8Zm12 5.25a.75.75 0 0 0-.75-.75H2.75a.75.75 0 0 0 0 1.5h12.5c.41 0 .75-.34.75-.75Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M21 5a1 1 0 0 1-1 1H4a1 1 0 0 1 0-2h16a1 1 0 0 1 1 1Zm1 7a1 1 0 0 1-1 1H5a1 1 0 1 1 0-2h16a1 1 0 0 1 1 1ZM2 19a1 1 0 0 0 1 1h16a1 1 0 1 0 0-2H3a1 1 0 0 0-1 1Z"/></svg>`
 };
 export const aiBars: {
   name: 'bars';
   data: string;
 } = {
   name: 'bars',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M3 2.75c0-.41.34-.75.75-.75h12.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 2.75ZM3 8c0-.41.34-.75.75-.75h12.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 8Zm.75 4.5a.75.75 0 0 0 0 1.5h12.5a.75.75 0 0 0 0-1.5H3.75Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M21 5a1 1 0 0 1-1 1H4a1 1 0 0 1 0-2h16a1 1 0 0 1 1 1Zm0 7a1 1 0 0 1-1 1H4a1 1 0 1 1 0-2h16a1 1 0 0 1 1 1ZM3 19a1 1 0 0 0 1 1h16a1 1 0 1 0 0-2H4a1 1 0 0 0-1 1Z"/></svg>`
 };
 export const aiBel: {
   name: 'bel';
@@ -571,7 +571,7 @@ export const aiMessagePen: {
   data: string;
 } = {
   name: 'message_pen',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M8 15.5v3.8a.7.7 0 0 0 1.2.5l4.65-4.65a.5.5 0 0 1 .36-.15H18a2 2 0 0 0 2-2V9.54l2-2V13a4 4 0 0 1-4 4h-3.17l-4.2 4.2A2.7 2.7 0 0 1 6 19.3V17a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4h12c.6 0 1.17.13 1.68.37a2 2 0 0 0-1.15.57L17.46 5H6a2 2 0 0 0-2 2v6c0 1.1.9 2 2 2h1.5c.28 0 .5.22.5.5Z"/><path d="m13.46 9 2-2H13a1 1 0 1 0 0 2h.46ZM9 9a1 1 0 0 0 0-2H7a1 1 0 0 0 0 2h2Zm2 4a1 1 0 1 0 0-2H7a1 1 0 1 0 0 2h4Zm10.35-6.23a1 1 0 0 0 0-1.42l-.7-.7a1 1 0 0 0-1.42 0l-5.57 5.56a1 1 0 0 0-.27.54l-.27 1.55a.5.5 0 0 0 .58.58l1.55-.27a1 1 0 0 0 .54-.27l5.56-5.57Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 25" fill="currentColor"><path d="M8 15.5v3.8a.7.7 0 0 0 1.2.5l4.65-4.65a.5.5 0 0 1 .36-.15H18a2 2 0 0 0 2-2V9.54l2-2V13a4 4 0 0 1-4 4h-3.17l-4.2 4.2A2.7 2.7 0 0 1 6 19.3V17a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4h12c.6 0 1.17.13 1.68.37a2 2 0 0 0-1.15.57L17.46 5H6a2 2 0 0 0-2 2v6c0 1.1.9 2 2 2h1.5c.28 0 .5.22.5.5Z"/><path d="m13.46 9 2-2H13a1 1 0 1 0 0 2h.46ZM9 9a1 1 0 0 0 0-2H7a1 1 0 0 0 0 2h2Zm2 4a1 1 0 1 0 0-2H7a1 1 0 1 0 0 2h4Zm10.35-6.23a1 1 0 0 0 0-1.42l-.7-.7a1 1 0 0 0-1.42 0l-5.57 5.56a1 1 0 0 0-.27.54l-.27 1.55a.5.5 0 0 0 .58.58l1.55-.27a1 1 0 0 0 .54-.27l5.56-5.57Z"/></svg>`
 };
 export const aiMessageSmile: {
   name: 'message_smile';
@@ -585,14 +585,14 @@ export const aiMessageText: {
   data: string;
 } = {
   name: 'message_text',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 25" fill="currentColor"><path d="M9 10a1 1 0 0 0 0-2H7a1 1 0 0 0 0 2h2Zm8-1a1 1 0 0 1-1 1h-3a1 1 0 1 1 0-2h3a1 1 0 0 1 1 1Zm-6 5a1 1 0 1 0 0-2H7a1 1 0 1 0 0 2h4Z"/><path fill-rule="evenodd" d="M18 4H6a4 4 0 0 0-4 4v6a4 4 0 0 0 4 4v2.3a2.7 2.7 0 0 0 4.62 1.9l4.2-4.2H18a4 4 0 0 0 4-4V8a4 4 0 0 0-4-4ZM8 16.5a.5.5 0 0 0-.5-.5H6a2 2 0 0 1-2-2V8c0-1.1.9-2 2-2h12a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-3.8a.5.5 0 0 0-.35.15l-4.64 4.64A.7.7 0 0 1 8 20.3v-3.8Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M9 9a1 1 0 0 0 0-2H7a1 1 0 0 0 0 2h2Zm8-1a1 1 0 0 1-1 1h-3a1 1 0 1 1 0-2h3a1 1 0 0 1 1 1Zm-6 5a1 1 0 1 0 0-2H7a1 1 0 1 0 0 2h4Z"/><path fill-rule="evenodd" d="M18 3H6a4 4 0 0 0-4 4v6a4 4 0 0 0 4 4v2.3a2.7 2.7 0 0 0 4.62 1.9l4.2-4.2H18a4 4 0 0 0 4-4V7a4 4 0 0 0-4-4ZM8 15.5a.5.5 0 0 0-.5-.5H6a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2h12a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-3.8a.5.5 0 0 0-.35.15l-4.64 4.64A.7.7 0 0 1 8 19.3v-3.8Z"/></svg>`
 };
 export const aiMessage: {
   name: 'message';
   data: string;
 } = {
   name: 'message',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 25" fill="currentColor"><path fill-rule="evenodd" d="M8 16.5v3.8a.7.7 0 0 0 1.2.5l4.65-4.65a.5.5 0 0 1 .36-.15H18a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v6c0 1.1.9 2 2 2h1.5c.28 0 .5.22.5.5ZM6 4h12a4 4 0 0 1 4 4v6a4 4 0 0 1-4 4h-3.17l-4.2 4.2A2.7 2.7 0 0 1 6 20.3V18a4 4 0 0 1-4-4V8a4 4 0 0 1 4-4Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M8 15.5v3.8a.7.7 0 0 0 1.2.5l4.65-4.65a.5.5 0 0 1 .36-.15H18a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v6c0 1.1.9 2 2 2h1.5c.28 0 .5.22.5.5ZM6 3h12a4 4 0 0 1 4 4v6a4 4 0 0 1-4 4h-3.17l-4.2 4.2A2.7 2.7 0 0 1 6 19.3V17a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4Z"/></svg>`
 };
 export const aiMicrochip: {
   name: 'microchip';
