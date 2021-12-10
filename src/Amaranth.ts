@@ -340,7 +340,7 @@ export const aiDashboard: {
   data: string;
 } = {
   name: 'dashboard',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M8 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm0-2a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/><path d="M17 9a1 1 0 1 0 0-2h-3a1 1 0 1 0 0 2h3Zm1 2a1 1 0 0 1-1 1h-3a1 1 0 1 1 0-2h3a1 1 0 0 1 1 1Zm-2 6a1 1 0 1 0 0-2H6a1 1 0 1 0 0 2h10Z"/><path fill-rule="evenodd" d="M5 4a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H5Zm14 2a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h14Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M8 12a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-3a1 1 0 0 1-1 1h-4a1 1 0 1 1 0-2h4a1 1 0 0 1 1 1Zm-1 7a1 1 0 1 0 0-2H7a1 1 0 1 0 0 2h10Z"/><path fill-rule="evenodd" d="M2 7a3 3 0 0 1 3-3h14a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V7Zm3-1a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H5Z"/></svg>`
 };
 export const aiDesktop: {
   name: 'desktop';
@@ -354,7 +354,7 @@ export const aiDevices: {
   data: string;
 } = {
   name: 'devices',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M5 5a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1 1 1 0 1 0 2 0 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3v6a1 1 0 1 0 2 0V5Zm-3 9h9a1 1 0 1 1 0 2H3c0 1.1.9 2 2 2h6a1 1 0 0 1 1 1c0 .51-.37 1-.88 1H5a4 4 0 0 1-4-4v-1a1 1 0 0 1 1-1Z"/><path fill-rule="evenodd" d="M13 10a3 3 0 0 1 3-3h4a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-4a3 3 0 0 1-3-3v-9Zm3-1a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1h-4Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M6 5a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1 1 1 0 1 0 2 0 3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v6a1 1 0 1 0 2 0V5Zm-4 9a1 1 0 0 1 1-1h7a1 1 0 1 1 0 2H4.27c.34.6.99 1 1.73 1h4a1 1 0 1 1 0 2H6a4 4 0 0 1-4-4Z"/><path fill-rule="evenodd" d="M12 10a3 3 0 0 1 3-3h4a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-4a3 3 0 0 1-3-3v-9Zm2 0v9a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1Z"/></svg>`
 };
 export const aiDisc: {
   name: 'disc';
@@ -550,7 +550,7 @@ export const aiLaptop: {
   data: string;
 } = {
   name: 'laptop',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M6 6a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6a1 1 0 1 0 2 0V6a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v6a1 1 0 1 0 2 0V6Z"/><path fill-rule="evenodd" d="M2 16a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v1a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4v-1Zm2 1c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2H4Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6a1 1 0 1 0 2 0V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v6a1 1 0 1 0 2 0V7Z"/><path fill-rule="evenodd" d="M2 16a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1 4 4 0 0 1-4 4H6a4 4 0 0 1-4-4Zm4 2h12a2 2 0 0 0 1.73-1H4.27c.34.6.99 1 1.73 1Z"/></svg>`
 };
 export const aiLock: {
   name: 'lock';
@@ -571,7 +571,7 @@ export const aiMessagePen: {
   data: string;
 } = {
   name: 'message_pen',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 25" fill="currentColor"><path d="M20 12.75V9.29l1.98-1.98.02.44v5a4 4 0 0 1-4 4h-3.17l-4.2 4.2A2.7 2.7 0 0 1 6 19.06v-2.3a4 4 0 0 1-4-4v-5a4 4 0 0 1 4-4h12c.15 0 .3 0 .44.02l-1.98 1.98H6a2 2 0 0 0-2 2v5c0 1.1.9 2 2 2h1a1 1 0 0 1 1 1v3.3a.7.7 0 0 0 1.2.5l4.5-4.5a1 1 0 0 1 .71-.3H18a2 2 0 0 0 2-2Z"/><path d="M12 7.75h2.46l-1.5 1.5a2 2 0 0 0-.36.5H12a1 1 0 1 1 0-2Zm-3 2a1 1 0 0 0 0-2H7a1 1 0 0 0 0 2h2Zm3 2a1 1 0 0 1-1 1H7a1 1 0 1 1 0-2h4a1 1 0 0 1 1 1Zm9.35-5.23a1 1 0 0 0 0-1.42l-.7-.7a1 1 0 0 0-1.42 0l-5.57 5.56a1 1 0 0 0-.27.54l-.27 1.55a.5.5 0 0 0 .58.58l1.55-.27a1 1 0 0 0 .54-.27l5.56-5.57Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M8 15.5v3.8a.7.7 0 0 0 1.2.5l4.65-4.65a.5.5 0 0 1 .36-.15H18a2 2 0 0 0 2-2V9.54l2-2V13a4 4 0 0 1-4 4h-3.17l-4.2 4.2A2.7 2.7 0 0 1 6 19.3V17a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4h12c.6 0 1.17.13 1.68.37a2 2 0 0 0-1.15.57L17.46 5H6a2 2 0 0 0-2 2v6c0 1.1.9 2 2 2h1.5c.28 0 .5.22.5.5Z"/><path d="m13.46 9 2-2H13a1 1 0 1 0 0 2h.46ZM9 9a1 1 0 0 0 0-2H7a1 1 0 0 0 0 2h2Zm2 4a1 1 0 1 0 0-2H7a1 1 0 1 0 0 2h4Zm10.35-6.23a1 1 0 0 0 0-1.42l-.7-.7a1 1 0 0 0-1.42 0l-5.57 5.56a1 1 0 0 0-.27.54l-.27 1.55a.5.5 0 0 0 .58.58l1.55-.27a1 1 0 0 0 .54-.27l5.56-5.57Z"/></svg>`
 };
 export const aiMessageSmile: {
   name: 'message_smile';
@@ -585,14 +585,14 @@ export const aiMessageText: {
   data: string;
 } = {
   name: 'message_text',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 25" fill="currentColor"><path d="M9 9.75a1 1 0 0 0 0-2H7a1 1 0 0 0 0 2h2Zm7-1a1 1 0 0 1-1 1h-3a1 1 0 1 1 0-2h3a1 1 0 0 1 1 1Zm-5 4a1 1 0 1 0 0-2H7a1 1 0 1 0 0 2h4Z"/><path fill-rule="evenodd" d="M18 3.75H6a4 4 0 0 0-4 4v5a4 4 0 0 0 4 4v2.3a2.7 2.7 0 0 0 4.62 1.9l4.2-4.2H18a4 4 0 0 0 4-4v-5a4 4 0 0 0-4-4Zm-10 12a1 1 0 0 0-1-1H6a2 2 0 0 1-2-2v-5c0-1.1.9-2 2-2h12a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-3.59a1 1 0 0 0-.7.3l-4.5 4.5a.7.7 0 0 1-1.21-.5v-3.3Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 25" fill="currentColor"><path d="M9 10a1 1 0 0 0 0-2H7a1 1 0 0 0 0 2h2Zm8-1a1 1 0 0 1-1 1h-3a1 1 0 1 1 0-2h3a1 1 0 0 1 1 1Zm-6 5a1 1 0 1 0 0-2H7a1 1 0 1 0 0 2h4Z"/><path fill-rule="evenodd" d="M18 4H6a4 4 0 0 0-4 4v6a4 4 0 0 0 4 4v2.3a2.7 2.7 0 0 0 4.62 1.9l4.2-4.2H18a4 4 0 0 0 4-4V8a4 4 0 0 0-4-4ZM8 16.5a.5.5 0 0 0-.5-.5H6a2 2 0 0 1-2-2V8c0-1.1.9-2 2-2h12a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-3.8a.5.5 0 0 0-.35.15l-4.64 4.64A.7.7 0 0 1 8 20.3v-3.8Z"/></svg>`
 };
 export const aiMessage: {
   name: 'message';
   data: string;
 } = {
   name: 'message',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 25" fill="currentColor"><path fill-rule="evenodd" d="M8 15.75v3.3a.7.7 0 0 0 1.2.5l4.5-4.5a1 1 0 0 1 .71-.3H18a2 2 0 0 0 2-2v-5a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v5c0 1.1.9 2 2 2h1a1 1 0 0 1 1 1Zm-2-12h12a4 4 0 0 1 4 4v5a4 4 0 0 1-4 4h-3.17l-4.2 4.2A2.7 2.7 0 0 1 6 19.06v-2.3a4 4 0 0 1-4-4v-5a4 4 0 0 1 4-4Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 25" fill="currentColor"><path fill-rule="evenodd" d="M8 16.5v3.8a.7.7 0 0 0 1.2.5l4.65-4.65a.5.5 0 0 1 .36-.15H18a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v6c0 1.1.9 2 2 2h1.5c.28 0 .5.22.5.5ZM6 4h12a4 4 0 0 1 4 4v6a4 4 0 0 1-4 4h-3.17l-4.2 4.2A2.7 2.7 0 0 1 6 20.3V18a4 4 0 0 1-4-4V8a4 4 0 0 1 4-4Z"/></svg>`
 };
 export const aiMicrochip: {
   name: 'microchip';
