@@ -1,9 +1,9 @@
 @font-face {
     font-family: "Amaranth";
-    src: url("./Amaranth.ttf?f779f71a01abc5413cb2dd0b2ac708a0") format("truetype"),
-url("./Amaranth.woff?f779f71a01abc5413cb2dd0b2ac708a0") format("woff"),
-url("./Amaranth.woff2?f779f71a01abc5413cb2dd0b2ac708a0") format("woff2"),
-url("./Amaranth.eot?f779f71a01abc5413cb2dd0b2ac708a0#iefix") format("embedded-opentype");
+    src: url("./Amaranth.ttf?ea688e0af1f9dd93909769316ba13764") format("truetype"),
+url("./Amaranth.woff?ea688e0af1f9dd93909769316ba13764") format("woff"),
+url("./Amaranth.woff2?ea688e0af1f9dd93909769316ba13764") format("woff2"),
+url("./Amaranth.eot?ea688e0af1f9dd93909769316ba13764#iefix") format("embedded-opentype");
 }
 
 .ai {
@@ -426,12 +426,9 @@ url("./Amaranth.eot?f779f71a01abc5413cb2dd0b2ac708a0#iefix") format("embedded-op
 .ai.ai-volume-2:before {
     content: "\f188";
 }
-.ai.ai-volume-3:before {
+.ai.ai-volume-x-mark:before {
     content: "\f189";
 }
-.ai.ai-volume-none:before {
-    content: "\f18a";
-}
 .ai.ai-window:before {
-    content: "\f18b";
+    content: "\f18a";
 }
