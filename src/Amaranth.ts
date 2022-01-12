@@ -263,7 +263,7 @@ export const aiCheck: {
   data: string;
 } = {
   name: 'check',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M16.5 3.5c.3.3.3.77 0 1.06l-7.8 7.8a1 1 0 0 1-1.4 0l-3.8-3.8A.75.75 0 0 1 4.56 7.5L8 10.94l7.44-7.44c.3-.3.77-.3 1.06 0Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M9.7 15.88 19.6 6A1 1 0 0 1 21 7.41l-9.88 9.88a3 3 0 0 1-4.24 0L3 13.41A1 1 0 0 1 4.41 12l3.88 3.88a1 1 0 0 0 1.42 0Z"/></svg>`
 };
 export const aiChevronDown: {
   name: 'chevron_down';
@@ -690,7 +690,7 @@ export const aiMin: {
   data: string;
 } = {
   name: 'min',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M4.75 8.75a.75.75 0 0 1 0-1.5h10.5a.75.75 0 0 1 0 1.5H4.75Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M4 13a1 1 0 1 1 0-2h16a1 1 0 1 1 0 2H4Z"/></svg>`
 };
 export const aiMobile: {
   name: 'mobile';
@@ -788,7 +788,7 @@ export const aiPlus: {
   data: string;
 } = {
   name: 'plus',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M9.25 8.75v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M11 13v7a1 1 0 1 0 2 0v-7h7a1 1 0 1 0 0-2h-7V4a1 1 0 1 0-2 0v7H4a1 1 0 1 0 0 2h7Z"/></svg>`
 };
 export const aiPower: {
   name: 'power';
@@ -1035,6 +1035,13 @@ export const aiWindow: {
   name: 'window',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M5 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3H5ZM4 18V9h16v9a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1Zm8-12a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm3 1a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm4 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/></svg>`
 };
+export const aiXMark: {
+  name: 'x_mark';
+  data: string;
+} = {
+  name: 'x_mark',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="m12 13.41 4.95 4.95a1 1 0 0 0 1.41-1.41L13.41 12l4.95-4.95a1 1 0 1 0-1.41-1.41L12 10.59 7.05 5.64a1 1 0 0 0-1.41 1.41L10.59 12l-4.95 4.95a1 1 0 0 0 1.41 1.41L12 13.41Z"/></svg>`
+};
 export type Amaranth =
   | 'alarm'
   | 'amaranth'
@@ -1183,7 +1190,8 @@ export type Amaranth =
   | 'volume_1'
   | 'volume_2'
   | 'volume_x_mark'
-  | 'window';
+  | 'window'
+  | 'x_mark';
 export interface IconDefinition {
   name: Amaranth;
   data: string;

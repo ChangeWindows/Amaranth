@@ -1,9 +1,9 @@
 @font-face {
     font-family: "Amaranth";
-    src: url("./Amaranth.ttf?bff2f0503d7a7ce1de1401f90e3e16cc") format("truetype"),
-url("./Amaranth.woff?bff2f0503d7a7ce1de1401f90e3e16cc") format("woff"),
-url("./Amaranth.woff2?bff2f0503d7a7ce1de1401f90e3e16cc") format("woff2"),
-url("./Amaranth.eot?bff2f0503d7a7ce1de1401f90e3e16cc#iefix") format("embedded-opentype");
+    src: url("./Amaranth.ttf?b00a2dc259fe2c84c8864086bd04a0d1") format("truetype"),
+url("./Amaranth.woff?b00a2dc259fe2c84c8864086bd04a0d1") format("woff"),
+url("./Amaranth.woff2?b00a2dc259fe2c84c8864086bd04a0d1") format("woff2"),
+url("./Amaranth.eot?b00a2dc259fe2c84c8864086bd04a0d1#iefix") format("embedded-opentype");
 }
 
 .ai {
@@ -461,4 +461,7 @@ url("./Amaranth.eot?bff2f0503d7a7ce1de1401f90e3e16cc#iefix") format("embedded-op
 }
 .ai.ai-window:before {
     content: "\f194";
+}
+.ai.ai-x-mark:before {
+    content: "\f195";
 }
