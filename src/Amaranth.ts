@@ -298,42 +298,56 @@ export const aiCircleCheck: {
   data: string;
 } = {
   name: 'circle_check',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M12.44 5.5 9 8.94 7.56 7.5A.75.75 0 0 0 6.5 8.56l1.8 1.8a1 1 0 0 0 1.4 0l3.8-3.8a.75.75 0 1 0-1.06-1.06Z"/><path fill-rule="evenodd" d="M18 8A8 8 0 1 1 2 8a8 8 0 0 1 16 0Zm-1.5 0a6.5 6.5 0 1 0-13 0 6.5 6.5 0 0 0 13 0Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.12 14.8 16 10.9a1 1 0 0 0-1.41-1.41l-3.88 3.88a1 1 0 0 1-1.42 0l-.88-.88A1 1 0 1 0 7 13.91l.88.88a3 3 0 0 0 4.24 0Z"/><path fill-rule="evenodd" d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0Zm-2 0a8 8 0 1 0-16 0 8 8 0 0 0 16 0Z"/></svg>`
+};
+export const aiCircleExclamation: {
+  name: 'circle_exclamation';
+  data: string;
+} = {
+  name: 'circle_exclamation',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 6a1 1 0 0 1 1 1v5a1 1 0 1 1-2 0V7a1 1 0 0 1 1-1Zm0 11.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path fill-rule="evenodd" d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20Zm0-2a8 8 0 1 1 0-16 8 8 0 0 1 0 16Z"/></svg>`
 };
 export const aiCircleInfo: {
   name: 'circle_info';
   data: string;
 } = {
   name: 'circle_info',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M11 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM11 8v3h.75a.75.75 0 0 1 0 1.5h-3a.75.75 0 0 1 0-1.5h.75V8.5h-.25a.75.75 0 0 1 0-1.5H10a1 1 0 0 1 1 1Z"/><path fill-rule="evenodd" d="M10 16a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm0-1.5a6.5 6.5 0 1 1 0-13 6.5 6.5 0 0 1 0 13Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M10 11a1 1 0 0 1 1-1h.5c.83 0 1.5.67 1.5 1.5V15h.5a1 1 0 1 1 0 2h-3a1 1 0 1 1 0-2h.5v-3a1 1 0 0 1-1-1Zm2-2a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path fill-rule="evenodd" d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20Zm0-2a8 8 0 1 1 0-16 8 8 0 0 1 0 16Z"/></svg>`
+};
+export const aiCircleMin: {
+  name: 'circle_min';
+  data: string;
+} = {
+  name: 'circle_min',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M7 12a1 1 0 0 0 1 1h8a1 1 0 1 0 0-2H8a1 1 0 0 0-1 1Z"/><path fill-rule="evenodd" d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0Zm-2 0a8 8 0 1 0-16 0 8 8 0 0 0 16 0Z"/></svg>`
 };
 export const aiCirclePlus: {
   name: 'circle_plus';
   data: string;
 } = {
   name: 'circle_plus',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M9.25 11.25v-2.5h-2.5a.75.75 0 0 1 0-1.5h2.5v-2.5a.75.75 0 0 1 1.5 0v2.5h2.5a.75.75 0 0 1 0 1.5h-2.5v2.5a.75.75 0 0 1-1.5 0Z"/><path fill-rule="evenodd" d="M18 8A8 8 0 1 1 2 8a8 8 0 0 1 16 0Zm-1.5 0a6.5 6.5 0 1 0-13 0 6.5 6.5 0 0 0 13 0Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11 16v-3H8a1 1 0 1 1 0-2h3V8a1 1 0 1 1 2 0v3h3a1 1 0 1 1 0 2h-3v3a1 1 0 1 1-2 0Z"/><path fill-rule="evenodd" d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0Zm-2 0a8 8 0 1 0-16 0 8 8 0 0 0 16 0Z"/></svg>`
 };
 export const aiCircleUser: {
   name: 'circle_user';
   data: string;
 } = {
   name: 'circle_user',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M10 9.25a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm0-1.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Z"/><path fill-rule="evenodd" d="M16.04 13.25a8 8 0 1 0-1.09 1.04c.4-.31.76-.66 1.09-1.04Zm-1.1-1.04a7.97 7.97 0 0 0-9.89 0 6.5 6.5 0 1 1 9.9 0Zm-1.1 1.04a6.47 6.47 0 0 1-7.67 0 6.47 6.47 0 0 1 7.66 0Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M16 10a4 4 0 1 1-8 0 4 4 0 0 1 8 0Zm-2 0a2 2 0 1 0-4 0 2 2 0 0 0 4 0Z"/><path fill-rule="evenodd" d="M4.66 18.8a10 10 0 1 1 1.51 1.33c-.55-.4-1.05-.85-1.51-1.34Zm11.83-.17a6.97 6.97 0 0 0-8.98 0 7.96 7.96 0 0 0 8.98 0ZM18 17.29a8 8 0 1 0-12 0 8.97 8.97 0 0 1 12 0Z"/></svg>`
 };
-export const aiCircleWarning: {
-  name: 'circle_warning';
+export const aiCircleXMark: {
+  name: 'circle_x_mark';
   data: string;
 } = {
-  name: 'circle_warning',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M11 12a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm-.25-2.75v-5a.75.75 0 0 0-1.5 0v5a.75.75 0 0 0 1.5 0Z"/><path fill-rule="evenodd" d="M10 16a8 8 0 1 1 0-16 8 8 0 0 1 0 16Zm0-1.5a6.5 6.5 0 1 0 0-13 6.5 6.5 0 0 0 0 13Z"/></svg>`
+  name: 'circle_x_mark',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M14.12 15.54 12 13.4l-2.12 2.13a1 1 0 1 1-1.42-1.42L10.6 12 8.46 9.88a1 1 0 1 1 1.42-1.42L12 10.6l2.12-2.13a1 1 0 0 1 1.42 1.42L13.4 12l2.13 2.12a1 1 0 0 1-1.42 1.42Z"/><path fill-rule="evenodd" d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0Zm-2 0a8 8 0 1 0-16 0 8 8 0 0 0 16 0Z"/></svg>`
 };
-export const aiCircleX: {
-  name: 'circle_x';
+export const aiCircle: {
+  name: 'circle';
   data: string;
 } = {
-  name: 'circle_x',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M11.77 10.83 10 9.06l-1.77 1.77a.75.75 0 1 1-1.06-1.06L8.94 8 7.17 6.23a.75.75 0 0 1 1.06-1.06L10 6.94l1.77-1.77a.75.75 0 1 1 1.06 1.06L11.06 8l1.77 1.77a.75.75 0 1 1-1.06 1.06Z"/><path fill-rule="evenodd" d="M18 8A8 8 0 1 1 2 8a8 8 0 0 1 16 0Zm-1.5 0a6.5 6.5 0 1 0-13 0 6.5 6.5 0 0 0 13 0Z"/></svg>`
+  name: 'circle',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M12 20a8 8 0 1 1 0-16 8 8 0 0 1 0 16Zm0 2a10 10 0 1 0 0-20 10 10 0 0 0 0 20Z"/></svg>`
 };
 export const aiCity: {
   name: 'city';
@@ -1086,11 +1100,13 @@ export type Amaranth =
   | 'chevron_right'
   | 'chevron_up'
   | 'circle_check'
+  | 'circle_exclamation'
   | 'circle_info'
+  | 'circle_min'
   | 'circle_plus'
   | 'circle_user'
-  | 'circle_warning'
-  | 'circle_x'
+  | 'circle_x_mark'
+  | 'circle'
   | 'city'
   | 'clock'
   | 'cloud'
