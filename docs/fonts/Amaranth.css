@@ -1,9 +1,9 @@
 @font-face {
     font-family: "Amaranth";
-    src: url("./Amaranth.ttf?3db0ad7df38ad53632a738b0f4419978") format("truetype"),
-url("./Amaranth.woff?3db0ad7df38ad53632a738b0f4419978") format("woff"),
-url("./Amaranth.woff2?3db0ad7df38ad53632a738b0f4419978") format("woff2"),
-url("./Amaranth.eot?3db0ad7df38ad53632a738b0f4419978#iefix") format("embedded-opentype");
+    src: url("./Amaranth.ttf?6a05ffb7231fb29ff4a85bf8db2fea4e") format("truetype"),
+url("./Amaranth.woff?6a05ffb7231fb29ff4a85bf8db2fea4e") format("woff"),
+url("./Amaranth.woff2?6a05ffb7231fb29ff4a85bf8db2fea4e") format("woff2"),
+url("./Amaranth.eot?6a05ffb7231fb29ff4a85bf8db2fea4e#iefix") format("embedded-opentype");
 }
 
 .ai {
