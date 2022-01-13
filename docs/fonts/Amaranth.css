@@ -1,9 +1,9 @@
 @font-face {
     font-family: "Amaranth";
-    src: url("./Amaranth.ttf?c49ed3d45f7f4a085c7e5cba91f34b53") format("truetype"),
-url("./Amaranth.woff?c49ed3d45f7f4a085c7e5cba91f34b53") format("woff"),
-url("./Amaranth.woff2?c49ed3d45f7f4a085c7e5cba91f34b53") format("woff2"),
-url("./Amaranth.eot?c49ed3d45f7f4a085c7e5cba91f34b53#iefix") format("embedded-opentype");
+    src: url("./Amaranth.ttf?cd720065b67115c9f28fac4d37b50a70") format("truetype"),
+url("./Amaranth.woff?cd720065b67115c9f28fac4d37b50a70") format("woff"),
+url("./Amaranth.woff2?cd720065b67115c9f28fac4d37b50a70") format("woff2"),
+url("./Amaranth.eot?cd720065b67115c9f28fac4d37b50a70#iefix") format("embedded-opentype");
 }
 
 .ai {
@@ -384,90 +384,105 @@ url("./Amaranth.eot?c49ed3d45f7f4a085c7e5cba91f34b53#iefix") format("embedded-op
 .ai.ai-server:before {
     content: "\f17a";
 }
-.ai.ai-shield-key:before {
+.ai.ai-shield-check:before {
     content: "\f17b";
 }
-.ai.ai-shield-plus:before {
+.ai.ai-shield-exclamation:before {
     content: "\f17c";
 }
-.ai.ai-shield-x:before {
+.ai.ai-shield-info:before {
     content: "\f17d";
 }
-.ai.ai-shield:before {
+.ai.ai-shield-key:before {
     content: "\f17e";
 }
-.ai.ai-shuffle:before {
+.ai.ai-shield-min:before {
     content: "\f17f";
 }
-.ai.ai-sim-card:before {
+.ai.ai-shield-plus:before {
     content: "\f180";
 }
-.ai.ai-software-box:before {
+.ai.ai-shield-user:before {
     content: "\f181";
 }
-.ai.ai-spinner-third:before {
+.ai.ai-shield-x-mark:before {
     content: "\f182";
 }
-.ai.ai-stop:before {
+.ai.ai-shield:before {
     content: "\f183";
 }
-.ai.ai-stopwatch:before {
+.ai.ai-shuffle:before {
     content: "\f184";
 }
-.ai.ai-store:before {
+.ai.ai-sim-card:before {
     content: "\f185";
 }
-.ai.ai-swatchbook:before {
+.ai.ai-software-box:before {
     content: "\f186";
 }
-.ai.ai-television:before {
+.ai.ai-spinner-third:before {
     content: "\f187";
 }
-.ai.ai-trash-can:before {
+.ai.ai-stop:before {
     content: "\f188";
 }
-.ai.ai-twitter:before {
+.ai.ai-stopwatch:before {
     content: "\f189";
 }
-.ai.ai-unlock:before {
+.ai.ai-store:before {
     content: "\f18a";
 }
-.ai.ai-user-list:before {
+.ai.ai-swatchbook:before {
     content: "\f18b";
 }
-.ai.ai-user-lock:before {
+.ai.ai-television:before {
     content: "\f18c";
 }
-.ai.ai-user-plus:before {
+.ai.ai-trash-can:before {
     content: "\f18d";
 }
-.ai.ai-user:before {
+.ai.ai-twitter:before {
     content: "\f18e";
 }
-.ai.ai-users-list:before {
+.ai.ai-unlock:before {
     content: "\f18f";
 }
-.ai.ai-users:before {
+.ai.ai-user-list:before {
     content: "\f190";
 }
-.ai.ai-virtual-reality:before {
+.ai.ai-user-lock:before {
     content: "\f191";
 }
-.ai.ai-volume-0:before {
+.ai.ai-user-plus:before {
     content: "\f192";
 }
-.ai.ai-volume-1:before {
+.ai.ai-user:before {
     content: "\f193";
 }
-.ai.ai-volume-2:before {
+.ai.ai-users-list:before {
     content: "\f194";
 }
-.ai.ai-volume-x-mark:before {
+.ai.ai-users:before {
     content: "\f195";
 }
-.ai.ai-window:before {
+.ai.ai-virtual-reality:before {
     content: "\f196";
 }
-.ai.ai-x-mark:before {
+.ai.ai-volume-0:before {
     content: "\f197";
+}
+.ai.ai-volume-1:before {
+    content: "\f198";
+}
+.ai.ai-volume-2:before {
+    content: "\f199";
+}
+.ai.ai-volume-x-mark:before {
+    content: "\f19a";
+}
+.ai.ai-window:before {
+    content: "\f19b";
+}
+.ai.ai-x-mark:before {
+    content: "\f19c";
 }
