@@ -1,5 +1,4 @@
 {
-  "conversionType": "constants",
   "srcFiles": ["./icons/**/*.svg"],
   "outputDirectory": "./src",
   "interfaceName": "IconDefinition",
@@ -7,5 +6,6 @@
   "prefix": "ai",
   "fileName": "Amaranth",
   "additionalModelFile": "./src",
-  "compileSources": true
+  "compileSources": true,
+  "completeIconSetName": "amaranthSet"
 }
