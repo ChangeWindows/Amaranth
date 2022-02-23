@@ -16,7 +16,7 @@
     "fonts:docs": "copyfiles -a \"dist/fonts/*.*\" \"docs/fonts\" -f",
     "icons": "npm run icons:clean && npm run icons:ts",
     "icons:clean": "svgo -f ./icons -o ./icons",
-    "icons:ts": "svg-to-ts",
+    "icons:ts": "svg-to-ts-constants",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "npm run prod",
     "prod": "npm run clean && npm run icons && npm run fonts && npm run build && npm run scss",
@@ -49,7 +49,7 @@
     "clsx": ">=1.x"
   },
   "devDependencies": {
-    "@types/react": "17.0.38",
+    "@types/react": "17.0.39",
     "autoprefixer": "10.4.2",
     "bundle-scss": "1.5.1",
     "clsx": "1.1.1",
@@ -58,15 +58,15 @@
     "node-sass": "7.0.1",
     "nodemon": "2.0.15",
     "npm-run-all": "4.1.5",
-    "postcss": "8.4.5",
+    "postcss": "8.4.6",
     "postcss-cli": "9.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "rimraf": "3.0.2",
-    "sass": "1.48.0",
-    "svg-to-ts": "7.1.0",
+    "sass": "1.49.8",
+    "svg-to-ts": "8.3.1",
     "svgo": "2.8.0",
-    "typescript": "4.5.4"
+    "typescript": "4.5.5"
   },
   "browserslist": {
     "production": [
