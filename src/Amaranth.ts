@@ -398,6 +398,13 @@ export const aiCode: {
   name: 'code',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M8 15a.75.75 0 0 1-.52-.93l3.6-12.55c.1-.4.52-.63.92-.52.4.11.63.53.52.93l-3.6 12.55A.75.75 0 0 1 8 15Zm9.44-7L13.5 4.06A.75.75 0 0 1 14.56 3l4.3 4.3a1 1 0 0 1 0 1.4l-4.3 4.3c-.3.3-.77.3-1.06 0a.75.75 0 0 1 0-1.06L17.44 8ZM6.5 3c.3.3.3.77 0 1.06L2.56 8l3.94 3.94c.3.3.3.77 0 1.06-.3.3-.77.3-1.06 0l-4.3-4.3a1 1 0 0 1 0-1.4L5.45 3c.3-.3.77-.3 1.06 0Z"/></svg>`
 };
+export const aiCompass: {
+  name: 'compass';
+  data: string;
+} = {
+  name: 'compass',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="m6.43 5.1 1.86 3.72c.2.38.5.7.9.9l3.71 1.85a.5.5 0 0 0 .67-.67l-1.86-3.72a2 2 0 0 0-.9-.9L7.1 4.44a.5.5 0 0 0-.67.67ZM11 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"/><path fill-rule="evenodd" d="M18 8A8 8 0 1 1 2 8a8 8 0 0 1 16 0Zm-1.5 0a6.5 6.5 0 1 0-13 0 6.5 6.5 0 0 0 13 0Z"/></svg>`
+};
 export const aiCompress: {
   name: 'compress';
   data: string;
@@ -482,6 +489,13 @@ export const aiEye: {
   name: 'eye',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M11 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"/><path fill-rule="evenodd" d="M10 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm0-1.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Z"/><path fill-rule="evenodd" d="M10 1a10 10 0 0 1 9.44 6.7c.07.2.07.4 0 .6a10 10 0 0 1-18.88 0 .9.9 0 0 1 0-.6A10 10 0 0 1 10 1Zm0 12.5a8.5 8.5 0 0 0 7.81-5.15c.1-.22.1-.48 0-.7a8.5 8.5 0 0 0-15.62 0c-.1.22-.1.48 0 .7A8.5 8.5 0 0 0 10 13.5Z"/></svg>`
 };
+export const aiFacebook: {
+  name: 'facebook';
+  data: string;
+} = {
+  name: 'facebook',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M17.5 8a7.5 7.5 0 1 0-8.67 7.4v-5.23h-1.9V8h1.9V6.35c0-1.88 1.12-2.92 2.83-2.92.82 0 1.68.15 1.68.15v1.84h-.94c-.94 0-1.23.58-1.23 1.17V8h2.08l-.33 2.17h-1.75v5.24A7.5 7.5 0 0 0 17.5 8Z"/></svg>`
+};
 export const aiFastBackward: {
   name: 'fast_backward';
   data: string;
@@ -523,6 +537,13 @@ export const aiFloppyDisc: {
 } = {
   name: 'floppy_disc',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M3.5 2v12c0 .28.22.5.5.5h1v-5a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v5h1a.5.5 0 0 0 .5-.5V5.83a.5.5 0 0 0-.15-.36l1.06-1.06A2 2 0 0 1 18 5.83V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2c0-1.1.9-2 2-2h8.17a2 2 0 0 1 1.42.59L17.4 4.4l-1.06 1.06-3.82-3.82a.5.5 0 0 0-.36-.15H12v3a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-3H4a.5.5 0 0 0-.5.5Zm10 12.5v-4a.5.5 0 0 0-.5-.5H7a.5.5 0 0 0-.5.5v4h7Zm-7-13v2c0 .28.22.5.5.5h3a.5.5 0 0 0 .5-.5v-2h-4Z"/></svg>`
+};
+export const aiFloppyDisk: {
+  name: 'floppy_disk';
+  data: string;
+} = {
+  name: 'floppy_disk',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M3 3v10c0 1.1.9 2 2 2h10a2 2 0 0 0 2-2V5.83a2 2 0 0 0-.59-1.42L13.6 1.6a2 2 0 0 0-1.43-.6H5a2 2 0 0 0-2 2Zm1.5 0c0-.28.22-.5.5-.5h1V5a1 1 0 0 0 1 1h4.5a1 1 0 0 0 1-1V2.62l.03.03 2.82 2.82c.1.1.15.23.15.36V13a.5.5 0 0 1-.5.5h-1V10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v3.5H5a.5.5 0 0 1-.5-.5V3Zm8 10.5h-5V11c0-.28.22-.5.5-.5h4c.28 0 .5.22.5.5v2.5Zm-5-11H11V4a.5.5 0 0 1-.5.5H8a.5.5 0 0 1-.5-.5V2.5Z"/></svg>`
 };
 export const aiFoldable: {
   name: 'foldable';
@@ -1142,6 +1163,7 @@ export type Amaranth =
   | 'clock'
   | 'cmd'
   | 'code'
+  | 'compass'
   | 'compress'
   | 'dashboard'
   | 'devices'
@@ -1154,12 +1176,14 @@ export type Amaranth =
   | 'expand'
   | 'eye_slash'
   | 'eye'
+  | 'facebook'
   | 'fast_backward'
   | 'fast_forward'
   | 'file'
   | 'files'
   | 'flag'
   | 'floppy_disc'
+  | 'floppy_disk'
   | 'foldable'
   | 'folder_image'
   | 'folder'
@@ -1305,6 +1329,7 @@ export const completeIconSet = [
   aiClock,
   aiCmd,
   aiCode,
+  aiCompass,
   aiCompress,
   aiDashboard,
   aiDevices,
@@ -1317,12 +1342,14 @@ export const completeIconSet = [
   aiExpand,
   aiEyeSlash,
   aiEye,
+  aiFacebook,
   aiFastBackward,
   aiFastForward,
   aiFile,
   aiFiles,
   aiFlag,
   aiFloppyDisc,
+  aiFloppyDisk,
   aiFoldable,
   aiFolderImage,
   aiFolder,
