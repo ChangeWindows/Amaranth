@@ -1,9 +1,9 @@
 @font-face {
     font-family: "Amaranth";
-    src: url("./Amaranth.ttf?14d9582cdb13f76aadd7079a8eb96f7f") format("truetype"),
-url("./Amaranth.woff?14d9582cdb13f76aadd7079a8eb96f7f") format("woff"),
-url("./Amaranth.woff2?14d9582cdb13f76aadd7079a8eb96f7f") format("woff2"),
-url("./Amaranth.eot?14d9582cdb13f76aadd7079a8eb96f7f#iefix") format("embedded-opentype");
+    src: url("./Amaranth.ttf?f728e1ea3ae17126d9ed97939ece8e66") format("truetype"),
+url("./Amaranth.woff?f728e1ea3ae17126d9ed97939ece8e66") format("woff"),
+url("./Amaranth.woff2?f728e1ea3ae17126d9ed97939ece8e66") format("woff2"),
+url("./Amaranth.eot?f728e1ea3ae17126d9ed97939ece8e66#iefix") format("embedded-opentype");
 }
 
 .ai {
@@ -453,60 +453,63 @@ url("./Amaranth.eot?14d9582cdb13f76aadd7079a8eb96f7f#iefix") format("embedded-op
 .ai.ai-trash-can:before {
     content: "\f191";
 }
-.ai.ai-trekking-backpack:before {
+.ai.ai-tree:before {
     content: "\f192";
 }
-.ai.ai-twitter:before {
+.ai.ai-trekking-backpack:before {
     content: "\f193";
 }
-.ai.ai-universal-access:before {
+.ai.ai-twitter:before {
     content: "\f194";
 }
-.ai.ai-unlock:before {
+.ai.ai-universal-access:before {
     content: "\f195";
 }
-.ai.ai-user-gear:before {
+.ai.ai-unlock:before {
     content: "\f196";
 }
-.ai.ai-user-list:before {
+.ai.ai-user-gear:before {
     content: "\f197";
 }
-.ai.ai-user-lock:before {
+.ai.ai-user-list:before {
     content: "\f198";
 }
-.ai.ai-user-plus:before {
+.ai.ai-user-lock:before {
     content: "\f199";
 }
-.ai.ai-user:before {
+.ai.ai-user-plus:before {
     content: "\f19a";
 }
-.ai.ai-users-list:before {
+.ai.ai-user:before {
     content: "\f19b";
 }
-.ai.ai-users:before {
+.ai.ai-users-list:before {
     content: "\f19c";
 }
-.ai.ai-virtual-reality:before {
+.ai.ai-users:before {
     content: "\f19d";
 }
-.ai.ai-volume-0:before {
+.ai.ai-virtual-reality:before {
     content: "\f19e";
 }
-.ai.ai-volume-1:before {
+.ai.ai-volume-0:before {
     content: "\f19f";
 }
-.ai.ai-volume-2:before {
+.ai.ai-volume-1:before {
     content: "\f1a0";
 }
-.ai.ai-volume-3:before {
+.ai.ai-volume-2:before {
     content: "\f1a1";
 }
-.ai.ai-volume-none:before {
+.ai.ai-volume-3:before {
     content: "\f1a2";
 }
-.ai.ai-window:before {
+.ai.ai-volume-none:before {
     content: "\f1a3";
 }
-.ai.ai-xmark:before {
+.ai.ai-window:before {
     content: "\f1a4";
+}
+.ai.ai-xmark:before {
+    content: "\f1a5";
 }

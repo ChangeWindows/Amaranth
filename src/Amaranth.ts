@@ -1014,6 +1014,13 @@ export const aiTrashCan: {
   name: 'trash_can',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M7.5 12.5v-6c0-.28.22-.5.5-.5h.5c.28 0 .5.22.5.5v6a.5.5 0 0 1-.5.5H8a.5.5 0 0 1-.5-.5Zm3.5-6v6c0 .28.22.5.5.5h.5a.5.5 0 0 0 .5-.5v-6A.5.5 0 0 0 12 6h-.5a.5.5 0 0 0-.5.5Z"/><path fill-rule="evenodd" d="m6.5 3 .22-1.33A2 2 0 0 1 8.7 0h2.62a2 2 0 0 1 1.97 1.67L13.5 3h2.75a.75.75 0 0 1 0 1.5H16l-.84 9.67a2 2 0 0 1-2 1.83H6.84a2 2 0 0 1-1.99-1.83L4 4.5h-.25a.75.75 0 0 1 0-1.5H6.5ZM8 3h4l-.39-1.16a.5.5 0 0 0-.47-.34H8.86a.5.5 0 0 0-.47.34L8 3Zm5.66 11.04.83-9.54H5.51l.83 9.54a.5.5 0 0 0 .5.46h6.33a.5.5 0 0 0 .5-.46Z"/></svg>`
 };
+export const aiTree: {
+  name: 'tree';
+  data: string;
+} = {
+  name: 'tree',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M9.25 12H5a3 3 0 0 1-1.62-5.53 3 3 0 0 1 2.99-4.45A4.07 4.07 0 0 1 10 0c1.85 0 3.4 1.1 3.86 2.58a2.5 2.5 0 0 1 2.69 3.85A3 3 0 0 1 15 12h-4.25v3.25a.75.75 0 0 1-1.5 0V12ZM4.19 7.73A1.5 1.5 0 0 0 5 10.5h4.25V9.31L7.47 7.53a.75.75 0 0 1 1.06-1.06l.72.72V6a.75.75 0 0 1 1.5 0v2.19l.72-.72a.75.75 0 1 1 1.06 1.06l-1.78 1.78v.19H15a1.5 1.5 0 0 0 .77-2.79L14.4 6.9l.92-1.32a1 1 0 0 0-1.08-1.54l-1.39.37-.42-1.37C12.19 2.26 11.29 1.5 10 1.5c-1.1 0-1.95.57-2.3 1.23l-.49.9-1.02-.12L6 3.5a1.5 1.5 0 0 0-1.3 2.23l.69 1.24-1.2.76Z"/></svg>`
+};
 export const aiTrekkingBackpack: {
   name: 'trekking_backpack';
   data: string;
@@ -1293,6 +1300,7 @@ export type Amaranth =
   | 'table'
   | 'tag'
   | 'trash_can'
+  | 'tree'
   | 'trekking_backpack'
   | 'twitter'
   | 'universal_access'
@@ -1465,6 +1473,7 @@ export const completeIconSet = [
   aiTable,
   aiTag,
   aiTrashCan,
+  aiTree,
   aiTrekkingBackpack,
   aiTwitter,
   aiUniversalAccess,
