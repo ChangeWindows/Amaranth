@@ -18,28 +18,28 @@ export const aiAngleDown: {
   data: string;
 } = {
   name: 'angle_down',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M6 6.81a.75.75 0 0 1 1.06-1.06l2.76 2.76c.1.1.26.1.36 0l2.76-2.76A.75.75 0 0 1 14 6.81l-3.3 3.3a1 1 0 0 1-1.4 0L6 6.8Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M6 6.81a.75.75 0 0 1 1.06-1.06l2.76 2.76c.1.1.26.1.36 0l2.76-2.76c.3-.3.77-.3 1.06 0 .3.3.3.77 0 1.06l-3.3 3.3a1 1 0 0 1-1.4 0L6 6.8Z"/></svg>`
 };
 export const aiAngleLeft: {
   name: 'angle_left';
   data: string;
 } = {
   name: 'angle_left',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M11.22 4.03a.75.75 0 1 1 1.06 1.06L9.52 7.85c-.1.1-.1.26 0 .36l2.76 2.76a.75.75 0 1 1-1.06 1.06l-3.3-3.3a1 1 0 0 1 0-1.4l3.3-3.3Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M11.22 4.03c.3-.3.77-.3 1.06 0 .3.3.3.77 0 1.06L9.52 7.85c-.1.1-.1.26 0 .36l2.76 2.76c.3.3.3.77 0 1.06-.3.3-.77.3-1.06 0l-3.3-3.3a1 1 0 0 1 0-1.4l3.3-3.3Z"/></svg>`
 };
 export const aiAngleRight: {
   name: 'angle_right';
   data: string;
 } = {
   name: 'angle_right',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M8.78 12.03a.75.75 0 0 1-1.06-1.06l2.76-2.76c.1-.1.1-.26 0-.36L7.72 5.1a.75.75 0 1 1 1.06-1.06l3.3 3.3a1 1 0 0 1 0 1.4l-3.3 3.3Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M8.78 12.03c-.3.3-.77.3-1.06 0a.75.75 0 0 1 0-1.06l2.76-2.76c.1-.1.1-.26 0-.36L7.72 5.1a.75.75 0 0 1 1.06-1.06l3.3 3.3a1 1 0 0 1 0 1.4l-3.3 3.3Z"/></svg>`
 };
 export const aiAngleUp: {
   name: 'angle_up';
   data: string;
 } = {
   name: 'angle_up',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M14 9.25a.75.75 0 0 1-1.06 1.06l-2.76-2.76a.25.25 0 0 0-.36 0L7.06 10.3A.75.75 0 1 1 6 9.25l3.3-3.3a1 1 0 0 1 1.4 0l3.3 3.3Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M14 9.25c.3.3.3.77 0 1.06-.3.3-.77.3-1.06 0l-2.76-2.76a.25.25 0 0 0-.36 0L7.06 10.3c-.3.3-.77.3-1.06 0a.75.75 0 0 1 0-1.06l3.3-3.3a1 1 0 0 1 1.4 0l3.3 3.3Z"/></svg>`
 };
 export const aiArrowDownToLine: {
   name: 'arrow_down_to_line';
@@ -53,21 +53,21 @@ export const aiArrowDown: {
   data: string;
 } = {
   name: 'arrow_down',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M9.25 12.19V1.75a.75.75 0 0 1 1.5 0v10.44l3.69-3.69a.75.75 0 0 1 1.06 1.06l-4.8 4.8a1 1 0 0 1-1.4 0l-4.8-4.8A.75.75 0 0 1 5.56 8.5l3.69 3.69Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M9.25 12.19V1.75a.75.75 0 0 1 1.5 0v10.44l3.69-3.69c.3-.3.77-.3 1.06 0 .3.3.3.77 0 1.06l-4.8 4.8a1 1 0 0 1-1.4 0l-4.8-4.8A.75.75 0 0 1 5.56 8.5l3.69 3.69Z"/></svg>`
 };
 export const aiArrowLeftFromBracket: {
   name: 'arrow_left_from_bracket';
   data: string;
 } = {
   name: 'arrow_left_from_bracket',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M12 14.25c0 .41.34.75.75.75H15a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3h-2.25a.75.75 0 0 0 0 1.5H15c.83 0 1.5.67 1.5 1.5v8c0 .83-.67 1.5-1.5 1.5h-2.25a.75.75 0 0 0-.75.75Z"/><path fill-rule="evenodd" d="M7.2 12.5c-.3.3-.77.3-1.06 0l-3.8-3.8a1 1 0 0 1 0-1.4l3.8-3.8A.75.75 0 0 1 7.2 4.56L4.51 7.25h7.44a.75.75 0 0 1 0 1.5H4.51l2.69 2.69c.3.3.3.77 0 1.06Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M12 14.25c0 .41.34.75.75.75H15a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3h-2.25a.75.75 0 0 0 0 1.5H15c.83 0 1.5.67 1.5 1.5v8c0 .83-.67 1.5-1.5 1.5h-2.25a.75.75 0 0 0-.75.75Z"/><path fill-rule="evenodd" d="M7.2 12.5c-.3.3-.77.3-1.06 0l-3.8-3.8a1 1 0 0 1 0-1.4l3.8-3.8c.3-.3.77-.3 1.06 0 .3.3.3.77 0 1.06L4.51 7.25h7.44a.75.75 0 0 1 0 1.5H4.51l2.69 2.69c.3.3.3.77 0 1.06Z"/></svg>`
 };
 export const aiArrowLeftToBracket: {
   name: 'arrow_left_to_bracket';
   data: string;
 } = {
   name: 'arrow_left_to_bracket',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M8 1.75A.75.75 0 0 0 7.25 1H5a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h2.25a.75.75 0 0 0 0-1.5H5A1.5 1.5 0 0 1 3.5 12V4c0-.83.67-1.5 1.5-1.5h2.25c.41 0 .75-.34.75-.75Z"/><path fill-rule="evenodd" d="M12.5 12.5c-.3.3-.77.3-1.06 0l-3.8-3.8a1 1 0 0 1 0-1.4l3.8-3.8a.75.75 0 0 1 1.06 1.06L9.81 7.25h7.44a.75.75 0 0 1 0 1.5H9.81l2.69 2.69c.3.3.3.77 0 1.06Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M8 1.75A.75.75 0 0 0 7.25 1H5a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h2.25a.75.75 0 0 0 0-1.5H5A1.5 1.5 0 0 1 3.5 12V4c0-.83.67-1.5 1.5-1.5h2.25c.41 0 .75-.34.75-.75Z"/><path fill-rule="evenodd" d="M12.5 12.5c-.3.3-.77.3-1.06 0l-3.8-3.8a1 1 0 0 1 0-1.4l3.8-3.8c.3-.3.77-.3 1.06 0 .3.3.3.77 0 1.06L9.81 7.25h7.44a.75.75 0 0 1 0 1.5H9.81l2.69 2.69c.3.3.3.77 0 1.06Z"/></svg>`
 };
 export const aiArrowLeftToLine: {
   name: 'arrow_left_to_line';
@@ -81,7 +81,7 @@ export const aiArrowLeft: {
   data: string;
 } = {
   name: 'arrow_left',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M5.84 7.28h10.44a.75.75 0 0 1 0 1.5H5.84l3.69 3.69a.75.75 0 1 1-1.06 1.06l-4.8-4.8a1 1 0 0 1 0-1.4l4.8-4.8a.75.75 0 1 1 1.06 1.06L5.84 7.28Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M5.84 7.28h10.44a.75.75 0 0 1 0 1.5H5.84l3.69 3.69c.3.3.3.77 0 1.06-.3.3-.77.3-1.06 0l-4.8-4.8a1 1 0 0 1 0-1.4l4.8-4.8c.3-.3.77-.3 1.06 0 .3.3.3.77 0 1.06L5.84 7.28Z"/></svg>`
 };
 export const aiArrowPointer: {
   name: 'arrow_pointer';
@@ -95,14 +95,14 @@ export const aiArrowRightFromBracket: {
   data: string;
 } = {
   name: 'arrow_right_from_bracket',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M8 1.75A.75.75 0 0 0 7.25 1H5a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h2.25a.75.75 0 0 0 0-1.5H5A1.5 1.5 0 0 1 3.5 12V4c0-.83.67-1.5 1.5-1.5h2.25c.41 0 .75-.34.75-.75Z"/><path fill-rule="evenodd" d="M12.8 3.5c.3-.3.77-.3 1.06 0l3.8 3.8a1 1 0 0 1 0 1.4l-3.8 3.8a.75.75 0 0 1-1.06-1.06l2.69-2.69H8.05a.75.75 0 0 1 0-1.5h7.44L12.8 4.56a.75.75 0 0 1 0-1.06Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M8 1.75A.75.75 0 0 0 7.25 1H5a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h2.25a.75.75 0 0 0 0-1.5H5A1.5 1.5 0 0 1 3.5 12V4c0-.83.67-1.5 1.5-1.5h2.25c.41 0 .75-.34.75-.75Z"/><path fill-rule="evenodd" d="M12.8 3.5c.3-.3.77-.3 1.06 0l3.8 3.8a1 1 0 0 1 0 1.4l-3.8 3.8c-.3.3-.77.3-1.06 0a.75.75 0 0 1 0-1.06l2.69-2.69H8.05a.75.75 0 1 1 0-1.5h7.44L12.8 4.56a.75.75 0 0 1 0-1.06Z"/></svg>`
 };
 export const aiArrowRightToBracket: {
   name: 'arrow_right_to_bracket';
   data: string;
 } = {
   name: 'arrow_right_to_bracket',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M12 14.25c0 .41.34.75.75.75H15a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3h-2.25a.75.75 0 0 0 0 1.5H15c.83 0 1.5.67 1.5 1.5v8c0 .83-.67 1.5-1.5 1.5h-2.25a.75.75 0 0 0-.75.75Z"/><path fill-rule="evenodd" d="M7.5 3.5c.3-.3.77-.3 1.06 0l3.8 3.8a1 1 0 0 1 0 1.4l-3.8 3.8a.75.75 0 1 1-1.06-1.06l2.69-2.69H2.75a.75.75 0 0 1 0-1.5h7.44L7.5 4.56a.75.75 0 0 1 0-1.06Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M12 14.25c0 .41.34.75.75.75H15a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3h-2.25a.75.75 0 0 0 0 1.5H15c.83 0 1.5.67 1.5 1.5v8c0 .83-.67 1.5-1.5 1.5h-2.25a.75.75 0 0 0-.75.75Z"/><path fill-rule="evenodd" d="M7.5 3.5c.3-.3.77-.3 1.06 0l3.8 3.8a1 1 0 0 1 0 1.4l-3.8 3.8c-.3.3-.77.3-1.06 0a.75.75 0 0 1 0-1.06l2.69-2.69H2.75a.75.75 0 1 1 0-1.5h7.44L7.5 4.56a.75.75 0 0 1 0-1.06Z"/></svg>`
 };
 export const aiArrowRightToLine: {
   name: 'arrow_right_to_line';
@@ -116,7 +116,7 @@ export const aiArrowRight: {
   data: string;
 } = {
   name: 'arrow_right',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M14.16 8.78H3.72a.75.75 0 0 1 0-1.5h10.44l-3.69-3.69a.75.75 0 0 1 1.06-1.06l4.8 4.8a1 1 0 0 1 0 1.4l-4.8 4.8a.75.75 0 1 1-1.06-1.06l3.69-3.69Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M14.16 8.78H3.72a.75.75 0 0 1 0-1.5h10.44l-3.69-3.69a.75.75 0 1 1 1.06-1.06l4.8 4.8a1 1 0 0 1 0 1.4l-4.8 4.8c-.3.3-.77.3-1.06 0a.75.75 0 0 1 0-1.06l3.69-3.69Z"/></svg>`
 };
 export const aiArrowRotateRight: {
   name: 'arrow_rotate_right';
@@ -137,7 +137,7 @@ export const aiArrowUp: {
   data: string;
 } = {
   name: 'arrow_up',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M10.75 3.87v10.44a.75.75 0 0 1-1.5 0V3.87l-3.69 3.7A.75.75 0 0 1 4.5 6.5l4.8-4.8a1 1 0 0 1 1.4 0l4.8 4.8a.75.75 0 1 1-1.06 1.06l-3.69-3.69Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M10.75 3.87v10.44a.75.75 0 0 1-1.5 0V3.87l-3.69 3.7a.77.77 0 0 1-1.06 0 .75.75 0 0 1 0-1.07l4.8-4.8a1 1 0 0 1 1.4 0l4.8 4.8c.3.3.3.77 0 1.06-.3.3-.77.3-1.06 0l-3.69-3.69Z"/></svg>`
 };
 export const aiArrowsRotateRight: {
   name: 'arrows_rotate_right';
@@ -291,28 +291,28 @@ export const aiChevronDown: {
   data: string;
 } = {
   name: 'chevron_down',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M4.5 6.06A.75.75 0 0 1 5.56 5l4.26 4.26c.1.1.26.1.36 0L14.44 5a.75.75 0 0 1 1.06 1.06l-4.8 4.8a1 1 0 0 1-1.4 0l-4.8-4.8Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M4.5 6.06A.75.75 0 0 1 5.56 5l4.26 4.26c.1.1.26.1.36 0L14.44 5c.3-.3.77-.3 1.06 0 .3.3.3.77 0 1.06l-4.8 4.8a1 1 0 0 1-1.4 0l-4.8-4.8Z"/></svg>`
 };
 export const aiChevronLeft: {
   name: 'chevron_left';
   data: string;
 } = {
   name: 'chevron_left',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M11.97 2.53a.75.75 0 1 1 1.06 1.06L8.77 7.85c-.1.1-.1.26 0 .36l4.26 4.26a.75.75 0 1 1-1.06 1.06l-4.8-4.8a1 1 0 0 1 0-1.4l4.8-4.8Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M11.97 2.53c.3-.3.77-.3 1.06 0 .3.3.3.77 0 1.06L8.77 7.85c-.1.1-.1.26 0 .36l4.26 4.26c.3.3.3.77 0 1.06-.3.3-.77.3-1.06 0l-4.8-4.8a1 1 0 0 1 0-1.4l4.8-4.8Z"/></svg>`
 };
 export const aiChevronRight: {
   name: 'chevron_right';
   data: string;
 } = {
   name: 'chevron_right',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M8.03 13.53a.75.75 0 0 1-1.06-1.06l4.26-4.26c.1-.1.1-.26 0-.36L6.97 3.6a.75.75 0 1 1 1.06-1.06l4.8 4.8a1 1 0 0 1 0 1.4l-4.8 4.8Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M8.03 13.53c-.3.3-.77.3-1.06 0a.75.75 0 0 1 0-1.06l4.26-4.26c.1-.1.1-.26 0-.36L6.97 3.6a.75.75 0 0 1 1.06-1.06l4.8 4.8a1 1 0 0 1 0 1.4l-4.8 4.8Z"/></svg>`
 };
 export const aiChevronUp: {
   name: 'chevron_up';
   data: string;
 } = {
   name: 'chevron_up',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M15.5 10a.75.75 0 1 1-1.06 1.06L10.18 6.8a.25.25 0 0 0-.36 0l-4.26 4.26A.75.75 0 0 1 4.5 10l4.8-4.8a1 1 0 0 1 1.4 0l4.8 4.8Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M15.5 10c.3.3.3.77 0 1.06-.3.3-.77.3-1.06 0L10.18 6.8a.25.25 0 0 0-.36 0l-4.26 4.26c-.3.3-.77.3-1.06 0a.75.75 0 0 1 0-1.06l4.8-4.8a1 1 0 0 1 1.4 0l4.8 4.8Z"/></svg>`
 };
 export const aiChip: {
   name: 'chip';
@@ -403,14 +403,14 @@ export const aiCmd: {
   data: string;
 } = {
   name: 'cmd',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M2 2c-.3.3-.3.77 0 1.06L6.94 8 2 12.94A.75.75 0 0 0 3.06 14l5.3-5.3a1 1 0 0 0 0-1.4L3.05 2A.75.75 0 0 0 2 2Zm7.75 12a.75.75 0 0 1 0-1.5h8.5a.75.75 0 0 1 0 1.5h-8.5Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M2 2c-.3.3-.3.77 0 1.06L6.94 8 2 12.94c-.3.3-.3.77 0 1.06.3.3.77.3 1.06 0l5.3-5.3a1 1 0 0 0 0-1.4L3.05 2A.75.75 0 0 0 2 2Zm7.75 12a.75.75 0 0 1 0-1.5h8.5a.75.75 0 0 1 0 1.5h-8.5Z"/></svg>`
 };
 export const aiCode: {
   name: 'code';
   data: string;
 } = {
   name: 'code',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M8 15a.75.75 0 0 1-.52-.93l3.6-12.55a.75.75 0 0 1 1.44.4l-3.6 12.56A.75.75 0 0 1 8 15Zm9.44-7L13.5 4.06A.75.75 0 1 1 14.56 3l4.3 4.3a1 1 0 0 1 0 1.4l-4.3 4.3a.75.75 0 0 1-1.06-1.06L17.44 8ZM6.5 3c.3.3.3.77 0 1.06L2.56 8l3.94 3.94A.75.75 0 0 1 5.44 13l-4.3-4.3a1 1 0 0 1 0-1.4L5.45 3c.3-.3.77-.3 1.06 0Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M8 15a.75.75 0 0 1-.52-.93l3.6-12.55c.1-.4.52-.63.92-.52.4.11.63.53.52.93l-3.6 12.55A.75.75 0 0 1 8 15Zm9.44-7L13.5 4.06A.75.75 0 0 1 14.56 3l4.3 4.3a1 1 0 0 1 0 1.4l-4.3 4.3c-.3.3-.77.3-1.06 0a.75.75 0 0 1 0-1.06L17.44 8ZM6.5 3c.3.3.3.77 0 1.06L2.56 8l3.94 3.94c.3.3.3.77 0 1.06-.3.3-.77.3-1.06 0l-4.3-4.3a1 1 0 0 1 0-1.4L5.45 3c.3-.3.77-.3 1.06 0Z"/></svg>`
 };
 export const aiCompass: {
   name: 'compass';
@@ -697,7 +697,7 @@ export const aiLinkSlash: {
   data: string;
 } = {
   name: 'link_slash',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M16 2c.3.3.3.77 0 1.06L5.06 14A.75.75 0 1 1 4 12.94L14.94 2c.3-.3.77-.3 1.06 0ZM7.57 7.25h-.32a.75.75 0 0 0-.7 1.02l1.02-1.02Zm-3 3-1.23 1.23a3.75 3.75 0 0 1 1.41-7.23h3.5a.75.75 0 0 1 0 1.5h-3.5a2.25 2.25 0 0 0-.18 4.5Zm7.86-1.5 1.02-1.02a.75.75 0 0 1-.7 1.02h-.32Zm3-3a2.25 2.25 0 0 1-.18 4.5h-3.5a.75.75 0 0 0 0 1.5h3.5a3.75 3.75 0 0 0 1.4-7.23l-1.22 1.24Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M16 2c.3.3.3.77 0 1.06L5.06 14c-.3.3-.77.3-1.06 0a.75.75 0 0 1 0-1.06L14.94 2c.3-.3.77-.3 1.06 0ZM7.57 7.25h-.32a.75.75 0 0 0-.7 1.02l1.02-1.02Zm-3 3-1.23 1.23a3.75 3.75 0 0 1 1.41-7.23h3.5a.75.75 0 0 1 0 1.5h-3.5a2.25 2.25 0 0 0-.18 4.5Zm7.86-1.5 1.02-1.02a.75.75 0 0 1-.7 1.02h-.32Zm3-3a2.25 2.25 0 0 1-.18 4.5h-3.5a.75.75 0 0 0 0 1.5h3.5a3.75 3.75 0 0 0 1.4-7.23l-1.22 1.24Z"/></svg>`
 };
 export const aiLink: {
   name: 'link';
@@ -888,6 +888,13 @@ export const aiRocket: {
   name: 'rocket',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M14.5 5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z"/><path fill-rule="evenodd" d="M8.5 3.5H5.13a2 2 0 0 0-1.96 1.6l-.44 2.2a1 1 0 0 0 .98 1.2h2.46a.82.82 0 0 1 .23.4l2.68 2.7c.12.1.26.18.41.22v2.84a1 1 0 0 0 1.29.95l2.28-.68A2 2 0 0 0 14.5 13V9.5a8.1 8.1 0 0 0 3.2-7.65l-.14-.93a.58.58 0 0 0-.5-.5L16.14.3A8.1 8.1 0 0 0 8.5 3.5Zm3.95 5.49L9.82 10.2 7.8 8.18l1.21-2.63a6.6 6.6 0 0 1 6.92-3.76l.24.04.04.24A6.6 6.6 0 0 1 12.45 9ZM6.69 7H4.33l.32-1.6a.5.5 0 0 1 .49-.4h2.48l-.93 2ZM13 10.38v2.63a.5.5 0 0 1-.36.48L11 14v-2.7l2-.93Z"/><path fill-rule="evenodd" d="M7.27 10.73a2.5 2.5 0 0 1 0 3.54c-.98.97-3.8 2.2-4.77 1.23-.98-.98.26-3.8 1.23-4.77a2.5 2.5 0 0 1 3.54 0ZM6.2 11.8a1 1 0 0 0-1.42 0 5.15 5.15 0 0 0-1.14 2.56A5.15 5.15 0 0 0 6.2 13.2a1 1 0 0 0 0-1.4Z"/></svg>`
 };
+export const aiScouting: {
+  name: 'scouting';
+  data: string;
+} = {
+  name: 'scouting',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="m9.8 9.7-.92.05-.12-.68a8.56 8.56 0 0 0-.55-1.62c-.27-.61-.54-1.22-.77-1.85a3.2 3.2 0 0 1-.09-2.08A3.6 3.6 0 0 1 8.38 1.9c.28-.26.6-.49.9-.74l.64-.58L10 .5c.18.16.34.33.53.48l.84.68a3.65 3.65 0 0 1 1.4 2.42c.05.5-.01 1-.19 1.46-.18.52-.4 1.02-.61 1.53-.3.67-.59 1.33-.74 2.05l-.09.57c0 .05-.02.07-.08.07l-.85-.06a86.7 86.7 0 0 0-.2-7.03 82.17 82.17 0 0 0-.2 7.04Zm-2.4.23a2.92 2.92 0 0 0-.41-.9c-.2-.28-.43-.5-.76-.6a1.12 1.12 0 0 0-1.43.92c-.03.22 0 .45 0 .69a.99.99 0 0 1-.5 0 2.07 2.07 0 0 1-1.47-1.09 2.53 2.53 0 0 1 1.9-3.75c.7-.07 1.32.16 1.87.59.48.37.84.84 1.13 1.36.35.63.6 1.31.74 2.03l.07.52c0 .08-.02.1-.09.1-.35.05-.7.1-1.05.13ZM4.92 6.62 4.9 6.6l-.45.23a.12.12 0 0 1-.17-.03c-.08-.1-.18-.18-.27-.27l-.1-.08c.01.12.02.25.05.37.03.25.03.25-.2.36l-.3.17c.02.02.06.04.1.04l.39.06a.13.13 0 0 1 .13.13l.08.49a.16.16 0 0 0 .07-.08l.16-.3c.1-.19.04-.17.24-.14l.13.02.34.05-.45-.44.27-.56Zm7.68 3.31-.7-.09a7 7 0 0 0-.35-.03c-.06 0-.08-.02-.08-.1a6.36 6.36 0 0 1 1.21-3.18c.35-.46.77-.86 1.3-1.1.91-.4 1.78-.33 2.57.3.68.53 1 1.27.95 2.13a2.3 2.3 0 0 1-1.32 2.04 1.68 1.68 0 0 1-.98.14c.05-.32.06-.62-.06-.92a1.13 1.13 0 0 0-1.73-.5 2.1 2.1 0 0 0-.67.94l-.14.37Zm2.32-2.32h.1l.43-.06a.1.1 0 0 1 .14.06l.2.4.05.09.03-.13.07-.43a.08.08 0 0 1 .05-.07h.03l.45-.08c.03 0 .06 0 .09-.02l-.34-.2c-.2-.1-.2-.1-.17-.33l.06-.38c-.13.1-.25.21-.37.33-.07.09-.13.08-.21.03l-.42-.22c0 .03 0 .07.02.1.06.12.11.24.18.35.05.09.04.14-.03.2l-.36.36Zm-4.89 6.31.07-.44.1-1.62c0-.1 0-.18.02-.27a.1.1 0 0 1 .06-.07h.87l.07.35a4.9 4.9 0 0 0 .78 1.76c0 .03 0 .06-.03.09a4.34 4.34 0 0 1-1.9 1.77.2.2 0 0 1-.14 0 4.39 4.39 0 0 1-1.82-1.63c-.1-.15-.11-.27 0-.44a4.4 4.4 0 0 0 .72-1.83c.01-.08.04-.1.13-.1l.72.02c.08 0 .11.02.12.1 0 .33.01.66.04.98.03.42.09.84.13 1.26l.02.06h.04Zm-4.36-1.59c.4.16.8.2 1.2-.02.38-.22.54-.58.63-1l1.04.15-.06.33c-.1.45-.3.87-.58 1.24a2 2 0 0 1-.37.36c-.43.32-.99.2-1.34-.09a1.45 1.45 0 0 1-.5-.85l-.02-.12Zm5.77-.87 1.06-.15c.09.41.26.77.64.98.39.22.78.19 1.2.02l-.08.3c-.16.45-.44.77-.9.9a1 1 0 0 1-1.02-.23c-.4-.36-.61-.82-.77-1.32l-.13-.5Zm-1.44-.3c-.78 0-1.57-.03-2.35-.2a2.9 2.9 0 0 1-.57-.18.32.32 0 0 1-.12-.09.1.1 0 0 1 0-.15.89.89 0 0 1 .28-.16 9.17 9.17 0 0 1 3.04-.31c.76 0 1.52.05 2.26.24.13.03.25.08.37.14.07.03.13.1.16.16.02.1-.08.15-.15.17-.21.08-.43.15-.65.2-.63.12-1.26.18-1.9.18h-.36Zm2.67-.52v-.04a1 1 0 0 0-.15-.05c-.24-.04-.47-.08-.71-.1-.91-.09-1.83-.1-2.74-.06-.52.03-1.05.1-1.57.15a.86.86 0 0 0-.17.06v.04l.26.06a21.42 21.42 0 0 0 3.57.11c.43-.01.85-.07 1.28-.1l.23-.07Z"/></svg>`
+};
 export const aiServer: {
   name: 'server';
   data: string;
@@ -979,6 +986,13 @@ export const aiSpinnerThird: {
   name: 'spinner_third',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M10 .75a.7.7 0 0 1 .75-.72 8 8 0 0 1 6.52 11.3.7.7 0 0 1-1 .3.83.83 0 0 1-.3-1.05 6.5 6.5 0 0 0-5.22-9.04c-.41-.05-.75-.38-.75-.8Z"/></svg>`
 };
+export const aiStarscout: {
+  name: 'starscout';
+  data: string;
+} = {
+  name: 'starscout',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M11.78 1.28A.75.75 0 1 0 10.72.22l-1.5 1.5a.75.75 0 1 0 1.06 1.06l1.5-1.5Z"/><path fill-rule="evenodd" d="m2.94 8.16 2.9-.38L7.1 5.14a1 1 0 0 1 1.8 0l1.26 2.64 2.9.38a1 1 0 0 1 .55 1.72l-2.11 2 .53 2.88a1 1 0 0 1-1.46 1.06L8 14.42l-2.57 1.4a1 1 0 0 1-1.46-1.06l.53-2.87-2.1-2.01a1 1 0 0 1 .55-1.72Zm6.22 1L8 6.73 6.84 9.16l-2.66.35 1.95 1.85-.5 2.64L8 12.72 10.36 14l-.49-2.64 1.95-1.85-2.66-.35Z"/><path d="M17.78 6.22c.3.3.3.77 0 1.06l-1.5 1.5a.75.75 0 0 1-1.06-1.06l1.5-1.5c.3-.3.77-.3 1.06 0Zm0-4.94A.75.75 0 1 0 16.72.22l-5 5a.75.75 0 1 0 1.06 1.06l5-5Z"/></svg>`
+};
 export const aiStop: {
   name: 'stop';
   data: string;
@@ -1061,7 +1075,7 @@ export const aiUniversalAccess: {
   data: string;
 } = {
   name: 'universal_access',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M10 4.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/><path d="M12 6.8c1.3-.21 2.56-.64 3.75-1.29.36-.2.47-.66.25-1.01a.8.8 0 0 0-1.05-.26 10.57 10.57 0 0 1-9.9 0A.8.8 0 0 0 4 4.5a.72.72 0 0 0 .25 1.01A11.7 11.7 0 0 0 8 6.81v3.16c0 .16-.04.3-.1.45a2.5 2.5 0 0 0-.03.11l-1.34 4.02a.75.75 0 0 0 1.42.48L9.29 11a.75.75 0 0 1 1.42 0l1.34 4.02a.75.75 0 0 0 1.42-.48l-1.34-4.02a2.6 2.6 0 0 0-.03-.1c-.06-.15-.1-.3-.1-.46V6.8Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M10 4.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/><path d="M12 6.8c1.3-.21 2.56-.64 3.75-1.29.36-.2.47-.66.25-1.01a.8.8 0 0 0-1.05-.26 10.57 10.57 0 0 1-9.9 0A.8.8 0 0 0 4 4.5a.72.72 0 0 0 .25 1.01A11.7 11.7 0 0 0 8 6.81v3.16c0 .16-.04.3-.1.45a2.5 2.5 0 0 0-.03.11l-1.34 4.02a.75.75 0 1 0 1.42.47l1.34-4.01a.75.75 0 0 1 1.42 0l1.34 4.02a.75.75 0 0 0 1.42-.47l-1.34-4.03a2.6 2.6 0 0 0-.03-.1c-.06-.15-.1-.3-.1-.46V6.8Z"/></svg>`
 };
 export const aiUnlock: {
   name: 'unlock';
@@ -1173,7 +1187,7 @@ export const aiXmark: {
   data: string;
 } = {
   name: 'xmark',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="m11.06 8 3.89 3.89a.75.75 0 1 1-1.06 1.06L10 9.06l-3.89 3.89a.75.75 0 0 1-1.06-1.06L8.94 8 5.05 4.11a.75.75 0 0 1 1.06-1.06L10 6.94l3.89-3.89a.75.75 0 0 1 1.06 1.06L11.06 8Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="m11.06 8 3.89 3.89c.3.3.3.77 0 1.06-.3.3-.77.3-1.06 0L10 9.06l-3.89 3.89c-.3.3-.77.3-1.06 0a.75.75 0 0 1 0-1.06L8.94 8 5.05 4.11a.75.75 0 0 1 1.06-1.06L10 6.94l3.89-3.89c.3-.3.77-.3 1.06 0 .3.3.3.77 0 1.06L11.06 8Z"/></svg>`
 };
 export type Amaranth =
   | 'alarm'
@@ -1303,6 +1317,7 @@ export type Amaranth =
   | 'repeat_one'
   | 'repeat'
   | 'rocket'
+  | 'scouting'
   | 'server'
   | 'shield_keyhole'
   | 'shield_plus'
@@ -1316,6 +1331,7 @@ export type Amaranth =
   | 'smartphone'
   | 'software_box'
   | 'spinner_third'
+  | 'starscout'
   | 'stop'
   | 'stopwatch'
   | 'store'
@@ -1479,6 +1495,7 @@ export const completeIconSet = [
   aiRepeatOne,
   aiRepeat,
   aiRocket,
+  aiScouting,
   aiServer,
   aiShieldKeyhole,
   aiShieldPlus,
@@ -1492,6 +1509,7 @@ export const completeIconSet = [
   aiSmartphone,
   aiSoftwareBox,
   aiSpinnerThird,
+  aiStarscout,
   aiStop,
   aiStopwatch,
   aiStore,
