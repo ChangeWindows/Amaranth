@@ -202,6 +202,13 @@ export const aiBold: {
   name: 'bold',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M4.5 1.75c0-.41.34-.75.75-.75h5.42a3.7 3.7 0 0 1 2.6 6.35l.45.3A4 4 0 0 1 11.54 15H5.25a.75.75 0 0 1 0-1.5h.5v-11h-.5a.75.75 0 0 1-.75-.75Zm2.75.75V7h4l.71-.5a2.2 2.2 0 0 0-1.3-4h-3.4Zm5.03 6H7.25v5h4.29a2.5 2.5 0 0 0 1.36-4.6l-.62-.4Z"/></svg>`
 };
+export const aiBook: {
+  name: 'book';
+  data: string;
+} = {
+  name: 'book',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M6.75 3a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Zm1.5 2.5a.75.75 0 0 0 0 1.5h3.5a.75.75 0 0 0 0-1.5h-3.5Z"/><path fill-rule="evenodd" d="M3 2.75v11C3 14.99 4 16 5.25 16h11a.75.75 0 0 0 0-1.5H15V13h1.25c.41 0 .75-.34.75-.75v-9.5A2.75 2.75 0 0 0 14.25 0h-8.5A2.75 2.75 0 0 0 3 2.75ZM5.75 1.5h8.5c.69 0 1.25.56 1.25 1.25v8.75H5.25c-.26 0-.52.05-.75.13V2.75c0-.69.56-1.25 1.25-1.25ZM5.25 13h8.25v1.5H5.25a.75.75 0 0 1 0-1.5Z"/></svg>`
+};
 export const aiBox: {
   name: 'box';
   data: string;
@@ -348,6 +355,13 @@ export const aiCircleExclamation: {
 } = {
   name: 'circle_exclamation',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M11 11.75a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM10.75 9V4a.75.75 0 0 0-1.5 0v5a.75.75 0 0 0 1.5 0Z"/><path fill-rule="evenodd" d="M10 16a8 8 0 1 1 0-16 8 8 0 0 1 0 16Zm0-1.5a6.5 6.5 0 1 0 0-13 6.5 6.5 0 0 0 0 13Z"/></svg>`
+};
+export const aiCircleHalfStroke: {
+  name: 'circle_half_stroke';
+  data: string;
+} = {
+  name: 'circle_half_stroke',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M10 0a8 8 0 1 1 0 16 8 8 0 0 1 0-16Zm0 14.5v-13a6.5 6.5 0 0 0 0 13Z"/></svg>`
 };
 export const aiCircleInfo: {
   name: 'circle_info';
@@ -867,6 +881,13 @@ export const aiMin: {
   name: 'min',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M4.75 8.75a.75.75 0 0 1 0-1.5h10.5a.75.75 0 0 1 0 1.5H4.75Z"/></svg>`
 };
+export const aiMoon: {
+  name: 'moon';
+  data: string;
+} = {
+  name: 'moon',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M16.4 8.95A4.52 4.52 0 0 1 13 10.5a4.5 4.5 0 1 1 0-9c.18 0 .26-.26.1-.33a7.82 7.82 0 0 0-2.55-.65A7.5 7.5 0 1 0 17.5 8c0-.22-.34-.26-.44-.06l-.03.06a4.5 4.5 0 0 1-.63.95Zm-1.73 2.81A5.99 5.99 0 0 1 4 8a6 6 0 0 1 4.33-5.76 6 6 0 0 0 6.35 9.53Z"/></svg>`
+};
 export const aiMusic: {
   name: 'music';
   data: string;
@@ -1140,6 +1161,13 @@ export const aiStrikethrough: {
   name: 'strikethrough',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M5 4.75A3.75 3.75 0 0 1 8.75 1h4.5a.75.75 0 0 1 0 1.5h-4.5a2.25 2.25 0 0 0-1.03 4.25H5.58a3.73 3.73 0 0 1-.58-2Zm8.74 6.5h1.5A4 4 0 0 1 11.25 15h-5.5a.75.75 0 0 1 0-1.5h5.5a2.5 2.5 0 0 0 2.49-2.25Zm2.51-1.5a.75.75 0 0 0 0-1.5H3.75a.75.75 0 0 0 0 1.5h12.5Z"/></svg>`
 };
+export const aiSun: {
+  name: 'sun';
+  data: string;
+} = {
+  name: 'sun',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M4.37 12.57c-.3.3-.33.79-.03 1.09.3.3.79.27 1.09-.03l1.07-1.07c.28-.28.24-.74-.04-1.02-.28-.28-.74-.32-1.02-.04l-1.07 1.07ZM2.76 8.75A.74.74 0 0 1 2 8.03v-.06c0-.4.35-.72.76-.72H4.3c.4 0 .7.35.7.75s-.3.75-.7.75H2.76Zm1.61-5.32a.77.77 0 0 1-.03-1.09c.3-.3.79-.27 1.09.03L6.5 3.44c.28.28.24.74-.04 1.02-.28.28-.74.32-1.02.04L4.37 3.43Zm4.88 11.79c0 .42.32.78.74.78h.02c.42 0 .74-.36.74-.78V13.7c0-.4-.35-.7-.75-.7s-.75.3-.75.7v1.52Zm6.41-1.56c.3-.3.27-.79-.03-1.09l-1.07-1.07c-.28-.28-.74-.24-1.02.04-.28.28-.32.74-.04 1.02l1.07 1.07c.3.3.79.33 1.09.03ZM18 8a.77.77 0 0 0-.79-.75H15.7c-.4 0-.7.35-.7.75s.3.75.7.75h1.51c.43 0 .79-.32.79-.75Zm-2.34-5.66a.77.77 0 0 0-1.09.03L13.5 3.44c-.28.28-.24.74.04 1.02.28.28.74.32 1.02.04l1.07-1.07c.3-.3.33-.79.03-1.09ZM10 0a.77.77 0 0 0-.75.79V2.3c0 .4.35.7.75.7s.75-.3.75-.7V.8A.77.77 0 0 0 10 0Z"/><path fill-rule="evenodd" d="M13.5 8a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0ZM12 8a2 2 0 1 0-4 0 2 2 0 0 0 4 0Z"/></svg>`
+};
 export const aiSwatchbook: {
   name: 'swatchbook';
   data: string;
@@ -1167,6 +1195,13 @@ export const aiTent: {
 } = {
   name: 'tent',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M7.28.16c.33-.26.8-.2 1.06.12L10 2.38l1.66-2.1a.75.75 0 1 1 1.18.94l-1.88 2.37 7.6 9.57c.9 1.15.08 2.84-1.38 2.84H2.82a1.75 1.75 0 0 1-1.37-2.84l7.6-9.57-1.89-2.37A.75.75 0 0 1 7.28.16ZM10 4.8l-7.38 9.3a.25.25 0 0 0 .2.41h1.81l4.38-5.7c.5-.64 1.48-.64 1.98 0l4.38 5.7h1.81c.21 0 .33-.24.2-.4L10 4.8Zm3.48 9.71L10 9.98 6.52 14.5h6.96Z"/></svg>`
+};
+export const aiTicket: {
+  name: 'ticket';
+  data: string;
+} = {
+  name: 'ticket',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M6.5 6.5a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1v-3ZM12 9V7H8v2h4Z"/><path fill-rule="evenodd" d="M16.5 8c0-.83.67-1.5 1.5-1.5V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v2.5a1.5 1.5 0 1 1 0 3V12c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V9.5A1.5 1.5 0 0 1 16.5 8Zm-13-4c0-.28.22-.5.5-.5h12c.28 0 .5.22.5.5v1.4a3 3 0 0 0 0 5.2V12a.5.5 0 0 1-.5.5H4a.5.5 0 0 1-.5-.5v-1.4a3 3 0 0 0 0-5.2V4Z"/></svg>`
 };
 export const aiTrashCan: {
   name: 'trash_can';
@@ -1366,6 +1401,7 @@ export type Amaranth =
   | 'bel'
   | 'bicycle'
   | 'bold'
+  | 'book'
   | 'box'
   | 'branch_up'
   | 'branch'
@@ -1387,6 +1423,7 @@ export type Amaranth =
   | 'chip'
   | 'circle_check'
   | 'circle_exclamation'
+  | 'circle_half_stroke'
   | 'circle_info'
   | 'circle_plus'
   | 'circle_question'
@@ -1461,6 +1498,7 @@ export type Amaranth =
   | 'message_text'
   | 'message'
   | 'min'
+  | 'moon'
   | 'music'
   | 'network'
   | 'notes'
@@ -1500,10 +1538,12 @@ export type Amaranth =
   | 'stopwatch'
   | 'store'
   | 'strikethrough'
+  | 'sun'
   | 'swatchbook'
   | 'table'
   | 'tag'
   | 'tent'
+  | 'ticket'
   | 'trash_can'
   | 'tree'
   | 'trekking_backpack'
@@ -1565,6 +1605,7 @@ export const completeIconSet = [
   aiBel,
   aiBicycle,
   aiBold,
+  aiBook,
   aiBox,
   aiBranchUp,
   aiBranch,
@@ -1586,6 +1627,7 @@ export const completeIconSet = [
   aiChip,
   aiCircleCheck,
   aiCircleExclamation,
+  aiCircleHalfStroke,
   aiCircleInfo,
   aiCirclePlus,
   aiCircleQuestion,
@@ -1660,6 +1702,7 @@ export const completeIconSet = [
   aiMessageText,
   aiMessage,
   aiMin,
+  aiMoon,
   aiMusic,
   aiNetwork,
   aiNotes,
@@ -1699,10 +1742,12 @@ export const completeIconSet = [
   aiStopwatch,
   aiStore,
   aiStrikethrough,
+  aiSun,
   aiSwatchbook,
   aiTable,
   aiTag,
   aiTent,
+  aiTicket,
   aiTrashCan,
   aiTree,
   aiTrekkingBackpack,
