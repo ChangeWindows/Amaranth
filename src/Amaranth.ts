@@ -174,6 +174,13 @@ export const aiBars: {
   name: 'bars',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M3.75 2a.75.75 0 0 0 0 1.5h12.5a.75.75 0 0 0 0-1.5H3.75ZM3 8c0-.41.34-.75.75-.75h12.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 8Zm0 5.25c0-.41.34-.75.75-.75h12.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z"/></svg>`
 };
+export const aiBeer: {
+  name: 'beer';
+  data: string;
+} = {
+  name: 'beer',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M8 4a.75.75 0 0 0-1.5 0v8A.75.75 0 0 0 8 12V4Zm3.5 0A.75.75 0 0 0 10 4v8a.75.75 0 0 0 1.5 0V4Z"/><path fill-rule="evenodd" d="M4.75 0C3.78 0 3 .78 3 1.75v11.5A2.75 2.75 0 0 0 5.75 16h6.5A2.75 2.75 0 0 0 15 13.25v-1.31h1.25c.97 0 1.75-.79 1.75-1.75V5.75C18 4.78 17.22 4 16.25 4H15V1.75C15 .78 14.22 0 13.25 0h-8.5ZM4.5 1.75c0-.14.11-.25.25-.25h8.5c.14 0 .25.11.25.25v11.5c0 .69-.56 1.25-1.25 1.25h-6.5c-.69 0-1.25-.56-1.25-1.25V1.75Zm11.75 8.69H15V5.5h1.25c.14 0 .25.11.25.25v4.44c0 .13-.11.25-.25.25Z"/></svg>`
+};
 export const aiBel: {
   name: 'bel';
   data: string;
@@ -439,6 +446,13 @@ export const aiCodeblock: {
 } = {
   name: 'codeblock',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M6.56 8 9 5.56c.3-.3.3-.77 0-1.06a.75.75 0 0 0-1.06 0L5.32 7.12a1.25 1.25 0 0 0 0 1.76l2.62 2.62c.3.3.77.3 1.06 0 .3-.3.3-.77 0-1.06L6.56 8Zm6.88 0L11 5.56a.75.75 0 0 1 1.06-1.06l2.62 2.62c.48.48.48 1.28 0 1.76l-2.62 2.62c-.3.3-.77.3-1.06 0a.75.75 0 0 1 0-1.06L13.44 8Z"/><path fill-rule="evenodd" d="M2 4c0-1.1.9-2 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4Zm2-.5a.5.5 0 0 0-.5.5v8c0 .28.22.5.5.5h12a.5.5 0 0 0 .5-.5V4a.5.5 0 0 0-.5-.5H4Z"/></svg>`
+};
+export const aiCompassDrafting: {
+  name: 'compass_drafting';
+  data: string;
+} = {
+  name: 'compass_drafting',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M13 3a3 3 0 0 1-1.01 2.25l.92 1.81c-.4.3-.85.53-1.33.69l-.93-1.82a3.01 3.01 0 0 1-1.3 0L7.73 9.09a6.49 6.49 0 0 0 7.13-1.77c.28-.31.74-.4 1.08-.16.34.24.42.7.16 1.02a7.98 7.98 0 0 1-9.05 2.26l-2.63 5.15a.75.75 0 0 1-1.34-.68l2.63-5.16a8.04 8.04 0 0 1-1.8-1.57.7.7 0 0 1 .15-1.02c.34-.24.8-.15 1.08.16.37.41.8.78 1.26 1.1L8 5.24A3 3 0 0 1 10 0a3 3 0 0 1 3 3Zm-1.5 0a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0Z"/><path d="m13.64 11.78 1.94 3.81a.75.75 0 0 0 1.34-.68l-1.95-3.81c-.42.26-.87.49-1.33.68Z"/></svg>`
 };
 export const aiCompass: {
   name: 'compass';
@@ -1301,6 +1315,13 @@ export const aiVolumeNone: {
   name: 'volume_none',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M13.28.97c.22-.17.47-.2.7-.12a2.3 2.3 0 0 0-.1.09L9.32 5.49l-.17.01H7.5A.5.5 0 0 0 7 6v1.82l-1.5 1.5V6c0-1.1.9-2 2-2h1.65a1 1 0 0 0 .62-.22l3.51-2.8ZM9.18 12l1.19-1.18c.12.06.23.14.34.23L13 12.88v-4.7l1.5-1.5v7.76c0 .63-.73.98-1.22.59l-3.5-2.81a1 1 0 0 0-.6-.22ZM16 3.06A.75.75 0 1 0 14.94 2L4 12.94A.75.75 0 0 0 5.06 14L16 3.06Z"/></svg>`
 };
+export const aiWallet: {
+  name: 'wallet';
+  data: string;
+} = {
+  name: 'wallet',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M4.75 1.5A2.75 2.75 0 0 0 2 4.25v7.5a2.75 2.75 0 0 0 2.75 2.75h10.5A2.75 2.75 0 0 0 18 11.75V7a2.75 2.75 0 0 0-2.75-2.75h-9.5a.75.75 0 0 0 0 1.5h9.5c.69 0 1.25.56 1.25 1.25v4.75c0 .69-.56 1.25-1.25 1.25H4.75c-.69 0-1.25-.56-1.25-1.25v-7.5C3.5 3.56 4.06 3 4.75 3h9.5a.75.75 0 0 0 0-1.5h-9.5Z"/><path d="M14 9.25a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"/></svg>`
+};
 export const aiWindow: {
   name: 'window';
   data: string;
@@ -1341,6 +1362,7 @@ export type Amaranth =
   | 'backward'
   | 'bars_staggered'
   | 'bars'
+  | 'beer'
   | 'bel'
   | 'bicycle'
   | 'bold'
@@ -1379,6 +1401,7 @@ export type Amaranth =
   | 'cmd'
   | 'code'
   | 'codeblock'
+  | 'compass_drafting'
   | 'compass'
   | 'compress'
   | 'dashboard'
@@ -1502,6 +1525,7 @@ export type Amaranth =
   | 'volume_2'
   | 'volume_3'
   | 'volume_none'
+  | 'wallet'
   | 'window'
   | 'xmark';
 export interface IconDefinition {
@@ -1537,6 +1561,7 @@ export const completeIconSet = [
   aiBackward,
   aiBarsStaggered,
   aiBars,
+  aiBeer,
   aiBel,
   aiBicycle,
   aiBold,
@@ -1575,6 +1600,7 @@ export const completeIconSet = [
   aiCmd,
   aiCode,
   aiCodeblock,
+  aiCompassDrafting,
   aiCompass,
   aiCompress,
   aiDashboard,
@@ -1698,6 +1724,7 @@ export const completeIconSet = [
   aiVolume2,
   aiVolume3,
   aiVolumeNone,
+  aiWallet,
   aiWindow,
   aiXmark
 ];
