@@ -818,6 +818,13 @@ export const aiLink: {
   name: 'link',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M8.25 4.25a.75.75 0 0 1 0 1.5h-3.5a2.25 2.25 0 0 0 0 4.5h3.5a.75.75 0 0 1 0 1.5h-3.5a3.75 3.75 0 1 1 0-7.5h3.5Zm3.5 6a.75.75 0 0 0 0 1.5h3.5a3.75 3.75 0 1 0 0-7.5h-3.5a.75.75 0 0 0 0 1.5h3.5a2.25 2.25 0 0 1 0 4.5h-3.5Z"/><path d="M12.75 8.75a.75.75 0 0 0 0-1.5h-5.5a.75.75 0 0 0 0 1.5h5.5Z"/></svg>`
 };
+export const aiListCheck: {
+  name: 'list_check';
+  data: string;
+} = {
+  name: 'list_check',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M6.28 1.47c.3.3.3.77 0 1.06L4.46 4.35a1 1 0 0 1-1.42 0l-.82-.82a.75.75 0 0 1 1.06-1.06l.47.47 1.47-1.47c.3-.3.77-.3 1.06 0Zm1.47.78h8.5a.75.75 0 0 1 0 1.5h-8.5a.75.75 0 0 1 0-1.5ZM7 8c0-.41.34-.75.75-.75h8.5a.75.75 0 0 1 0 1.5h-8.5A.75.75 0 0 1 7 8Zm.75 4.25a.75.75 0 0 0 0 1.5h8.5a.75.75 0 0 0 0-1.5h-8.5ZM6.28 7.53a.75.75 0 0 0-1.06-1.06L3.75 7.94l-.47-.47a.75.75 0 0 0-1.06 1.06l.82.82a1 1 0 0 0 1.42 0l1.82-1.82Z"/></svg>`
+};
 export const aiListOl: {
   name: 'list_ol';
   data: string;
@@ -915,6 +922,13 @@ export const aiPaperPlaneTop: {
 } = {
   name: 'paper_plane_top',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M18.43 7.06 2.45 1.21a1 1 0 0 0-1.3 1.26L2.9 7.68a1 1 0 0 1 0 .64l-1.73 5.21a1 1 0 0 0 1.29 1.26l15.98-5.85a1 1 0 0 0 0-1.88Zm-1.8.94L2.91 13.02 4.3 8.8l.02-.04h5.92a.75.75 0 0 0 0-1.5H4.33l-.01-.04L2.9 2.98 16.63 8Z"/></svg>`
+};
+export const aiPaper: {
+  name: 'paper';
+  data: string;
+} = {
+  name: 'paper',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M8 4a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v1.5a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V4Zm.75 4a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 0-1.5h-1.5Zm4 0a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 0-1.5h-1.5Zm-4 3a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 0-1.5h-1.5Zm4 0a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 0-1.5h-1.5Z"/><path fill-rule="evenodd" d="M5 14.5V2c0-1.1.9-2 2-2h9a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4.75A2.75 2.75 0 0 1 2 13.25v-7.5a.75.75 0 0 1 1.5 0v7.5c0 .69.56 1.25 1.25 1.25H5Zm2-13a.5.5 0 0 0-.5.5v12.5H16a.5.5 0 0 0 .5-.5V2a.5.5 0 0 0-.5-.5H7Z"/></svg>`
 };
 export const aiParagraph: {
   name: 'paragraph';
@@ -1489,6 +1503,7 @@ export type Amaranth =
   | 'laptop'
   | 'link_slash'
   | 'link'
+  | 'list_check'
   | 'list_ol'
   | 'list'
   | 'lock'
@@ -1503,6 +1518,7 @@ export type Amaranth =
   | 'network'
   | 'notes'
   | 'paper_plane_top'
+  | 'paper'
   | 'paragraph'
   | 'patreon'
   | 'pause'
@@ -1693,6 +1709,7 @@ export const completeIconSet = [
   aiLaptop,
   aiLinkSlash,
   aiLink,
+  aiListCheck,
   aiListOl,
   aiList,
   aiLock,
@@ -1707,6 +1724,7 @@ export const completeIconSet = [
   aiNetwork,
   aiNotes,
   aiPaperPlaneTop,
+  aiPaper,
   aiParagraph,
   aiPatreon,
   aiPause,
