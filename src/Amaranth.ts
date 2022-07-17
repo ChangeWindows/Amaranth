@@ -1000,6 +1000,13 @@ export const aiPhone: {
   name: 'phone',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M3.5 2.2V3c0 2.76 1.4 5.65 3.62 7.88C9.35 13.1 12.24 14.5 15 14.5h.8l.63-2.77a.5.5 0 0 0-.27-.56l-2.72-1.3-.9 1.16a1.7 1.7 0 0 1-2.18.44 9.88 9.88 0 0 1-3.83-3.82 1.7 1.7 0 0 1 .55-2.25l1.03-.7-1.3-2.85a.5.5 0 0 0-.57-.28L3.5 2.2Zm7.6 7.96c.08.05.2.03.26-.05l1.15-1.48a1 1 0 0 1 1.22-.28L16.8 9.8a2 2 0 0 1 1.1 2.25l-.72 3.16a1 1 0 0 1-.98.78H15C8.5 16 2 9.5 2 3V1.8a1 1 0 0 1 .78-.98L5.9.12a2 2 0 0 1 2.26 1.11l1.48 3.25a1 1 0 0 1-.36 1.24l-1.38.92a.2.2 0 0 0-.07.28 8.38 8.38 0 0 0 3.25 3.24Z"/></svg>`
 };
+export const aiPin: {
+  name: 'pin';
+  data: string;
+} = {
+  name: 'pin',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M12.84 2.9a4.01 4.01 0 0 0-6.28 4.9L10 13.54l3.44-5.74a4 4 0 0 0-.6-4.9ZM6.1 1.84a5.51 5.51 0 0 1 8.63 6.74l-3.96 6.6a.9.9 0 0 1-1.54 0l-3.96-6.6a5.51 5.51 0 0 1 .83-6.74Z"/></svg>`
+};
 export const aiPlane: {
   name: 'plane';
   data: string;
@@ -1585,6 +1592,7 @@ export type Amaranth =
   | 'pen'
   | 'phone_volume'
   | 'phone'
+  | 'pin'
   | 'plane'
   | 'play_pause'
   | 'play'
@@ -1799,6 +1807,7 @@ export const completeIconSet = [
   aiPen,
   aiPhoneVolume,
   aiPhone,
+  aiPin,
   aiPlane,
   aiPlayPause,
   aiPlay,
