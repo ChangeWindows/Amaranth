@@ -417,7 +417,7 @@ export const aiCircle: {
   data: string;
 } = {
   name: 'circle',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path stroke="#000" stroke-width="1.5" d="M17.25 8a7.25 7.25 0 1 1-14.5 0 7.25 7.25 0 0 1 14.5 0Z"/></svg>`
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M10 14.5a6.5 6.5 0 1 1 0-13 6.5 6.5 0 0 1 0 13Zm0 1.5a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z"/></svg>`
 };
 export const aiCity: {
   name: 'city';
@@ -474,6 +474,13 @@ export const aiCodeblock: {
 } = {
   name: 'codeblock',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M6.56 8 9 5.56c.3-.3.3-.77 0-1.06a.75.75 0 0 0-1.06 0L5.32 7.12a1.25 1.25 0 0 0 0 1.76l2.62 2.62c.3.3.77.3 1.06 0 .3-.3.3-.77 0-1.06L6.56 8Zm6.88 0L11 5.56a.75.75 0 0 1 1.06-1.06l2.62 2.62c.48.48.48 1.28 0 1.76l-2.62 2.62c-.3.3-.77.3-1.06 0a.75.75 0 0 1 0-1.06L13.44 8Z"/><path fill-rule="evenodd" d="M2 4c0-1.1.9-2 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4Zm2-.5a.5.5 0 0 0-.5.5v8c0 .28.22.5.5.5h12a.5.5 0 0 0 .5-.5V4a.5.5 0 0 0-.5-.5H4Z"/></svg>`
+};
+export const aiCoin: {
+  name: 'coin';
+  data: string;
+} = {
+  name: 'coin',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M15.5 6.5c0 1.24-2.46 2.25-5.5 2.25s-5.5-1-5.5-2.25c0-1.24 2.46-2.25 5.5-2.25s5.5 1 5.5 2.25Zm-2.18-.2A9.16 9.16 0 0 0 10 5.75c-1.37 0-2.55.23-3.32.55l-.42.2c.1.06.25.13.42.2.77.32 1.95.55 3.32.55 1.37 0 2.55-.23 3.32-.55l.42-.2c-.1-.06-.25-.13-.42-.2Z"/><path fill-rule="evenodd" d="M2 10V6.5C2 4.01 5.58 2 10 2s8 2.01 8 4.5V10c0 2.2-3.58 4-8 4s-8-1.8-8-4Zm14.5-3.5c0-.46-.35-1.18-1.58-1.87A10.28 10.28 0 0 0 10 3.5c-2 0-3.74.46-4.92 1.13C3.85 5.32 3.5 6.04 3.5 6.5c0 .46.35 1.18 1.58 1.87C6.26 9.04 8 9.5 10 9.5s3.74-.46 4.92-1.13c1.23-.69 1.58-1.41 1.58-1.87Zm0 2.62c-.49.39-1.08.72-1.75 1v1.48l.24-.11c1.28-.65 1.51-1.26 1.51-1.49v-.88Zm-3.25 3v-1.5c-.78.19-1.62.31-2.5.36v1.5c.9-.05 1.75-.18 2.5-.37Zm-4 .36v-1.5a12.87 12.87 0 0 1-3-.5v1.5c.86.26 1.88.44 3 .5Zm-4.5-1.13V9.9a7.08 7.08 0 0 1-1.25-.78V10c0 .21.2.76 1.25 1.35Z"/></svg>`
 };
 export const aiCompassDrafting: {
   name: 'compass_drafting';
@@ -1196,6 +1203,20 @@ export const aiSpinnerThird: {
   name: 'spinner_third',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M10 .75a.7.7 0 0 1 .75-.72 8 8 0 0 1 6.52 11.3.7.7 0 0 1-1 .3.83.83 0 0 1-.3-1.05 6.5 6.5 0 0 0-5.22-9.04c-.41-.05-.75-.38-.75-.8Z"/></svg>`
 };
+export const aiStarHalf: {
+  name: 'star_half';
+  data: string;
+} = {
+  name: 'star_half',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M7.03 4.09a1 1 0 0 1-.55.4L2.84 5.55a1 1 0 0 0-.51 1.57l2.32 3a1 1 0 0 1 .2.64l-.1 3.8a1 1 0 0 0 1.33.97l3.58-1.27a1 1 0 0 1 .34-.06V.51a1 1 0 0 0-.82.44L7.03 4.1Zm1.47.5v8.5l-2.23.8.08-3.07a2.5 2.5 0 0 0-.51-1.6L3.96 6.8l2.95-.87a2.5 2.5 0 0 0 1.35-.98l.24-.35Z"/></svg>`
+};
+export const aiStar: {
+  name: 'star';
+  data: string;
+} = {
+  name: 'star',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="m10 2.4 1.74 2.54c.32.47.8.82 1.35.98l2.95.87-1.88 2.43a2.5 2.5 0 0 0-.51 1.6l.08 3.06-2.9-1.02a2.5 2.5 0 0 0-1.67 0l-2.9 1.02.1-3.06a2.5 2.5 0 0 0-.52-1.6L3.96 6.8l2.95-.87a2.5 2.5 0 0 0 1.35-.98L10 2.4Zm.82-1.45a1 1 0 0 0-1.64 0L7.03 4.1a1 1 0 0 1-.55.4L2.84 5.55a1 1 0 0 0-.51 1.57l2.32 3a1 1 0 0 1 .2.64l-.1 3.8a1 1 0 0 0 1.33.97l3.58-1.27a1 1 0 0 1 .68 0l3.58 1.27a1 1 0 0 0 1.33-.97l-.1-3.8a1 1 0 0 1 .2-.63l2.32-3.01a1 1 0 0 0-.51-1.57l-3.64-1.08a1 1 0 0 1-.55-.4L10.82.96Z"/></svg>`
+};
 export const aiStarscout: {
   name: 'starscout';
   data: string;
@@ -1517,6 +1538,7 @@ export type Amaranth =
   | 'cmd'
   | 'code'
   | 'codeblock'
+  | 'coin'
   | 'compass_drafting'
   | 'compass'
   | 'compress'
@@ -1620,6 +1642,8 @@ export type Amaranth =
   | 'smartphone'
   | 'software_box'
   | 'spinner_third'
+  | 'star_half'
+  | 'star'
   | 'starscout'
   | 'stop'
   | 'stopwatch'
@@ -1732,6 +1756,7 @@ export const completeIconSet = [
   aiCmd,
   aiCode,
   aiCodeblock,
+  aiCoin,
   aiCompassDrafting,
   aiCompass,
   aiCompress,
@@ -1835,6 +1860,8 @@ export const completeIconSet = [
   aiSmartphone,
   aiSoftwareBox,
   aiSpinnerThird,
+  aiStarHalf,
+  aiStar,
   aiStarscout,
   aiStop,
   aiStopwatch,
