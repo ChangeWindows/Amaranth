@@ -293,6 +293,13 @@ export const aiCampfire: {
   name: 'campfire',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="m9 0 1.5 2.5L12 1c2 1.5 2.5 2.5 2.5 4.5A4.5 4.5 0 0 1 10 10h-.16a4.34 4.34 0 0 1-4.32-4.66c.11-.62.6-2.94 2.25-4.48A5.37 5.37 0 0 1 9 0Zm3.09 3.03L10.2 4.92 8.56 2.19c-.36.4-.65.86-.9 1.35-.43.9-.6 1.75-.66 2.05v.07A2.84 2.84 0 0 0 9.84 8.5H10a3 3 0 0 0 3-3 3.4 3.4 0 0 0-.32-1.72c-.12-.22-.3-.46-.59-.75Z"/><path d="M4.26 9.8a.75.75 0 0 0-.52 1.4l4.07 1.5-5.07 1.85a.75.75 0 1 0 .52 1.4L10 13.5l6.74 2.46a.75.75 0 1 0 .52-1.4l-5.07-1.86 4.07-1.49a.75.75 0 1 0-.52-1.4L10 11.9 4.26 9.8Z"/></svg>`
 };
+export const aiCar: {
+  name: 'car';
+  data: string;
+} = {
+  name: 'car',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M6.5 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm9 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"/><path fill-rule="evenodd" d="m14.67 2.88.88 2.64A2.75 2.75 0 0 1 18 8.25v6a.75.75 0 0 1-1.5 0V12.5h-13v1.75a.75.75 0 0 1-1.5 0v-6a2.75 2.75 0 0 1 2.45-2.73l.88-2.64A2.75 2.75 0 0 1 7.94 1h4.12c1.18 0 2.23.76 2.6 1.88Zm-7.91.47L6.04 5.5h7.92l-.72-2.15a1.25 1.25 0 0 0-1.18-.85H7.94c-.54 0-1.01.34-1.18.85Zm9.74 4.9c0-.69-.56-1.25-1.25-1.25H4.75c-.69 0-1.25.56-1.25 1.25V11h13V8.25Z"/></svg>`
+};
 export const aiChangewindows: {
   name: 'changewindows';
   data: string;
@@ -502,6 +509,13 @@ export const aiCompress: {
 } = {
   name: 'compress',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M12.25 0c.41 0 .75.34.75.75V4.5c0 .28.22.5.5.5h3.75a.75.75 0 0 1 0 1.5H13.5a2 2 0 0 1-2-2V.75c0-.41.34-.75.75-.75ZM7 15.25a.75.75 0 0 0 1.5 0V11.5a2 2 0 0 0-2-2H2.75a.75.75 0 0 0 0 1.5H6.5c.28 0 .5.22.5.5v3.75ZM17.25 11a.75.75 0 0 0 0-1.5H13.5a2 2 0 0 0-2 2v3.75a.75.75 0 0 0 1.5 0V11.5c0-.28.22-.5.5-.5h3.75ZM2.75 5a.75.75 0 0 0 0 1.5H6.5a2 2 0 0 0 2-2V.75a.75.75 0 0 0-1.5 0V4.5a.5.5 0 0 1-.5.5H2.75Z"/></svg>`
+};
+export const aiCreditCard: {
+  name: 'credit_card';
+  data: string;
+} = {
+  name: 'credit_card',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M4 11.25c0-.41.34-.75.75-.75h1.5a.75.75 0 0 1 0 1.5h-1.5a.75.75 0 0 1-.75-.75Zm5.25-.75a.75.75 0 0 0 0 1.5h3.5a.75.75 0 0 0 0-1.5h-3.5Z"/><path fill-rule="evenodd" d="M1 3c0-1.1.9-2 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V3Zm2-.5a.5.5 0 0 0-.5.5v1h15V3a.5.5 0 0 0-.5-.5H3ZM17.5 7h-15v6c0 .28.22.5.5.5h14a.5.5 0 0 0 .5-.5V7Z"/></svg>`
 };
 export const aiDashboard: {
   name: 'dashboard';
@@ -1512,6 +1526,7 @@ export type Amaranth =
   | 'calendar_week'
   | 'calendar'
   | 'campfire'
+  | 'car'
   | 'changewindows'
   | 'chart_pie'
   | 'check'
@@ -1542,6 +1557,7 @@ export type Amaranth =
   | 'compass_drafting'
   | 'compass'
   | 'compress'
+  | 'credit_card'
   | 'dashboard'
   | 'devices'
   | 'disc'
@@ -1730,6 +1746,7 @@ export const completeIconSet = [
   aiCalendarWeek,
   aiCalendar,
   aiCampfire,
+  aiCar,
   aiChangewindows,
   aiChartPie,
   aiCheck,
@@ -1760,6 +1777,7 @@ export const completeIconSet = [
   aiCompassDrafting,
   aiCompass,
   aiCompress,
+  aiCreditCard,
   aiDashboard,
   aiDevices,
   aiDisc,
