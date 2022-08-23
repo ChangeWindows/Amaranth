@@ -1343,6 +1343,13 @@ export const aiTicket: {
   name: 'ticket',
   data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path fill-rule="evenodd" d="M6.5 6.5a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1v-3ZM12 9V7H8v2h4Z"/><path fill-rule="evenodd" d="M16.5 8c0-.83.67-1.5 1.5-1.5V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v2.5a1.5 1.5 0 1 1 0 3V12c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V9.5A1.5 1.5 0 0 1 16.5 8Zm-13-4c0-.28.22-.5.5-.5h12c.28 0 .5.22.5.5v1.4a3 3 0 0 0 0 5.2V12a.5.5 0 0 1-.5.5H4a.5.5 0 0 1-.5-.5v-1.4a3 3 0 0 0 0-5.2V4Z"/></svg>`
 };
+export const aiTiktok: {
+  name: 'tiktok';
+  data: string;
+} = {
+  name: 'tiktok',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" fill="currentColor"><path d="M17 6.56a6.56 6.56 0 0 1-3.84-1.23v5.59a5.08 5.08 0 1 1-4.38-5.04V8.7a2.33 2.33 0 1 0 1.63 2.23V0h2.75a3.82 3.82 0 0 0 1.74 3.2 3.8 3.8 0 0 0 2.1.63v2.73Z"/></svg>`
+};
 export const aiTrashCan: {
   name: 'trash_can';
   data: string;
@@ -1718,6 +1725,7 @@ export type Amaranth =
   | 'tag'
   | 'tent'
   | 'ticket'
+  | 'tiktok'
   | 'trash_can'
   | 'tree'
   | 'trekking_backpack'
@@ -1944,6 +1952,7 @@ export const completeIconSet = [
   aiTag,
   aiTent,
   aiTicket,
+  aiTiktok,
   aiTrashCan,
   aiTree,
   aiTrekkingBackpack,
