@@ -1,6 +1,6 @@
 {
   "name": "@changewindows/amaranth",
-  "version": "0.9.2",
+  "version": "1.0.0-alpha.1",
   "description": "The iconography of ChangeWindows.",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -21,9 +21,9 @@
     "prepare": "npm run prod",
     "prod": "npm run clean && npm run icons && npm run fonts && npm run build && npm run scss",
     "scss": "npm run scss:compile && npm run scss:prefix && npm run scss:copy",
-    "scss:compile": "node-sass scss -o dist --output-style compressed",
+    "scss:compile": "sass scss/amaranth.scss:dist/amaranth.css --no-source-map",
     "scss:copy": "bundle-scss --mask scss/amaranth.scss --dest dist/amaranth.scss",
-    "scss:prefix": "postcss -u autoprefixer -r dist/*.css --map"
+    "scss:prefix": "postcss -u autoprefixer -r ./dist/*.css --map"
   },
   "repository": {
     "type": "git",
@@ -49,24 +49,23 @@
     "clsx": ">=1.x"
   },
   "devDependencies": {
-    "@types/react": "17.0.35",
-    "autoprefixer": "10.4.0",
-    "bundle-scss": "1.5.0",
-    "clsx": "1.1.1",
+    "@types/react": "18.0.28",
+    "autoprefixer": "10.4.13",
+    "bundle-scss": "1.5.1",
+    "clsx": "1.2.1",
     "copyfiles": "2.4.1",
     "fantasticon": "1.2.3",
-    "node-sass": "6.0.1",
-    "nodemon": "2.0.15",
+    "nodemon": "2.0.21",
     "npm-run-all": "4.1.5",
-    "postcss": "8.3.11",
-    "postcss-cli": "9.0.2",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "rimraf": "3.0.2",
-    "sass": "1.43.4",
+    "postcss": "8.4.21",
+    "postcss-cli": "10.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "rimraf": "4.3.1",
+    "sass": "1.58.3",
     "svg-to-ts": "7.1.0",
     "svgo": "2.8.0",
-    "typescript": "4.5.2"
+    "typescript": "4.9.5"
   },
   "browserslist": {
     "production": [
